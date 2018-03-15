@@ -119,6 +119,7 @@
     display: none; }
 
   .cd-header {
+    position: fixed;
     background-color: white; }
     .cd-header .cd-logo {
       display: block !important; }
@@ -166,24 +167,30 @@
 @media screen and (min-width: 320px) {
   .HomePage {
     margin-top: 50px; }
+    .HomePage .row.set-desk {
+      margin-left: 0px !important; }
     .HomePage .nopadding {
       padding: 0 !important; }
+    .HomePage .fas.fa-quote-left {
+      color: #00c6c6; }
     .HomePage .container {
       /* indicator position */
       /* indicator color */
       /* active indicator */
       /* typography */ }
       .HomePage .container .row {
-        width: 250px; }
+        width: 100%; }
       .HomePage .container img {
-        width: 250px;
+        width: 105px;
+        height: 98px;
         border-radius: 50%; }
       .HomePage .container p {
-        margin-top: 40px;
+        margin: 0 auto;
         font-family: Nunito;
         font-size: 12px;
         color: #4a4a4a;
-        width: 250px; }
+        width: 290px;
+        margin-top: 40px; }
       .HomePage .container #quote-carousel {
         padding: 0 10px 30px 10px;
         margin-top: 30px;
@@ -208,7 +215,8 @@
       .HomePage .container p {
         font-style: italic; }
     .HomePage .ipad, .HomePage .mypod {
-      padding: 0px; }
+      padding: 0px;
+      margin-top: 15px; }
     .HomePage .row {
       width: 210px;
       margin: 0 auto; }
@@ -261,21 +269,19 @@
           border: none;
           background-color: #00c6c6; }
     .HomePage .details.row {
-      margin-top: 30px;
       width: 100%;
       background-color: #00c6c6;
-      height: 98px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .HomePage .details.row img {
-        width: 30px;
-        height: 30px;
-        margin-top: 0px; }
-      .HomePage .details.row div {
+      height: 120px;
+      margin-top: 30px; }
+      .HomePage .details.row .img-container {
+        width: 290px;
+        margin: 0 auto;
         display: flex;
-        align-items: center;
-        justify-content: center; }
+        justify-content: space-between;
+        align-items: center; }
+        .HomePage .details.row .img-container img {
+          width: 57px;
+          height: 88px; }
     .HomePage .Accordion-title {
       margin-top: 30px; }
       .HomePage .Accordion-title .title {
@@ -327,11 +333,26 @@
     .HomePage .image-description {
       width: 260px;
       margin: 0 auto;
-      margin-top: 50px; }
+      margin-top: 50px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat; }
+      .HomePage .image-description .img-first {
+        height: 167px;
+        background-image: url("/assets/images/sales.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+      .HomePage .image-description .img-next {
+        height: 167px;
+        background-image: url("/assets/images/operations.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+      .HomePage .image-description .img-last {
+        height: 167px;
+        background-image: url("/assets/images/Recruitment.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
     .HomePage .Know-more {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
+      text-align: center; }
       .HomePage .Know-more a {
         display: inline-block;
         height: 21px;
@@ -374,27 +395,34 @@
     .HomePage .group {
       padding-top: 20px;
       margin: 0 auto;
+      background-color: #e1e1e1;
       margin-top: 30px; }
+      .HomePage .group .image-backside {
+        height: 226px;
+        background-image: url("/assets/images/people.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
       .HomePage .group .info-contain {
         padding-left: 40px; }
         .HomePage .group .info-contain .service {
-          font-size: 24px; }
+          font-size: 24px;
+          margin-top: 20px; }
       .HomePage .group .img-group {
-        background-image: url("/assets/images/group.jpg");
-        height: 300px;
-        background-size: 100%;
-        background-repeat: no-repeat; }
+        height: 177px; }
       .HomePage .group p {
         font-family: NotoSans;
         font-size: 18px;
         color: #4a4a4a; }
       .HomePage .group .sub-info {
-        width: 313px;
+        width: 240px;
         font-size: 14px;
         font-weight: 600;
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        margin-top: 16px; }
       .HomePage .group .Know-more {
-        display: block; }
+        display: block;
+        margin-top: 16px;
+        text-align: center; }
         .HomePage .group .Know-more a {
           display: inline-block;
           height: 21px;
@@ -503,19 +531,14 @@
           border: none;
           background-color: #00c6c6; }
     .HomePage .details.row {
-      margin-top: 30px;
       width: 100%;
-      background-color: #00c6c6;
       height: 98px; }
-      .HomePage .details.row .icon-container {
-        width: 400px; }
-      .HomePage .details.row img {
-        width: 30px;
-        height: 30px; }
-      .HomePage .details.row div {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+      .HomePage .details.row .img-container {
+        width: 388px;
+        height: 100px; }
+        .HomePage .details.row .img-container img {
+          width: 57px;
+          height: 60px; }
     .HomePage .Accordion-title {
       margin-top: 30px; }
       .HomePage .Accordion-title .title {
@@ -569,12 +592,26 @@
         transition: max-height 0.2s ease-out; }
     .HomePage .image-description.color {
       background-color: #f3f3f3; }
+    .HomePage .image-description.first-grid {
+      margin-top: 50px; }
     .HomePage .image-description {
       width: 100%;
       margin: 0 auto;
-      margin-top: 50px;
-      padding-top: 70px;
+      margin-top: 0px;
+      padding-top: 55px;
       height: 310px; }
+      .HomePage .image-description .img-first {
+        width: 427px;
+        height: 239px;
+        background-image: url("/assets/images/sales-large.png"); }
+      .HomePage .image-description .img-next {
+        width: 427px;
+        height: 239px;
+        background-image: url("/assets/images/operation-large.jpg"); }
+      .HomePage .image-description .img-last {
+        width: 427px;
+        height: 239px;
+        background-image: url("/assets/images/recruitment-large.png"); }
       .HomePage .image-description .pull {
         float: right; }
       .HomePage .image-description .ipad {
@@ -587,6 +624,7 @@
       display: block;
       margin-top: 15px; }
       .HomePage .Know-more a {
+        text-align: left;
         display: inline-block;
         height: 21px;
         font-family: Nunito;
@@ -629,16 +667,23 @@
       width: 100%;
       height: 310px;
       margin: 0 auto;
-      margin-top: 30px; }
+      margin-top: 0px; }
+      .HomePage .group .image-backside {
+        float: right;
+        width: 360px;
+        height: 237px;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
       .HomePage .group .img-group {
-        background-image: url("/assets/images/group.jpg");
         padding-top: 80px; }
       .HomePage .group p {
         font-family: NotoSans;
         font-size: 18px;
         color: #4a4a4a; }
       .HomePage .group .Know-more {
-        display: block; }
+        display: block;
+        text-align: left; }
         .HomePage .group .Know-more a {
           display: inline-block;
           height: 21px;
@@ -693,49 +738,50 @@
         margin-bottom: -20px !important; }
       .HomePage .container p {
         font-style: italic; }
-    .HomePage .row {
-      width: 700px;
+    .HomePage .row.main-page {
+      width: 964px;
+      height: 445px;
       margin: 0 auto; }
     .HomePage .banner-img {
-      width: 340px;
-      height: 232px;
+      width: 469px;
+      height: 320px;
       background-size: cover;
       background-image: url("/assets/images/cover-image.jpg"); }
     .HomePage .banner-content {
       height: 99px;
-      width: 188px;
+      width: 260px;
       margin: 0 auto;
       margin-left: 30px;
       margin-top: 30px; }
       .HomePage .banner-content p {
         font-family: NotoSans;
-        font-size: 22px;
+        font-size: 32px;
         color: #000000;
         text-align: center; }
         .HomePage .banner-content p span {
           color: #00c6c6; }
     .HomePage .info {
-      margin-top: 20px; }
+      margin-top: 20px;
+      line-height: 1.5; }
       .HomePage .info .row {
-        width: 280px; }
+        width: 375px; }
         .HomePage .info .row p {
           font-family: Nunito;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 200;
           text-align: center;
-          color: #4a4a4a; }
+          color: #4a4a4a;
+          line-height: 1.5; }
     .HomePage .banner-btn .row {
       width: 210px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 30px; }
       .HomePage .banner-btn .row a {
-        display: inline-block;
-        width: 210px;
+        width: 169px;
         height: 41px;
-        border-radius: 4px;
-        background-color: #00c6c6;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+        border-radius: 4px; }
         .HomePage .banner-btn .row a button {
-          width: 210px;
+          width: 169px;
           height: 19px;
           font-family: Nunito;
           font-size: 14px;
@@ -747,19 +793,15 @@
           border: none;
           background-color: #00c6c6; }
     .HomePage .details.row {
-      margin-top: 30px;
       width: 100%;
-      background-color: #00c6c6;
-      height: 98px; }
-      .HomePage .details.row .icon-container {
-        width: 600px; }
-      .HomePage .details.row img {
-        width: 30px;
-        height: 30px; }
-      .HomePage .details.row div {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+      height: 150px;
+      margin-top: 0px; }
+      .HomePage .details.row .img-container {
+        width: 524px;
+        height: 150px; }
+        .HomePage .details.row .img-container img {
+          width: 58px;
+          height: 88px; }
     .HomePage .Accordion-title {
       margin-top: 30px; }
       .HomePage .Accordion-title .title {
@@ -812,22 +854,37 @@
         background-color: #f2f2f2;
         transition: max-height 0.2s ease-out; }
     .HomePage .image-description.color {
-      background-color: #f3f3f3; }
+      background-color: #f3f3f3;
+      margin-top: 0px; }
     .HomePage .image-description {
       width: 100%;
       margin: 0 auto;
-      margin-top: 50px;
       padding-top: 70px;
       height: 415px; }
+      .HomePage .image-description .device-change {
+        margin-top: 60px;
+        position: relative;
+        left: 70px; }
+      .HomePage .image-description .img-first, .HomePage .image-description .img-next, .HomePage .image-description .img-last {
+        width: 500px;
+        height: 320px; }
+      .HomePage .image-description .img-next {
+        height: 346px; }
       .HomePage .image-description .ipad {
-        float: right;
-        margin-top: 15px; }
+        margin-top: 15px;
+        margin-top: 80px;
+        text-align: left; }
+        .HomePage .image-description .ipad a {
+          text-align: left; }
       .HomePage .image-description .mypod {
         float: left;
-        margin-left: -30px; }
+        margin-left: -30px;
+        width: 500px;
+        height: 330px; }
     .HomePage .Know-more {
       display: block;
-      margin-top: 15px; }
+      margin-top: 15px;
+      text-align: left; }
       .HomePage .Know-more a {
         display: inline-block;
         height: 21px;
@@ -870,17 +927,17 @@
       padding-top: 20px;
       width: 100%;
       height: 310px;
-      margin: 0 auto;
-      margin-top: 30px; }
+      margin: 0 auto; }
       .HomePage .group .info-contain .service {
         font-size: 32px; }
       .HomePage .group .img-group {
-        background-image: url("/assets/images/group.jpg");
         padding-top: 80px; }
       .HomePage .group .sub-info {
         font-family: Nunito;
         font-size: 16px;
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        width: 354px;
+        line-height: 1.5; }
       .HomePage .group .Know-more {
         display: block; }
         .HomePage .group .Know-more a {

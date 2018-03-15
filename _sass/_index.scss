@@ -1,23 +1,33 @@
 @media screen  and (min-width:320px){
     .HomePage{
+        .row.set-desk{
+            margin-left:0px !important;
+        }
        .nopadding{
         padding: 0 !important;
         
        }
+       .fas.fa-quote-left{
+        //    background-color:#00c6c6;
+           color:#00c6c6;
+       }
         .container{
             .row{
-                width:250px;
+                width:100%;
             }
             img{
-                width:250px;
+                width:105px;
+                height:98px;
                 border-radius:50%;
             }
             p{
-                margin-top:40px;
+                margin:0 auto;
                 font-family: Nunito;
                 font-size: 12px;
                 color: #4a4a4a;
-                width:250px;
+                width:290px;
+                margin-top:40px;
+                
                 
             }
             #quote-carousel {
@@ -59,6 +69,7 @@
         }
         .ipad,.mypod{
            padding:0px;
+           margin-top:15px;
         }
 
         margin-top:50px;
@@ -133,27 +144,24 @@
             }
         }
 .details.row{
-    margin-top:30px;
         width:100%;
         background-color: #00c6c6;
-        height: 98px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+        height: 120px;
+        margin-top:30px;
 
-        img{
-            width:30px;
-            height:30px;
-            margin-top:0px;
+        .img-container{
+            width:290px;
+            margin:0 auto;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        
+            img{
+                width:57px;
+                height:88px;
+            }
         }
-        div{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-          
-        }
+
     }
     .Accordion-title{
         margin-top:30px;
@@ -225,14 +233,33 @@
     width:260px;
     margin:0 auto;
     margin-top:50px;
-    
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+    .img-first{
+        height:167px;
+      background-image:url('/assets/images/sales.png');
+      background-size: 100% 100%;
+      background-repeat:no-repeat;
+    }
+    .img-next{
+        height:167px;
+        background-image:url('/assets/images/operations.png');
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+    .img-last{
+        height:167px;
+        background-image:url('/assets/images/Recruitment.png');
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        
+    }
     
 }
 
 .Know-more{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+text-align:center;
    
     a{
         
@@ -292,21 +319,27 @@ img{
   .group{
      padding-top:20px;
      margin:0 auto;
-
+     background-color:#e1e1e1;
      margin-top:30px; 
-
+.image-backside{
+    height: 226px;
+    
+    background-image: url('/assets/images/people.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+}
      .info-contain{
       padding-left:40px;
       .service{
         font-size: 24px;
+        margin-top:20px;
         
           }
      }
      .img-group{
-         background-image: url('/assets/images/group.jpg');
-         height:300px;
-         background-size: 100%;
-         background-repeat: no-repeat;
+         height:177px;
+
      }
      p{
         font-family: NotoSans;
@@ -315,14 +348,17 @@ img{
         
      }
      .sub-info{
-         width:313px;
+         width:240px;
         font-size: 14px;
         font-weight: 600;
      color: #4a4a4a;
+     margin-top:16px;
           }
 
      .Know-more{
         display:block;
+        margin-top:16px;
+        text-align:center;
        
         a{
             
@@ -510,25 +546,18 @@ img{
                     }
                 }
         .details.row{
-            margin-top:30px;
                 width:100%;
-                background-color: #00c6c6;
                 height: 98px;
+                .img-container{
+                    width:388px;
+                    height:100px;
                 
-        .icon-container{
-            width:400px;
-        }
-                img{
-                    width:30px;
-                    height:30px;
+                    img{
+                        width:57px;
+                        height:60px;
+                    }
                 }
-                div{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    
-                  
-                }
+       
             }
             .Accordion-title{
                 margin-top:30px;
@@ -603,12 +632,34 @@ img{
                 background-color: #f3f3f3;
                  
              }
+             .image-description.first-grid{
+                 margin-top:50px;
+             }
         .image-description{
             width:100%;
             margin:0 auto;
-            margin-top:50px;
-            padding-top:70px;
+            margin-top:0px;
+            padding-top:55px;
             height:310px;
+            .img-first{
+                width: 427px;
+                height: 239px;
+                 background-image:url('/assets/images/sales-large.png');
+
+            }
+            .img-next{
+                width: 427px;
+                height: 239px;
+                background-image:url('/assets/images/operation-large.jpg');
+
+            }
+            .img-last{
+                width: 427px;
+                height: 239px;
+                background-image:url('/assets/images/recruitment-large.png');
+              
+                
+            }
             .pull{
                 float:right;
             }
@@ -628,7 +679,7 @@ img{
             
            
             a{
-                
+                text-align:left;
                 display:inline-block;
                 height: 21px;
                 font-family: Nunito;
@@ -682,10 +733,17 @@ img{
             width:100%;
             height:310px;
             margin:0 auto;
-            margin-top:30px; 
-            
+            margin-top:0px; 
+            .image-backside{
+                float:right;
+                width:360px;
+                height:237px;
+                position: absolute;
+                right:0;
+                bottom:0; 
+            }
              .img-group{
-                 background-image: url('/assets/images/group.jpg');
+                //  background-image: url('/assets/images/group.jpg');
                  padding-top:80px;
                  
              }
@@ -697,6 +755,7 @@ img{
              }
              .Know-more{
                 display:block;
+                text-align:left;
                
                 a{
                     
@@ -787,19 +846,21 @@ img{
         
                 }
                 margin-top:100px;
-                .row{
-                    width:700px;
+                .row.main-page{
+                    width:964px;
+                    height:445px;
                     margin:0 auto;
                 }
                 .banner-img{
-                    width:340px;
-                    height:232px;
+                    width:469px;
+
+                    height:320px;
                     background-size:cover;
                     background-image:url('/assets/images/cover-image.jpg');
                 }
                 .banner-content{
                     height:99px;
-                 width:188px;
+                 width:260px;
                  margin:0 auto;
                  margin-left:30px;
                  margin-top:30px;
@@ -807,7 +868,7 @@ img{
                  
                  p{
                     font-family: NotoSans;
-                    font-size: 22px;
+                    font-size: 32px;
                     color: #000000;
                     text-align:center;
                     span{
@@ -818,14 +879,16 @@ img{
                 }
                 .info{
                     margin-top:20px;
+                    line-height:1.5;
                     .row{
-                        width:280px;
+                        width:375px;
                         p{
                             font-family: Nunito;
-                            font-size: 16px;
+                            font-size: 20px;
                             font-weight: 200;
                             text-align:center;
                             color: #4a4a4a;
+                            line-height:1.5;
                             
                         }
                     }
@@ -834,17 +897,16 @@ img{
                     .row{
                         width:210px;
                         margin:0 auto;
-                        
+                        margin-top:30px;
                     
                         a{
-                            display:inline-block;
-                            width:210px;
+                          
+                            width:169px;
                             height: 41px;
                             border-radius: 4px;
-                            background-color: #00c6c6;
-                            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+
                           button{
-                            width: 210px;
+                            width: 169px;
                             height: 19px;
                             font-family: Nunito;
                             font-size: 14px;
@@ -861,25 +923,17 @@ img{
                     }
                 }
         .details.row{
-            margin-top:30px;
                 width:100%;
-                background-color: #00c6c6;
-                height: 98px;
-                
-               .icon-container{
-                   width:600px;
-               }
-                img{
-                    width:30px;
-                    height:30px;
+                height: 150px;
+                margin-top:0px;
+                .img-container {
+                    width:524px;
+                    height:150px;
+                img {
+                    width:58px;
+                    height:88px;
                 }
-                div{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    
-                  
-                }
+            }
             }
             .Accordion-title{
                 margin-top:30px;
@@ -952,32 +1006,49 @@ img{
             }
             .image-description.color{
                 background-color: #f3f3f3;
-                 
+                margin-top:0px;                 
              }
-        .image-description{
+        .image-description{ 
+            .device-change{
+                margin-top: 60px;
+                position: relative;
+                left:70px;
+            }
+            .img-first,.img-next,.img-last{
+                width:500px;
+                height:320px
+            }
+            .img-next{
+                height:346px;
+            }
             width:100%;
             margin:0 auto;
-            margin-top:50px;
             padding-top:70px;
             height:415px;
             
         .ipad{
-            float:right;
             margin-top:15px;
+            margin-top: 80px;
+            text-align:left;
+            a{
+                text-align:left;
+            }
         }
         .mypod{
             float:left;
             margin-left:-30px;
+            width:500px;
+            height:330px;
             
         }
         }
         .Know-more{
             display:block;
             margin-top:15px;
+            text-align:left;
             
            
             a{
-                
                 display:inline-block;
                 height: 21px;
                 font-family: Nunito;
@@ -1031,7 +1102,6 @@ img{
             width:100%;
             height:310px;
             margin:0 auto;
-            margin-top:30px; 
             .info-contain{
                 .service{
                   font-size: 32px;
@@ -1039,7 +1109,6 @@ img{
                     }
                }
              .img-group{
-                 background-image: url('/assets/images/group.jpg');
                  padding-top:80px;
                  
              }
@@ -1047,6 +1116,8 @@ img{
                 font-family:Nunito;
                 font-size: 16px;
                 color: #4a4a4a;
+                width:354px;
+                line-height:1.5;
                 
              }
              .Know-more{
