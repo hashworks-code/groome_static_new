@@ -22,9 +22,14 @@
   
 }
 .Groome-footer{
+  .nopadding{
+    padding: 0px !important;
+    
+   }
   background-color:#f3f3f3;
   position: relative;
   bottom:0;
+  margin-top:20px;
   .row{
     width:80%;
     margin:0 auto;
@@ -124,6 +129,7 @@ span{
   }
   .cd-header{
     position:fixed;
+    z-index:200;
     background-color:white;
     .cd-logo{
       display:block !important;

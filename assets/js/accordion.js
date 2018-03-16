@@ -69,7 +69,7 @@
                     $tabItem.attr('role', 'tab');
 
                     //First active tab, keep closed if option = 'closed' or option is 'accordion' and the element is in accordion mode 
-                    if(options.closed !== true && !(options.closed === 'accordion' && !$respTabsList.is(':visible')) && !(options.closed === 'tabs' && $respTabsList.is(':visible'))) {                  
+                    if( !(options.closed === 'tabs' && $respTabsList.is(':visible'))) {                  
                         $respTabs.find('.resp-tab-item').first().addClass('resp-tab-active');
                         $respTabs.find('.resp-accordion').first().addClass('resp-tab-active');
                         $respTabs.find('.resp-tab-content').first().addClass('resp-tab-content-active').attr('style', 'display:block');
