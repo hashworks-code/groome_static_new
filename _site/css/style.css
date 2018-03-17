@@ -3,7 +3,16 @@
   src: url("../assets/fonts/Lato-Bold.ttf"); }
 @font-face {
   font-family: 'Nunito';
-  src: url("../assets/fonts/Nunito-Regular.ttf"); }
+  src: url("../assets/fonts/Nunito/Nunito-Regular.ttf"); }
+@font-face {
+  font-family: 'NunitoBold';
+  src: url("../assets/fonts/Nunito/Nunito-Bold.ttf"); }
+@font-face {
+  font-family: 'NunitoLight';
+  src: url("../assets/fonts/Nunito/Nunito-Light.ttf"); }
+@font-face {
+  font-family: 'NotoSans';
+  src: url("../assets/fonts/NotoSans/NotoSans-Regular.ttf"); }
 @font-face {
   font-family: 'latoRegular';
   src: url("../assets/fonts/Lato-Regular.ttf"); }
@@ -45,6 +54,14 @@
     padding: 0;
     height: 100%; }
 
+  .head-logo {
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+    background-image: url("/assets/images/mob.svg");
+    background-repeat: no-repeat;
+    position: relative; }
+
   .menubar {
     background: #f8f9f9 !important; }
 
@@ -53,6 +70,9 @@
     position: relative;
     bottom: 0;
     margin-top: 20px; }
+    .Groome-footer .linkedin, .Groome-footer .facebook, .Groome-footer .twitter {
+      width: 18px;
+      height: 18px; }
     .Groome-footer .nopadding {
       padding: 0px !important; }
     .Groome-footer .row {
@@ -87,12 +107,13 @@
         text-align: center;
         background-color: #00c6c6;
         width: 100%;
+        font-family: Nunito;
+        color: white;
         height: 31px;
         border-radius: 4px; }
     .Groome-footer .footer-links {
       margin-top: 30px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid grey; }
+      padding-bottom: 20px; }
       .Groome-footer .footer-links a {
         float: right;
         height: 14px;
@@ -105,8 +126,9 @@
         padding-left: 6px;
         border-right: 1px solid grey; }
     .Groome-footer .Brand {
-      margin-top: 15px;
-      padding-bottom: 5px; }
+      padding-bottom: 5px !important;
+      padding-top: 20px !important;
+      border-top: 1px solid #95989a; }
       .Groome-footer .Brand a {
         padding-left: 13px; }
       .Groome-footer .Brand p {
@@ -121,6 +143,11 @@
   .cd-primary-nav.is-visible {
     display: none; }
 
+  .head-logo {
+    width: 37px;
+    height: 37px;
+    background-image: url("/assets/images/tab.png"); }
+
   .cd-header {
     position: fixed;
     z-index: 200;
@@ -128,14 +155,18 @@
     .cd-header .cd-logo {
       display: block !important; }
 
+  .Groome-footer .linkedin, .Groome-footer .facebook, .Groome-footer .twitter {
+    width: 30px;
+    height: 25px; }
   .Groome-footer .footer-btn {
-    padding-bottom: 13px;
-    border-bottom: 1px solid grey; }
+    padding-bottom: 13px; }
     .Groome-footer .footer-btn button {
       width: 180px;
       height: 31px; }
   .Groome-footer .Brand {
-    padding-bottom: 10px; }
+    padding-top: 20px !important;
+    border-top: 1px solid #95989a;
+    padding-bottom: 10px !important; }
     .Groome-footer .Brand a {
       padding-left: 14px; }
     .Groome-footer .Brand p {
@@ -145,6 +176,14 @@
     .Groome-footer .footer-links a {
       font-size: 14px; } }
 @media screen and (min-width: 1024px) {
+  .head-logo {
+    background-image: url("/assets/images/Groome_Logo-02.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 26px;
+    top: 6px; }
+
   .Groome-footer .footer-btn button {
     width: 243px;
     height: 41px; }
@@ -162,13 +201,32 @@
       font-size: 18px;
       font-family: Nunito; }
   .Groome-footer .Brand {
-    margin-top: 20px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    border-top: 1px solid #95989a; }
     .Groome-footer .Brand a {
       padding-left: 18px; }
     .Groome-footer .Brand p {
       font-size: 18px; } }
+@media screen and (max-width: 767) {
+  .image-description {
+    max-width: 460px; } }
 @media screen and (min-width: 320px) {
+  h2.resp-accordion:first-child {
+    border-top: none !important; }
+
+  h2.resp-accordion {
+    border: none !important;
+    border-bottom: 1px solid #c1c1c1 !important; }
+
+  .cd-primary-nav li :last-child button {
+    padding: 10px; }
+
+  .tab-text span {
+    font-family: Nunito !important; }
+
+  .resp-tab-content.resp-tab-content-active {
+    border: none !important; }
+
   .HomePage {
     margin-top: 50px; }
     .HomePage .resp-tab-content-active {
@@ -181,7 +239,8 @@
     .HomePage .row.set-desk {
       margin-left: 0px !important; }
     .HomePage .nopadding {
-      padding: 0px !important; }
+      padding-left: 0px !important;
+      padding-right: 0px !important; }
     .HomePage .fas.fa-quote-left {
       color: #00c6c6; }
     .HomePage .container {
@@ -195,6 +254,12 @@
         margin-top: 35px; }
       .HomePage .container .name-padder {
         margin-top: 15px; }
+        .HomePage .container .name-padder strong {
+          font-family: NunitoBold;
+          font-size: 12px; }
+        .HomePage .container .name-padder .Founder {
+          font-family: NunitoLight;
+          font-size: 12px; }
       .HomePage .container img {
         width: 105px;
         height: 98px;
@@ -240,7 +305,8 @@
     .HomePage .banner-img {
       width: 210px;
       height: 143px;
-      background-image: url("/assets/images/cover-image.jpg");
+      background-size: contain;
+      background-image: url("/assets/images/cover-image.png");
       background-repeat: no-repeat; }
     .HomePage .banner-content {
       height: 81px;
@@ -249,7 +315,7 @@
       margin-top: 30px; }
       .HomePage .banner-content p {
         font-family: NotoSans;
-        font-size: 22px;
+        font-size: 20px;
         color: #000000;
         text-align: center; }
         .HomePage .banner-content p span {
@@ -304,35 +370,29 @@
           width: 40px;
           height: 70px; }
     .HomePage .Accordion-title {
-      margin-top: 30px; }
+      padding-bottom: 20px;
+      padding-top: 30px; }
       .HomePage .Accordion-title .title {
         width: 242px;
-        height: 24px;
         font-family: NotoSans;
         font-size: 18px;
         text-align: left;
         color: #4a4a4a; }
     .HomePage .image-description {
-      width: 260px;
       margin: 0 auto;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
       margin-top: 50px;
       background-size: 100% 100%;
       background-repeat: no-repeat; }
-      .HomePage .image-description .img-first {
-        height: 167px;
-        background-image: url("/assets/images/sales.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat; }
-      .HomePage .image-description .img-next {
-        height: 167px;
-        background-image: url("/assets/images/operations.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat; }
-      .HomePage .image-description .img-last {
-        height: 167px;
-        background-image: url("/assets/images/Recruitment.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat; }
+      .HomePage .image-description .from-tab {
+        display: none; }
+      .HomePage .image-description .img-first img {
+        width: 100%; }
+      .HomePage .image-description .img-next img {
+        width: 100%; }
+      .HomePage .image-description .img-last img {
+        width: 100%; }
     .HomePage .Know-more {
       text-align: center; }
       .HomePage .Know-more a {
@@ -355,9 +415,11 @@
       font-size: 12px;
       color: #4a4a4a; }
     .HomePage .circle-wrap.one {
-      background-image: url("/assets/images/group-8.png"); }
+      background-image: url("/assets/images/group-8.png");
+      background-repeat: no-repeat; }
     .HomePage .circle-wrap.two {
-      background-image: url("/assets/images/group-5.png"); }
+      background-image: url("/assets/images/group-5.png");
+      background-repeat: no-repeat; }
     .HomePage .circle-wrap {
       width: 100%;
       height: 19px;
@@ -366,6 +428,7 @@
       text-align: left;
       color: #4a4a4a;
       padding-bottom: 30px;
+      background-repeat: no-repeat;
       background-image: url("/assets/images/group-11.png");
       border-bottom: 1px  solid #00c6c6; }
       .HomePage .circle-wrap .circle {
@@ -401,7 +464,8 @@
         font-size: 14px;
         font-weight: 600;
         color: #4a4a4a;
-        margin-top: 16px; }
+        margin-top: 16px;
+        font-family: Nunito; }
       .HomePage .group .Know-more {
         display: block;
         margin-top: 16px;
@@ -422,6 +486,8 @@
     margin-top: 100px; }
     .HomePage .resp-tab-content-active {
       background-color: white; }
+    .HomePage .name-padder strong, .HomePage .name-padder .Founder {
+      font-size: 14px; }
     .HomePage .container {
       /* indicator position */
       /* indicator color */
@@ -469,8 +535,10 @@
       height: 370px; }
     .HomePage .tab-text {
       display: inline-block;
-      width: 160px;
+      font-size: 16px;
       padding-left: 20px; }
+      .HomePage .tab-text span {
+        width: 185px; }
     .HomePage .icon-size {
       width: 30px;
       height: 24px;
@@ -484,14 +552,13 @@
       background-image: url("/assets/images/search.svg");
       background-repeat: no-repeat; }
     .HomePage .tab-market {
-      background-image: url("/assets/images/search.svg");
+      background-image: url("/assets/images/chart.svg");
       background-repeat: no-repeat; }
     .HomePage .tab-absence {
-      background-image: url("/assets/images/search.svg");
+      background-image: url("/assets/images/office.svg");
       background-repeat: no-repeat; }
     .HomePage .tab-accord-wrapper {
-      height: 507px;
-      padding-top: 64px; }
+      height: 530px; }
     .HomePage .row {
       width: 700px;
       margin: 0 auto; }
@@ -499,7 +566,7 @@
       width: 340px;
       height: 232px;
       background-size: cover;
-      background-image: url("/assets/images/cover-image.jpg"); }
+      background-image: url("/assets/images/cover-image.png"); }
     .HomePage .banner-content {
       height: 99px;
       width: 188px;
@@ -507,10 +574,11 @@
       margin-left: 30px;
       margin-top: 30px; }
       .HomePage .banner-content p {
+        width: 188px;
         font-family: NotoSans;
         font-size: 22px;
         color: #000000;
-        text-align: center; }
+        text-align: left; }
         .HomePage .banner-content p span {
           color: #00c6c6; }
     .HomePage .info {
@@ -518,10 +586,11 @@
       .HomePage .info .row {
         width: 280px; }
         .HomePage .info .row p {
+          width: 313px;
           font-family: Nunito;
           font-size: 16px;
           font-weight: 200;
-          text-align: center;
+          text-align: left;
           color: #4a4a4a; }
     .HomePage .banner-btn .row {
       width: 210px;
@@ -554,47 +623,58 @@
         .HomePage .details.row .img-container img {
           width: 57px;
           height: 60px; }
-    .HomePage .Accordion-title .title {
-      width: 280px;
-      height: 24px;
-      font-size: 24px;
-      text-align: left;
-      color: #4a4a4a;
-      margin: 0 auto;
-      color: #000000; }
+    .HomePage .Accordion-title {
+      padding-top: 64px;
+      padding-bottom: 64px; }
+      .HomePage .Accordion-title .title {
+        width: 414px;
+        font-size: 24px;
+        text-align: center;
+        color: #4a4a4a;
+        margin: 0 auto;
+        color: #000000; }
     .HomePage .image-description.color {
       background-color: #f3f3f3; }
-    .HomePage .image-description.first-grid {
-      margin-top: 50px; }
-    .HomePage .image-description {
+    .HomePage .main-container {
+      height: 312px;
       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f3f3; }
+    .HomePage .set-color {
+      background-color: white; }
+    .HomePage .image-description {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      width: 700px;
       margin: 0 auto;
       margin-top: 0px;
-      padding-top: 55px;
-      height: 310px; }
+      padding-top: 55px; }
+      .HomePage .image-description .mobile-only {
+        display: none; }
+      .HomePage .image-description .from-tab {
+        display: block; }
       .HomePage .image-description .img-first {
-        width: 427px;
-        height: 239px;
-        background-image: url("/assets/images/sales-large.png"); }
+        width: 270px;
+        height: 239px; }
       .HomePage .image-description .img-next {
-        width: 427px;
-        height: 239px;
-        background-image: url("/assets/images/operation-large.jpg"); }
+        width: 270px;
+        height: 239px; }
       .HomePage .image-description .img-last {
-        width: 427px;
-        height: 239px;
-        background-image: url("/assets/images/recruitment-large.png"); }
+        width: 270px;
+        height: 239px; }
       .HomePage .image-description .pull {
         float: right; }
       .HomePage .image-description .ipad {
         float: right;
         margin-top: 15px; }
       .HomePage .image-description .mypod {
-        float: left;
-        margin-left: -30px; }
+        float: left; }
     .HomePage .Know-more {
       display: block;
-      margin-top: 15px; }
+      margin-top: 15px;
+      text-align: left; }
       .HomePage .Know-more a {
         text-align: left;
         display: inline-block;
@@ -670,18 +750,22 @@
 @media screen and (min-width: 1024px) {
   .HomePage {
     margin-top: 100px; }
+    .HomePage .name-padder strong, .HomePage .name-padder .Founder {
+      font-size: 15px; }
     .HomePage .resp-tabs-container {
       width: 307px !important;
-      border: none !important; }
+      border: none !important;
+      margin-left: 172px; }
     .HomePage .resp-tabs-list {
       width: 310px !important;
       height: 288px; }
+    .HomePage .tab-text span {
+      font-size: 16px; }
     .HomePage .resp-vtabs li.resp-tab-active {
       border: none !important;
       background-color: #f2f2f2; }
     .HomePage .tab-accord-wrapper {
-      height: 618px;
-      padding-top: 52px; }
+      height: 618px; }
     .HomePage .container {
       /* indicator position */
       /* indicator color */
@@ -723,43 +807,41 @@
       .HomePage .container p {
         font-style: italic; }
     .HomePage .row.main-page {
-      width: 964px;
+      width: 925px;
       height: 445px;
       margin: 0 auto; }
     .HomePage .banner-img {
       width: 469px;
       height: 320px;
       background-size: cover;
-      background-image: url("/assets/images/cover-image.jpg"); }
+      background-image: url("/assets/images/cover-image.png"); }
     .HomePage .banner-content {
-      height: 99px;
       width: 260px;
       margin: 0 auto;
-      margin-left: 30px;
+      margin-left: 43px;
       margin-top: 30px; }
       .HomePage .banner-content p {
+        width: 253px;
         font-family: NotoSans;
         font-size: 32px;
-        color: #000000;
-        text-align: center; }
+        color: #000000; }
         .HomePage .banner-content p span {
           color: #00c6c6; }
     .HomePage .info {
-      margin-top: 20px;
-      line-height: 1.5; }
+      margin-top: 20px; }
       .HomePage .info .row {
         width: 375px; }
         .HomePage .info .row p {
           font-family: Nunito;
           font-size: 20px;
           font-weight: 200;
-          text-align: center;
           color: #4a4a4a;
           line-height: 1.5; }
     .HomePage .banner-btn .row {
       width: 210px;
       margin: 0 auto;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-left: 0px; }
       .HomePage .banner-btn .row a {
         width: 169px;
         height: 41px;
@@ -787,12 +869,11 @@
           width: 58px;
           height: 88px; }
     .HomePage .Accordion-title {
-      margin-top: 30px; }
+      padding-top: 52px;
+      padding-bottom: 105px; }
       .HomePage .Accordion-title .title {
-        width: 280px;
-        height: 24px;
         font-size: 24px;
-        text-align: left;
+        text-align: center;
         color: #4a4a4a;
         margin: 0 auto;
         color: #000000; }
@@ -840,30 +921,31 @@
     .HomePage .image-description.color {
       background-color: #f3f3f3;
       margin-top: 0px; }
+    .HomePage .main-container {
+      height: 415px; }
     .HomePage .image-description {
-      width: 100%;
+      width: 950px;
       margin: 0 auto;
       padding-top: 70px;
       height: 415px; }
       .HomePage .image-description .device-change {
         margin-top: 60px;
         position: relative;
-        left: 70px; }
+        padding-left: 58px !important; }
       .HomePage .image-description .img-first, .HomePage .image-description .img-next, .HomePage .image-description .img-last {
-        width: 500px;
-        height: 320px; }
+        width: 450px;
+        height: 331px; }
       .HomePage .image-description .img-next {
         height: 346px; }
       .HomePage .image-description .ipad {
-        margin-top: 15px;
+        margin-right: 55px;
         margin-top: 80px;
         text-align: left; }
         .HomePage .image-description .ipad a {
           text-align: left; }
       .HomePage .image-description .mypod {
         float: left;
-        margin-left: -30px;
-        width: 500px;
+        width: 450px;
         height: 330px; }
     .HomePage .Know-more.ipad {
       margin-top: 0px; }
@@ -910,14 +992,25 @@
         border: 2px solid blue;
         padding-right: 10px; }
     .HomePage .group {
-      padding-top: 20px;
+      padding-top: 0px;
+      margin-top: 20px;
       width: 100%;
-      height: 310px;
+      height: 406px;
       margin: 0 auto; }
-      .HomePage .group .info-contain .service {
-        font-size: 32px; }
+      .HomePage .group .services-page {
+        position: relative;
+        height: 406px;
+        width: 950px;
+        margin: 0 auto; }
+        .HomePage .group .services-page .image-backside {
+          width: 481px;
+          height: 310px; }
+      .HomePage .group .info-contain {
+        padding-left: 0px; }
+        .HomePage .group .info-contain .service {
+          font-size: 32px; }
       .HomePage .group .img-group {
-        padding-top: 80px; }
+        padding-top: 120px; }
       .HomePage .group .sub-info {
         font-family: Nunito;
         font-size: 16px;

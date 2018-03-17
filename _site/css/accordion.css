@@ -146,7 +146,9 @@ h2.resp-accordion { display: block; }
 .resp-vtabs .resp-tabs-container {
   border: none;
   float: none;
-  width: 100%;
+max-width:460px;
+min-width:360px;
+margin:0 auto;
   min-height: initial;
   clear: none;
 }
@@ -163,7 +165,7 @@ h2.resp-accordion { display: block; }
   .resp-tab-content >p{
     padding-top:25px;
     color: #4a4a4a;
-    width:277px;
+    padding-right:10px;
     padding-bottom:20px;
     font-size: 12px;
     padding-left:30px;
@@ -174,7 +176,7 @@ h2.resp-accordion { display: block; }
     font-size: 12px;
 
     font-weight: bold;
-    padding-bottom:24px;
+    padding-bottom:23px;
     padding-left:29px; 
   }
   .resp-tab-content-active{
@@ -183,7 +185,7 @@ h2.resp-accordion { display: block; }
   }
 h2.resp-tab-active{
   padding-bottom:24px;
-  padding-left:29px; 
+  /* padding-left:29px;  */
   background-color: #f2f2f2;
   
 }
@@ -218,15 +220,15 @@ h2.resp-tab-active{
     height:193px;
   }
   .resp-tab-content >p{
-    padding-top:30px;
+    padding-top:25px;
     color: #4a4a4a;
     font-size: 14px;
+    padding-left:0px !important;
     font-family: Nunito;
   }
 #verticalTab{
   width:580px !important;
   margin:0 auto !important;
-  margin-top:64px !important;
   position: relative;
   z-index:100;
   height:282px;
@@ -243,9 +245,8 @@ h2.resp-tab-active{
 }
 @media screen and (min-width:1024px){
   #verticalTab{
-    width:775px !important;
+    width:790px !important;
     margin:0 auto !important;
-    margin-top:110px !important;
     
   
   }

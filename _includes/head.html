@@ -36,42 +36,16 @@
     </style>
     
 </head>
-<!-- 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid Mainmenu">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#"><img class="Mainmenu__Logo" src="../assets/images/Groome_Logo-02.svg"/></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-
-        
-        <ul class="nav navbar-nav navbar-right Mainmenu__links">
-          <li><a href="#"><span>Sales</span></a></li>
-          <li><a href="#"><span >Operation</span></a></li>
-          <li><a href="#"><span >Recruitment</span></a></li>
-          <li><a href="#"><span >Services</span></a></li>
-          <li><a href="#"><span >Services</span></a></li>
-          
-          
-        </ul>
-      </div>
-    </div>
-  </nav> -->
 
   <header class="cd-header">
-		<div class="cd-logo"><a href="#0"><img src="../assets/images/Groome_Logo-02.svg" alt="Logo"></a></div>
+		<div class="cd-logo"><a href="#" class="head-logo" ></a></div>
 
 		<nav>
 			<ul class="cd-secondary-nav">
-				<li><a href="#0">Sales</a></li>
-        <li><a href="#0">Operation</a></li>
-        <li><a href="#0">Recruitment</a></li>
-        <li><a href="#0">Services</a></li>
+				<li><a href="/sales">Sales</a></li>
+        <li><a href="/operation">Operation</a></li>
+        <li><a href="/recruitment">Recruitment</a></li>
+        <li><a href="/services">Services</a></li>
         <li><a><button>Request Demo</button></a></li>
         
         
@@ -87,10 +61,10 @@
 	<nav>
 		<ul class="cd-primary-nav">
 			
-			<li><a href="#0">Sales</a></li>
-			<li><a href="#0">Operations</a></li>
-			<li><a href="#0">Recruitment</a></li>
-      <li><a href="#0">Services</a></li>
+      <li><a href="/sales">Sales</a></li>
+      <li><a href="/operation">Operation</a></li>
+      <li><a href="/recruitment">Recruitment</a></li>
+      <li><a href="/services">Services</a></li>
       <li ><a><button>Request Demo</button></a></li>
 
 
@@ -98,35 +72,7 @@
 	</nav>
   <script>
   jQuery(document).ready(function($){
-    //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
-    // var MQL = 1170;
-  
-    // //primary navigation slide-in effect
-    // if($(window).width() > MQL) {
-    //   var headerHeight = $('.cd-header').height();
-    //   $(window).on('scroll',
-    //   {
-    //         previousTop: 0
-    //     }, 
-    //     function () {
-    //       var currentTop = $(window).scrollTop();
-    //       //check if user is scrolling up
-    //       if (currentTop < this.previousTop ) {
-    //         //if scrolling up...
-    //         if (currentTop > 0 && $('.cd-header').hasClass('is-fixed')) {
-    //           $('.cd-header').addClass('is-visible');
-    //         } else {
-    //           $('.cd-header').removeClass('is-visible is-fixed');
-    //         }
-    //       } else {
-    //         //if scrolling down...
-    //         $('.cd-header').removeClass('is-visible');
-    //         if( currentTop > headerHeight && !$('.cd-header').hasClass('is-fixed')) $('.cd-header').addClass('is-fixed');
-    //       }
-    //       this.previousTop = currentTop;
-    //   });
-    // }
-  
+   
     //open/close primary navigation
     $('.cd-primary-nav-trigger').on('click', function(){
       $('.cd-menu-icon').toggleClass('is-clicked'); 

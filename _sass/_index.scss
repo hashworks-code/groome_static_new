@@ -1,11 +1,35 @@
+
+@media screen and (max-width:767){
+    .image-description{
+        max-width:460px;
+    }
+}
 @media screen  and (min-width:320px){
-    
+    h2.resp-accordion:first-child{
+        border-top:none !important;
+    }
+    h2.resp-accordion{
+        border:none !important;
+        border-bottom: 1px solid #c1c1c1 !important;
+
+        
+    }
+    .cd-primary-nav li :last-child button{
+        padding:10px;
+    }
+    .tab-text span{
+        font-family:Nunito !important;
+    }
+    .resp-tab-content.resp-tab-content-active{
+border:none !important;
+    }
     .HomePage{
 
         .resp-tab-content-active{
             background-color:#f2f2f2;
             
           }
+
           .resp-tab-content{
               padding:0px;
           }
@@ -18,7 +42,9 @@
             margin-left:0px !important;
         }
        .nopadding{
-        padding: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        
         
        }
        .fas.fa-quote-left{
@@ -35,6 +61,15 @@
             }
             .name-padder{
                 margin-top:15px;
+                strong{
+                    font-family:NunitoBold;
+                    font-size:12px;
+                }
+                .Founder{
+                font-family: NunitoLight;
+                font-size:12px;
+                }
+
             }
             img{
                 width:105px;
@@ -106,7 +141,8 @@
         .banner-img{
             width:210px;
             height:143px;
-            background-image:url('/assets/images/cover-image.jpg');
+            background-size:contain;
+            background-image:url('/assets/images/cover-image.png');
             background-repeat:no-repeat;
         }
         .banner-content{
@@ -117,7 +153,7 @@
          
          p{
             font-family: NotoSans;
-            font-size: 22px;
+            font-size: 20px;
             color: #000000;
             text-align:center;
             span{
@@ -193,10 +229,10 @@
 
     }
     .Accordion-title{
-        margin-top:30px;
+padding-bottom:20px;
+padding-top:30px; 
         .title{
             width: 242px;
-            height: 24px;
             font-family: NotoSans;
             font-size: 18px;
             text-align: left;
@@ -205,29 +241,40 @@
     }
     
 .image-description{
-    width:260px;
     margin:0 auto;
+    padding-left:30px !important;
+    padding-right:30px !important;
     margin-top:50px;
     background-size: 100% 100%;
     background-repeat:no-repeat;
-
+    .from-tab{
+        display:none;
+    }
     .img-first{
-        height:167px;
-      background-image:url('/assets/images/sales.png');
-      background-size: 100% 100%;
-      background-repeat:no-repeat;
+    //   background-image:url('/assets/images/salesimage.png');
+    //   background-size: 100% 100%;
+    //   background-repeat:no-repeat;
+    img{
+        width:100%;
+    }
     }
     .img-next{
-        height:167px;
-        background-image:url('/assets/images/operations.png');
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
+        img{
+            width:100%;
+        }
+        // height:167px;
+        // background-image:url('/assets/images/operations.png');
+        // background-size: 100% 100%;
+        // background-repeat:no-repeat;
     }
     .img-last{
-        height:167px;
-        background-image:url('/assets/images/Recruitment.png');
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
+        // height:167px;
+        // background-image:url('/assets/images/Recruitment.png');
+        // background-size: 100% 100%;
+        // background-repeat:no-repeat;
+        img{
+            width:100%;
+        }
         
     }
     
@@ -266,10 +313,12 @@ img{
 }
 .circle-wrap.one{
     background-image:url("/assets/images/group-8.png");
+    background-repeat:no-repeat;
     
 }
 .circle-wrap.two{
     background-image:url("/assets/images/group-5.png");
+    background-repeat:no-repeat;
     
 }
 .circle-wrap{
@@ -280,6 +329,8 @@ img{
     text-align: left;
     color: #4a4a4a;
   padding-bottom:30px;
+  background-repeat:no-repeat;
+  
   background-image:url("/assets/images/group-11.png");
   border-bottom: 1px  solid #00c6c6;
   
@@ -328,6 +379,7 @@ img{
         font-weight: 600;
      color: #4a4a4a;
      margin-top:16px;
+     font-family:Nunito;
           }
 
      .Know-more{
@@ -396,7 +448,11 @@ img{
             background-color:white;
             
           }
-        
+        .name-padder{
+            strong,.Founder{
+                font-size:14px;
+            }
+        }
                 .container{
                     .row{
                         width:100%;
@@ -463,8 +519,12 @@ img{
                 }
                 .tab-text{
                     display:inline-block;
-                    width:160px;
+
+                    font-size:16px;
                     padding-left:20px;
+                    span{
+                        width:185px;
+                    }
                 }
                 .icon-size{
                     width:30px;
@@ -485,18 +545,17 @@ img{
                     
                 }
                 .tab-market{
-                    background-image:url("/assets/images/search.svg");
+                    background-image:url("/assets/images/chart.svg");
                     background-repeat:no-repeat;
                     
                 }
                 .tab-absence{
-                    background-image:url("/assets/images/search.svg");
+                    background-image:url("/assets/images/office.svg");
                     background-repeat:no-repeat;
                     
                 }
                 .tab-accord-wrapper{
-                    height:507px;
-                    padding-top:64px;
+                    height:530px;
                 }
                 .row{
                     width:700px;
@@ -506,7 +565,7 @@ img{
                     width:340px;
                     height:232px;
                     background-size:cover;
-                    background-image:url('/assets/images/cover-image.jpg');
+                    background-image:url('/assets/images/cover-image.png');
                 }
                 .banner-content{
                     height:99px;
@@ -517,10 +576,11 @@ img{
 
                  
                  p{
+                    width:188px;
                     font-family: NotoSans;
                     font-size: 22px;
                     color: #000000;
-                    text-align:center;
+                    text-align:left;
                     span{
                         color: #00c6c6;
                         
@@ -532,10 +592,11 @@ img{
                     .row{
                         width:280px;
                         p{
+                            width:313px;
                             font-family: Nunito;
                             font-size: 16px;
                             font-weight: 200;
-                            text-align:center;
+                            text-align:left;
                             color: #4a4a4a;
                             
                         }
@@ -586,11 +647,12 @@ img{
        
             }
             .Accordion-title{
+                padding-top:64px;
+                padding-bottom:64px;
                 .title{
-                    width: 280px;
-                    height: 24px;
+                    width: 414px;
                     font-size: 24px;
-                    text-align: left;
+                    text-align: center;
                     color: #4a4a4a;
                     margin:0 auto;
                     color: #000000;
@@ -602,30 +664,51 @@ img{
                  
              }
              .image-description.first-grid{
-                 margin-top:50px;
+                //  margin-top:50px;
+             }
+             .main-container{
+                height:312px;
+                width:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color:#f3f3f3;
+                
+
+             }
+             .set-color{
+                 background-color: white;
              }
         .image-description{
-            width:100%;
+            padding-left:0px !important;
+            padding-right:0px !important;
+            width:700px;
             margin:0 auto;
             margin-top:0px;
             padding-top:55px;
-            height:310px;
+            // height:310px;
+            .mobile-only{
+                display:none;
+            }
+            .from-tab{
+              display:block;
+            }
             .img-first{
-                width: 427px;
+                width: 270px;
                 height: 239px;
-                 background-image:url('/assets/images/sales-large.png');
+                //  background-image:url('/assets/images/sales-large.png');
 
             }
             .img-next{
-                width: 427px;
+                width: 270px;
                 height: 239px;
-                background-image:url('/assets/images/operation-large.jpg');
+                // background-image:url('/assets/images/operation-large.jpg');
 
             }
             .img-last{
-                width: 427px;
+                width: 270px;
                 height: 239px;
-                background-image:url('/assets/images/recruitment-large.png');
+                // background-image:url('/assets/images/recruitment-large.png');
               
                 
             }
@@ -638,13 +721,13 @@ img{
         }
         .mypod{
             float:left;
-            margin-left:-30px;
             
         }
         }
         .Know-more{
             display:block;
             margin-top:15px;
+            text-align:left;
             
            
             a{
@@ -766,13 +849,22 @@ img{
         //   .resp-tab-content{
         //       padding:0px;
         //   }
+        .name-padder{
+            strong,.Founder{
+                font-size:15px;
+            }
+        }
         .resp-tabs-container{
             width:307px !important;
             border:none !important;
+            margin-left:172px;
         }
         .resp-tabs-list{
             width:310px !important;
             height:288px;
+        }
+        .tab-text span{
+            font-size:16px;
         }
           .resp-vtabs li.resp-tab-active {
          border:none !important;
@@ -781,7 +873,6 @@ img{
     }
     .tab-accord-wrapper{
         height:618px;
-        padding-top:52px;
     }
                 .container{
                     .row{
@@ -839,7 +930,7 @@ img{
                 }
                 margin-top:100px;
                 .row.main-page{
-                    width:964px;
+                    width:925px;
                     height:445px;
                     margin:0 auto;
                 }
@@ -848,21 +939,21 @@ img{
 
                     height:320px;
                     background-size:cover;
-                    background-image:url('/assets/images/cover-image.jpg');
+                    background-image:url('/assets/images/cover-image.png');
                 }
                 .banner-content{
-                    height:99px;
+                    // height:99px;
                  width:260px;
                  margin:0 auto;
-                 margin-left:30px;
+                 margin-left:43px;
                  margin-top:30px;
 
                  
                  p{
+                     width:253px;
                     font-family: NotoSans;
                     font-size: 32px;
                     color: #000000;
-                    text-align:center;
                     span{
                         color: #00c6c6;
                         
@@ -871,14 +962,12 @@ img{
                 }
                 .info{
                     margin-top:20px;
-                    line-height:1.5;
                     .row{
                         width:375px;
                         p{
                             font-family: Nunito;
                             font-size: 20px;
                             font-weight: 200;
-                            text-align:center;
                             color: #4a4a4a;
                             line-height:1.5;
                             
@@ -890,6 +979,7 @@ img{
                         width:210px;
                         margin:0 auto;
                         margin-top:30px;
+                        margin-left:0px;
                     
                         a{
                           
@@ -928,12 +1018,11 @@ img{
             }
             }
             .Accordion-title{
-                margin-top:30px;
+                padding-top:52px;
+                padding-bottom:105px;
                 .title{
-                    width: 280px;
-                    height: 24px;
                     font-size: 24px;
-                    text-align: left;
+                    text-align:center;
                     color: #4a4a4a;
                     margin:0 auto;
                     color: #000000;
@@ -1000,26 +1089,29 @@ img{
                 background-color: #f3f3f3;
                 margin-top:0px;                 
              }
+             .main-container{
+                 height:415px;
+             }
         .image-description{ 
+            width:950px;
             .device-change{
                 margin-top: 60px;
                 position: relative;
-                left:70px;
+                padding-left:58px !important;
             }
             .img-first,.img-next,.img-last{
-                width:500px;
-                height:320px
+                width:450px;
+                height:331px
             }
             .img-next{
                 height:346px;
             }
-            width:100%;
             margin:0 auto;
             padding-top:70px;
             height:415px;
             
         .ipad{
-            margin-top:15px;
+            margin-right:55px;
             margin-top: 80px;
             text-align:left;
             a{
@@ -1028,8 +1120,7 @@ img{
         }
         .mypod{
             float:left;
-            margin-left:-30px;
-            width:500px;
+            width:450px;
             height:330px;
             
         }
@@ -1093,18 +1184,32 @@ img{
         }
           }
           .group{
-             padding-top:20px;
+              padding-top:0px;
+              margin-top:20px;
             width:100%;
-            height:310px;
+            height:406px;
             margin:0 auto;
+            .services-page{
+                position:relative;
+                
+                height:406px;
+                width:950px;
+                margin:0 auto;
+                .image-backside{
+                    width:481px;
+                    height:310px;
+                }
+
+            }
             .info-contain{
+                padding-left:0px;
                 .service{
                   font-size: 32px;
                   
                     }
                }
              .img-group{
-                 padding-top:80px;
+                 padding-top:120px;
                  
              }
              .sub-info{

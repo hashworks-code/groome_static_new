@@ -5,23 +5,27 @@
      padding:0;
      height:100%;
   }
-// .Mainmenu{
 
-//   &__Logo{
-//     width:50px;
-//     height:25px;
-//   }
 
-//   &__links li > a{
-//     font-size: 16px;
-    
-//   }
-// }
+  .head-logo{
+    display:inline-block;
+    width: 16px;
+    height: 26px;
+    background-image : url("/assets/images/mob.svg");
+    background-repeat:no-repeat;
+    position: relative;
+
+  }
 .menubar{
   background:#f8f9f9 !important;
   
 }
 .Groome-footer{
+  .linkedin,.facebook,.twitter
+  {
+    width:18px;
+    height:18px;
+  }
   .nopadding{
     padding: 0px !important;
     
@@ -72,6 +76,8 @@
          text-align:center;
          background-color: #00c6c6;
          width:100%;
+         font-family:Nunito;
+         color:white;
          height: 31px;
          border-radius: 4px;
          
@@ -80,7 +86,6 @@
   .footer-links{
     margin-top:30px;
     padding-bottom:20px;
-    border-bottom:1px solid grey; 
     a{
       float:right;
       height: 14px;
@@ -98,8 +103,10 @@
       } 
   }
   .Brand{
-    margin-top:15px;
-    padding-bottom:5px; 
+    padding-bottom:5px !important; 
+    padding-top:20px !important; 
+    border-top: 1px solid #95989a; 
+    
     a{
       padding-left:13px; 
     }
@@ -127,6 +134,11 @@ span{
     display:none;
     
   }
+  .head-logo{
+    width: 37px;
+    height: 37px;
+    background-image : url("/assets/images/tab.png");
+  }
   .cd-header{
     position:fixed;
     z-index:200;
@@ -136,9 +148,13 @@ span{
     }
   }
 .Groome-footer{
+  .linkedin,.facebook,.twitter
+  {
+    width:30px;
+    height:25px;
+  }
 .footer-btn{
   padding-bottom:13px;
-  border-bottom:1px solid grey;
   button{
     width: 180px;
     
@@ -147,7 +163,9 @@ span{
   }
 }
 .Brand{
-  padding-bottom:10px; 
+  padding-top:20px !important;
+  border-top: 1px solid #95989a; 
+  padding-bottom:10px !important; 
   a{
     padding-left:14px;
   }
@@ -165,6 +183,15 @@ span{
 }
 
 @media screen  and (min-width:1024px){
+  // src="../assets/images/Groome_Logo-02.svg"
+  .head-logo{
+    background-image:url('/assets/images/Groome_Logo-02.svg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 105px;
+    height: 26px;
+    top: 6px;
+  } 
   .Groome-footer{
     .footer-btn{
 button{
@@ -198,8 +225,9 @@ height:26px;
       }
   }
   .Brand{
-    margin-top:20px;
     padding-bottom:30px;
+    border-top: 1px solid #95989a; 
+    
     a{
       padding-left:18px;
     }

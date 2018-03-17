@@ -22,7 +22,7 @@ body.overflow-hidden {
 
 a {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* -------------------------------- 
@@ -508,5 +508,10 @@ display:none;
   .cd-main-content p {
     font-size: 20px;
     font-size: 1.25rem;
+  }
+}
+@media screen and (min-width:1366px){
+  .cd-secondary-nav li{
+    margin-left:7.2em;
   }
 }

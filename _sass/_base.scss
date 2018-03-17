@@ -5,7 +5,19 @@
   }
   @font-face {
     font-family: 'Nunito';
-    src: url('../assets/fonts/Nunito-Regular.ttf');
+    src: url('../assets/fonts/Nunito/Nunito-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'NunitoBold';
+    src: url('../assets/fonts/Nunito/Nunito-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'NunitoLight';
+    src: url('../assets/fonts/Nunito/Nunito-Light.ttf');
+  }
+  @font-face {
+    font-family: 'NotoSans';
+    src: url('../assets/fonts/NotoSans/NotoSans-Regular.ttf');
   }
   @font-face {
     font-family: 'latoRegular';
