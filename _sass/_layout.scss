@@ -7,6 +7,191 @@
   }
 
 
+#ConfirmModal{
+  .close{
+    background-image:url("/assets/images/close-icon.svg");
+    background-repeat:no-repeat;
+    width:18px;height:18px;
+
+    
+  }
+.info-head{
+  width: 208px;
+  height: 24px;
+  font-family: NotoSans;
+  font-size: 18px;
+  text-align: center;
+  color: #00c6c6;
+  margin:0 auto;
+}
+.info-subhead{
+  width: 222px;
+  font-family: NotoSans;
+  font-size: 12px;
+  text-align: center;
+  color: #4a4a4a;
+  margin:0 auto;
+  margin-top:32px;
+}
+
+.info-all{
+
+  width: 222px;
+  height: 90px;
+  font-family: NotoSans;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #4a4a4a;
+  margin:0 auto;
+  margin-top:32px;  
+
+}
+.info-mail{
+  width: 222px;
+  font-family: NotoSans;
+  font-size: 12px;
+  text-align: center;
+  color: #4a4a4a;
+  margin:0 auto;
+  margin-top:32px;
+
+}
+.modal-header{
+  border:none;
+}
+.modal-dialog{
+  width:310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin:0px;
+}
+
+
+}
+
+#ContactModal
+
+{
+  .modal-dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin:0px;
+    
+    width: 310px;
+    .mobile-text{
+      display:block;
+    }
+    .dropdown{
+      display:none !important;
+    }
+   .btn-demo button{
+    width: 210px;
+    height: 41px;
+    font-family: Nunito;
+    font-size: 14px;
+    padding: 11px 35px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: #00c6c6;
+   }
+    .checkbox{
+      height:25px;
+      margin-bottom:0px;
+    }
+
+    .close{
+      background-image:url("/assets/images/close-icon.svg");
+      background-repeat:no-repeat;
+      width:18px;height:18px;
+
+    }
+    .modal-content{
+      background-color: #f2f2f2;
+      
+    }
+    .modal-body{
+padding-top:0px;
+    }
+    .modal-header{
+      border:none;
+    }
+    .title{
+      p.main-head{
+      font-family: NotoSans;
+      font-size: 18px;
+      text-align: center;  
+      // padding-top:35px;
+      width:208px;
+      color: #00c6c6;
+      
+      margin:0 auto;
+      }
+      p.sub-head{
+        width: 222px;
+        margin:0 auto;
+        font-family: NotoSans;
+        font-size: 12px;
+        padding-top:16px;
+        color: #4a4a4a;
+        
+      }
+
+
+    }
+      .textbox-container
+      {
+        width: 209px !important;
+        
+        margin:0 auto;
+        margin-top:24px;
+        .data-info{
+
+       margin-top:11px;
+        }
+
+        .form-group{
+        width: 209px !important;
+        
+        margin:0 auto;
+        }
+        input.form-control{
+          width: 209px !important;
+          height: 34px;
+          padding: 6px 12px;
+          font-size: 14px;
+          line-height: 1.42857143;
+          color: #555;
+          background-color: #f2f2f2;
+          border: solid 1px #95989a;
+        
+          border-radius: 4px;
+
+        }
+
+
+       
+          }
+  
+  
+     
+  }
+
+
+
+}
+
+
+
   .head-logo{
     display:inline-block;
     width: 16px;
@@ -84,6 +269,7 @@
        }
   }
   .footer-links{
+    padding-right:0px;
     margin-top:30px;
     padding-bottom:20px;
     a{
@@ -130,6 +316,216 @@ span{
 
 
 @media screen and (min-width:768px) {
+
+  #ConfirmModal{
+    .close{
+      background-image:url("/assets/images/close-icon.svg");
+      background-repeat:no-repeat;
+      width:18px;height:18px;
+  
+      
+    }
+  .info-head{
+    width: 367px;
+    font-size: 20px;
+  
+  }
+  .info-subhead{
+    width: 291px;    
+    font-size: 14px;
+    margin-top:40px;
+  }
+  
+  .info-all{
+  
+    width: 398px;
+    
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top:32px;  
+  
+  }
+  .info-mail{
+    width: 328px;
+    
+    font-size: 14px;
+  
+    margin-top:23px;
+  
+  }
+  .modal-header{
+    border:none;
+  }
+  .modal-dialog{
+    width:578px;
+    height:333px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin:0px;
+  }
+  
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+  #ContactModal
+  
+  {
+    .modal-dialog{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      margin:0px;
+      
+      width: 578px;
+      .mobile-text{
+        display:none !important;
+      }
+      .dropdown{
+        display:inline-block !important;
+        background-color: #f2f2f2;
+        border: solid 1px #95989a;
+        height:40px !important;
+        select.form-control{
+          background-color: #f2f2f2;
+          height:40x !important;
+        }
+      }
+     .btn-demo {
+       width:175px;
+       margin:0 auto;
+
+     button{
+      width: 175px;
+      height: 41px;
+      font-family: Nunito;
+      font-size: 14px;
+      padding: 11px 35px;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+      outline: none;
+      border: none;
+      background-color: #00c6c6;
+     }
+    }
+      .checkbox{
+        height:25px;
+        margin-bottom:0px;
+        display:inline-block;
+      }
+  
+      .close{
+        background-image:url("/assets/images/close-icon.svg");
+        background-repeat:no-repeat;
+        width:18px;height:18px;
+  
+      }
+      .modal-content{
+        background-color: #f2f2f2;
+        
+      }
+      .modal-body{
+  padding-top:0px;
+      }
+      .modal-header{
+        border:none;
+      }
+      .title{
+        p.main-head{
+        font-family: NotoSans;
+        font-size: 20px;
+        text-align: center;  
+        // padding-top:35px;
+        width:367px;
+        color: #00c6c6;
+        
+        margin:0 auto;
+        }
+        p.sub-head{
+          width: 291px;
+          margin:0 auto;
+          font-size: 14px;
+          padding-top:16px;
+          color: #4a4a4a;
+          
+        }
+  
+  
+      }
+        .textbox-container
+        {
+          width: 462px !important;
+          
+          margin:0 auto;
+          margin-top:24px;
+          .data-info{
+  
+         margin-top:11px;
+          }
+  
+          .form-group{
+          width: 221px !important;
+           margin-top:16px !important;
+          display:inline-block;
+          
+          margin:0 auto;
+          }
+          .pad-left{
+            margin-left:15px;
+          }
+          input.form-control{
+            width: 221px !important;
+            height: 40px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #f2f2f2;
+            border: solid 1px #95989a;
+          
+            border-radius: 4px;
+  
+          }
+  
+  
+         
+            }
+    
+    
+       
+    }
+  
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .cd-primary-nav.is-visible{
     display:none;
     
@@ -183,7 +579,104 @@ span{
 }
 
 @media screen  and (min-width:1024px){
-  // src="../assets/images/Groome_Logo-02.svg"
+
+  #ConfirmModal{
+    .close{
+      background-image:url("/assets/images/close-icon.svg");
+      background-repeat:no-repeat;
+      width:18px;height:18px;
+  
+      
+    }
+  .info-head{
+    width: 446px;   
+     font-size: 24px;
+  
+  }
+  .info-subhead{
+    width: 305px;
+    font-size: 14px;
+    margin-top:40px;
+  }
+  
+  .info-all{
+  
+    width: 468px;
+    
+    font-size: 16px;
+    margin-top:32px;  
+  
+  }
+  .info-mail{
+    width: 305px;
+    
+    font-size: 16px;
+  
+    margin-top:32px;
+  
+  }
+  .modal-header{
+    border:none;
+  }
+  .modal-dialog{
+    width:790px;
+    height:359px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin:0px;
+  }
+  
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ContactModal{
+  .modal-dialog{
+    width:790px;
+    .title{
+      p.main-head{
+        width:446px;
+        font-size:24px;
+      }
+      p.sub-head{
+        width:605px;
+        font-size:16px;
+      }
+    }
+    .textbox-container{
+      width:628px !important;
+      .pad-left{
+        margin-left:4px;
+      }
+      .form-group{
+        width:310px !important;
+        input.form-control{
+          width:310px !important;
+        }
+
+      }
+    }
+   
+  }
+}
   .head-logo{
     background-image:url('/assets/images/Groome_Logo-02.svg');
     background-size:contain;

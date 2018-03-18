@@ -22,7 +22,7 @@ body.overflow-hidden {
 
 a {
   color: white;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 /* -------------------------------- 

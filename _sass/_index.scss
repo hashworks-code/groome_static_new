@@ -1,5 +1,5 @@
 
-@media screen and (max-width:767){
+@media screen and (max-width:767px){
     .image-description{
         max-width:460px;
     }
@@ -284,7 +284,7 @@ padding-top:30px;
 text-align:center;
    
     a{
-        
+        text-decoration:none;
         display:inline-block;
         height: 21px;
         font-family: Nunito;
@@ -520,18 +520,17 @@ img{
                 .tab-text{
                     display:inline-block;
 
-                    font-size:16px;
+                    font-size:12px;
                     padding-left:20px;
-                    span{
-                        width:185px;
-                    }
+
+                        width:140px;
+                    
                 }
                 .icon-size{
                     width:30px;
                     height:24px;
                     display:inline-block;
                     position:relative;
-                    top:7px;
                     
                 }
                 .tab-oppur{
@@ -863,8 +862,12 @@ img{
             width:310px !important;
             height:288px;
         }
-        .tab-text span{
+        .tab-text {
+            width:180px;
+            span
+            {
             font-size:16px;
+            }
         }
           .resp-vtabs li.resp-tab-active {
          border:none !important;

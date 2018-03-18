@@ -46,7 +46,7 @@
         <li><a href="/operation">Operation</a></li>
         <li><a href="/recruitment">Recruitment</a></li>
         <li><a href="/services">Services</a></li>
-        <li><a><button>Request Demo</button></a></li>
+        <li><a data-toggle="modal" data-target="#ContactModal"><button>Request Demo</button></a></li>
         
         
         
@@ -65,7 +65,7 @@
       <li><a href="/operation">Operation</a></li>
       <li><a href="/recruitment">Recruitment</a></li>
       <li><a href="/services">Services</a></li>
-      <li ><a><button>Request Demo</button></a></li>
+      <li ><a data-toggle="modal" data-target="#ContactModal"><button>Request Demo</button></a></li>
 
 
 		</ul>
@@ -103,6 +103,108 @@
 <body>
 
    
+<div class="modal fade Contact-modal" id="ContactModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+            <div class="title">
+             <p class="main-head">Get Personalised Demo of Groome  from one of our Experts</p>
+             <p class="sub-head">Discover how groome can help you recruit and hire the right talent faster</p>
+            </div>
+            <form class="textbox-container">
+                <div class="form-group">
+                  <input type="text" class="form-control " id="email" placeholder="First Name" name="email">
+                </div>
+                <div class="form-group pad-left">
+                  <input type="text" class="form-control data-info" id="pwd" placeholder="Last Name" name="pwd">
+                </div>
+                <div class="form-group">
+                 <input type="text" class="form-control data-info" id="pwd" placeholder="Email Id" name="pwd">
+                 </div>
+                 <div class="form-group pad-left">
+                <input type="number" class="form-control data-info" id="pwd" placeholder="Phone Number" name="pwd">
+                 </div>
+                 <div class="form-group">
+                  <input type="text" class="form-control data-info" id="pwd" placeholder="Company Name" name="pwd">
+                   </div>
+                   <div class="form-group mobile-text">
+                    <input type="text" class="form-control data-info" id="pwd" placeholder="Number of Employees" name="pwd">
+
+                     </div>
+                     <div class="dropdown form-group pad-left" style="border-radius:4px">
+                      <select class="form-control" id="select" style="height:40px !important">
+                          <option value="" disabled selected>Number of Employees </option>
+                          <option>Option Two </option>
+                          <option>Option Three </option>
+                      </select>
+                  </div>
+                     <div class="form-group mobile-text">
+                      <input type="text" class="form-control data-info" id="pwd" placeholder="Field of Work" name="pwd">
+                       </div>
+                       <div class="last-dropdown  dropdown form-group" style="width:100% !important;border-radius:4px">
+                        <select class="form-control" id="select" style="height:40px !important">
+                            <option value="" disabled selected>Field of Work</option>
+                            <option>Option Two </option>
+                            <option>Option Three </option>
+                        </select>
+                    </div>
+                       <div class="checkbox-wrapper">
+                <div class="checkbox">
+                  <label><input type="checkbox" name="remember"><span>Products</span><label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="remember"><span>service consultants</span></label>
+                </div>
+                </div>
+                <div class="btn-demo">
+                  <a class="submit-data">
+                    <button>Request Demo</button>
+                  </a>
+
+                </div>
+              </form>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <div class="modal fade Confirm-modal" id="ConfirmModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <p class="info-head">Request Confirmed!</p>
+          <p class="info-subhead">You will hear from us shortly</p>
+          <p class="info-all">You wilIn the meantime, hear from Hashworks CEO, Gopikrishna Kannan, about our Groome Suite, or read the customer story featured on this page.l hear from us shortly</p>
+          <p class="info-mail">For questions, please contact us at info@groome.co</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
 <footer class="Groome-footer">
     <div class="row">
         <div class="groom-img  col-xs-12 nopadding">
@@ -139,6 +241,20 @@
 
 </footer>
 <script src="/assets/js/accordion.js"></script>
+<script>
+$(document).ready(function(){
+$('.submit-data').click(function(){
+  $('#ContactModal').modal('hide');
+$('#ConfirmModal').modal('show');
+
+})
+
+})
+
+
+
+
+</script>
 </body>
 
 

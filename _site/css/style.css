@@ -54,6 +54,128 @@
     padding: 0;
     height: 100%; }
 
+  #ConfirmModal .close {
+    background-image: url("/assets/images/close-icon.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px; }
+  #ConfirmModal .info-head {
+    width: 208px;
+    height: 24px;
+    font-family: NotoSans;
+    font-size: 18px;
+    text-align: center;
+    color: #00c6c6;
+    margin: 0 auto; }
+  #ConfirmModal .info-subhead {
+    width: 222px;
+    font-family: NotoSans;
+    font-size: 12px;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 0 auto;
+    margin-top: 32px; }
+  #ConfirmModal .info-all {
+    width: 222px;
+    height: 90px;
+    font-family: NotoSans;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 0 auto;
+    margin-top: 32px; }
+  #ConfirmModal .info-mail {
+    width: 222px;
+    font-family: NotoSans;
+    font-size: 12px;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 0 auto;
+    margin-top: 32px; }
+  #ConfirmModal .modal-header {
+    border: none; }
+  #ConfirmModal .modal-dialog {
+    width: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px; }
+
+  #ContactModal .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    width: 310px; }
+    #ContactModal .modal-dialog .mobile-text {
+      display: block; }
+    #ContactModal .modal-dialog .dropdown {
+      display: none !important; }
+    #ContactModal .modal-dialog .btn-demo button {
+      width: 210px;
+      height: 41px;
+      font-family: Nunito;
+      font-size: 14px;
+      padding: 11px 35px;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+      outline: none;
+      border: none;
+      background-color: #00c6c6; }
+    #ContactModal .modal-dialog .checkbox {
+      height: 25px;
+      margin-bottom: 0px; }
+    #ContactModal .modal-dialog .close {
+      background-image: url("/assets/images/close-icon.svg");
+      background-repeat: no-repeat;
+      width: 18px;
+      height: 18px; }
+    #ContactModal .modal-dialog .modal-content {
+      background-color: #f2f2f2; }
+    #ContactModal .modal-dialog .modal-body {
+      padding-top: 0px; }
+    #ContactModal .modal-dialog .modal-header {
+      border: none; }
+    #ContactModal .modal-dialog .title p.main-head {
+      font-family: NotoSans;
+      font-size: 18px;
+      text-align: center;
+      width: 208px;
+      color: #00c6c6;
+      margin: 0 auto; }
+    #ContactModal .modal-dialog .title p.sub-head {
+      width: 222px;
+      margin: 0 auto;
+      font-family: NotoSans;
+      font-size: 12px;
+      padding-top: 16px;
+      color: #4a4a4a; }
+    #ContactModal .modal-dialog .textbox-container {
+      width: 209px !important;
+      margin: 0 auto;
+      margin-top: 24px; }
+      #ContactModal .modal-dialog .textbox-container .data-info {
+        margin-top: 11px; }
+      #ContactModal .modal-dialog .textbox-container .form-group {
+        width: 209px !important;
+        margin: 0 auto; }
+      #ContactModal .modal-dialog .textbox-container input.form-control {
+        width: 209px !important;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #f2f2f2;
+        border: solid 1px #95989a;
+        border-radius: 4px; }
+
   .head-logo {
     display: inline-block;
     width: 16px;
@@ -112,6 +234,7 @@
         height: 31px;
         border-radius: 4px; }
     .Groome-footer .footer-links {
+      padding-right: 0px;
       margin-top: 30px;
       padding-bottom: 20px; }
       .Groome-footer .footer-links a {
@@ -140,6 +263,124 @@
         .Groome-footer .Brand p span {
           color: #00c6c6; } }
 @media screen and (min-width: 768px) {
+  #ConfirmModal .close {
+    background-image: url("/assets/images/close-icon.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px; }
+  #ConfirmModal .info-head {
+    width: 367px;
+    font-size: 20px; }
+  #ConfirmModal .info-subhead {
+    width: 291px;
+    font-size: 14px;
+    margin-top: 40px; }
+  #ConfirmModal .info-all {
+    width: 398px;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 32px; }
+  #ConfirmModal .info-mail {
+    width: 328px;
+    font-size: 14px;
+    margin-top: 23px; }
+  #ConfirmModal .modal-header {
+    border: none; }
+  #ConfirmModal .modal-dialog {
+    width: 578px;
+    height: 333px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px; }
+
+  #ContactModal .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    width: 578px; }
+    #ContactModal .modal-dialog .mobile-text {
+      display: none !important; }
+    #ContactModal .modal-dialog .dropdown {
+      display: inline-block !important;
+      background-color: #f2f2f2;
+      border: solid 1px #95989a;
+      height: 40px !important; }
+      #ContactModal .modal-dialog .dropdown select.form-control {
+        background-color: #f2f2f2;
+        height: 40x !important; }
+    #ContactModal .modal-dialog .btn-demo {
+      width: 175px;
+      margin: 0 auto; }
+      #ContactModal .modal-dialog .btn-demo button {
+        width: 175px;
+        height: 41px;
+        font-family: Nunito;
+        font-size: 14px;
+        padding: 11px 35px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        background-color: #00c6c6; }
+    #ContactModal .modal-dialog .checkbox {
+      height: 25px;
+      margin-bottom: 0px;
+      display: inline-block; }
+    #ContactModal .modal-dialog .close {
+      background-image: url("/assets/images/close-icon.svg");
+      background-repeat: no-repeat;
+      width: 18px;
+      height: 18px; }
+    #ContactModal .modal-dialog .modal-content {
+      background-color: #f2f2f2; }
+    #ContactModal .modal-dialog .modal-body {
+      padding-top: 0px; }
+    #ContactModal .modal-dialog .modal-header {
+      border: none; }
+    #ContactModal .modal-dialog .title p.main-head {
+      font-family: NotoSans;
+      font-size: 20px;
+      text-align: center;
+      width: 367px;
+      color: #00c6c6;
+      margin: 0 auto; }
+    #ContactModal .modal-dialog .title p.sub-head {
+      width: 291px;
+      margin: 0 auto;
+      font-size: 14px;
+      padding-top: 16px;
+      color: #4a4a4a; }
+    #ContactModal .modal-dialog .textbox-container {
+      width: 462px !important;
+      margin: 0 auto;
+      margin-top: 24px; }
+      #ContactModal .modal-dialog .textbox-container .data-info {
+        margin-top: 11px; }
+      #ContactModal .modal-dialog .textbox-container .form-group {
+        width: 221px !important;
+        margin-top: 16px !important;
+        display: inline-block;
+        margin: 0 auto; }
+      #ContactModal .modal-dialog .textbox-container .pad-left {
+        margin-left: 15px; }
+      #ContactModal .modal-dialog .textbox-container input.form-control {
+        width: 221px !important;
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #f2f2f2;
+        border: solid 1px #95989a;
+        border-radius: 4px; }
+
   .cd-primary-nav.is-visible {
     display: none; }
 
@@ -176,6 +417,55 @@
     .Groome-footer .footer-links a {
       font-size: 14px; } }
 @media screen and (min-width: 1024px) {
+  #ConfirmModal .close {
+    background-image: url("/assets/images/close-icon.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px; }
+  #ConfirmModal .info-head {
+    width: 446px;
+    font-size: 24px; }
+  #ConfirmModal .info-subhead {
+    width: 305px;
+    font-size: 14px;
+    margin-top: 40px; }
+  #ConfirmModal .info-all {
+    width: 468px;
+    font-size: 16px;
+    margin-top: 32px; }
+  #ConfirmModal .info-mail {
+    width: 305px;
+    font-size: 16px;
+    margin-top: 32px; }
+  #ConfirmModal .modal-header {
+    border: none; }
+  #ConfirmModal .modal-dialog {
+    width: 790px;
+    height: 359px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0px; }
+
+  #ContactModal .modal-dialog {
+    width: 790px; }
+    #ContactModal .modal-dialog .title p.main-head {
+      width: 446px;
+      font-size: 24px; }
+    #ContactModal .modal-dialog .title p.sub-head {
+      width: 605px;
+      font-size: 16px; }
+    #ContactModal .modal-dialog .textbox-container {
+      width: 628px !important; }
+      #ContactModal .modal-dialog .textbox-container .pad-left {
+        margin-left: 4px; }
+      #ContactModal .modal-dialog .textbox-container .form-group {
+        width: 310px !important; }
+        #ContactModal .modal-dialog .textbox-container .form-group input.form-control {
+          width: 310px !important; }
+
   .head-logo {
     background-image: url("/assets/images/Groome_Logo-02.svg");
     background-size: contain;
@@ -207,7 +497,7 @@
       padding-left: 18px; }
     .Groome-footer .Brand p {
       font-size: 18px; } }
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
   .image-description {
     max-width: 460px; } }
 @media screen and (min-width: 320px) {
@@ -396,6 +686,7 @@
     .HomePage .Know-more {
       text-align: center; }
       .HomePage .Know-more a {
+        text-decoration: none;
         display: inline-block;
         height: 21px;
         font-family: Nunito;
@@ -535,16 +826,14 @@
       height: 370px; }
     .HomePage .tab-text {
       display: inline-block;
-      font-size: 16px;
-      padding-left: 20px; }
-      .HomePage .tab-text span {
-        width: 185px; }
+      font-size: 12px;
+      padding-left: 20px;
+      width: 140px; }
     .HomePage .icon-size {
       width: 30px;
       height: 24px;
       display: inline-block;
-      position: relative;
-      top: 7px; }
+      position: relative; }
     .HomePage .tab-oppur {
       background-image: url("/assets/images/ring.svg");
       background-repeat: no-repeat; }
@@ -759,8 +1048,10 @@
     .HomePage .resp-tabs-list {
       width: 310px !important;
       height: 288px; }
-    .HomePage .tab-text span {
-      font-size: 16px; }
+    .HomePage .tab-text {
+      width: 180px; }
+      .HomePage .tab-text span {
+        font-size: 16px; }
     .HomePage .resp-vtabs li.resp-tab-active {
       border: none !important;
       background-color: #f2f2f2; }
