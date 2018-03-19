@@ -96,7 +96,12 @@
     .dropdown{
       display:none !important;
     }
-   .btn-demo button{
+   .btn-demo{
+  width:213px;
+  margin:0 auto;
+  margin-top:20px;
+  margin-bottom:5px;
+   button{
     width: 210px;
     height: 41px;
     font-family: Nunito;
@@ -110,6 +115,7 @@
     border: none;
     background-color: #00c6c6;
    }
+  }
     .checkbox{
       height:25px;
       margin-bottom:0px;
@@ -212,6 +218,10 @@ padding-top:0px;
   
 }
 .Groome-footer{
+  background-image:url("/assets/images/footer-mob.svg");
+  background-size:cover;
+  background-repeat:no-repeat; 
+
   .linkedin,.facebook,.twitter
   {
     width:18px;
@@ -417,6 +427,9 @@ span{
      .btn-demo {
        width:175px;
        margin:0 auto;
+  
+       margin-top:20px;
+       margin-bottom:20px;
 
      button{
       width: 175px;

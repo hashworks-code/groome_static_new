@@ -212,7 +212,7 @@ border:none !important;
 .details.row{
         width:100%;
         background-color: #00c6c6;
-        height: 120px;
+        height: 98px;
         margin-top:30px;
 
         .img-container{
@@ -221,10 +221,15 @@ border:none !important;
             display:flex;
             justify-content:space-between;
             align-items:center;
-        
+        p{
+            color:white;
+            font-size:16px;
+            text-align:center;
+        }
             img{
                 width:40px;
                 height:70px;
+                margin-top:0px;
             }
         }
 
@@ -642,8 +647,10 @@ img{
                 height: 110px;
                 .img-container{
                     width:388px;
-                    height:100px;
-                
+                    height:111px;
+                p{
+                    font-size:20px;
+                }
                     img{
                         width:57px;
                         height:60px;
