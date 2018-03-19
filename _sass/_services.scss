@@ -30,7 +30,7 @@
             .bannerHeading{
                 /* width: 260px; */
            height: 27px;
-           font-family:NotoSans;
+           font-family: NotoSans;
            font-size: 20px;
            font-weight: normal;
            font-style: normal;
@@ -80,7 +80,7 @@
             margin-top: 60px;
         }
         .sales-subheading{
-            font-family:NotoSans;
+            font-family: NotoSans;
                 font-size: 16px;
                 font-weight: normal;
                 font-style: normal;
@@ -159,7 +159,7 @@
     }  
     .tab-image{
         width: 100%;
-        height: 170px;
+        // height: 170px;
       }
     .img-mobile{
         display: block;
@@ -233,7 +233,7 @@
     }
     .banner-right1{
         .bannerHeading{
-        font-family:NotoSans;
+        font-family: NotoSans;
         font-size: 24px;
         font-weight: normal;
         font-style: normal;
@@ -257,7 +257,7 @@
   
     }
     .sales-subheading{
-        font-family:NotoSans;
+        font-family: NotoSans;
        font-size: 16px;
        font-weight: normal;
        font-style: normal;
@@ -286,7 +286,7 @@
             border-radius: 2px;
             border: solid 1px #00c6c6;
             line-height: 26px;
-            margin-right: 20px;
+            margin-right: 10px;
             cursor: pointer;
             color:black;
             text-decoration: none;
@@ -297,21 +297,24 @@
           span{
                   width: 63px;
                 height: 17px;
-                font-family:NotoSans;
-                font-size: 12px;
+                font-family: NotoSans;
+                font-size: 10px;
                         
             }
             *{
             //  margin-left: 8px;
             }
             .tb1{
-                width:115px;
+                width:132px;
             }
             .tb2{
-                        width: 122px;
-                    }
+                        width: 141px;
+                }
                     .tb3{
-                        width: 122px;
+                        width: 138px;
+                    }
+                    .tb4{
+                        width: 105px;
                     }
         }
       }
@@ -335,7 +338,7 @@
       }
       .tab-heading{
         display: block;
-            font-family:NotoSans;
+            font-family: NotoSans;
         font-size: 18px;
         font-weight: normal;
         font-style: normal;
@@ -424,7 +427,7 @@
     }
 }
 .sales-subheading{
-        font-family:NotoSans;
+        font-family: NotoSans;
         font-size: 20px;
         font-weight: normal;
         font-style: normal;
@@ -539,7 +542,7 @@
     
       .tab-heading{
         display: block;
-        font-family:NotoSans;
+        font-family: NotoSans;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
