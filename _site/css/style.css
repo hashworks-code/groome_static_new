@@ -1229,9 +1229,10 @@
       background-color: #f3f3f3;
       margin-top: 0px; }
     .HomePage .main-container {
-      height: 415px; }
+      height: 722px; }
     .HomePage .image-description {
       width: 950px;
+      height: 399px;
       margin: 0 auto;
       padding-top: 70px;
       height: 415px; }
@@ -1240,8 +1241,8 @@
         position: relative;
         padding-left: 58px !important; }
       .HomePage .image-description .img-first, .HomePage .image-description .img-next, .HomePage .image-description .img-last {
-        width: 450px;
-        height: 331px; }
+        width: 469px;
+        height: 399px; }
       .HomePage .image-description .img-next {
         height: 346px; }
       .HomePage .image-description .ipad {
@@ -1302,7 +1303,7 @@
       padding-top: 0px;
       margin-top: 20px;
       width: 100%;
-      height: 406px;
+      height: 722px;
       margin: 0 auto; }
       .HomePage .group .services-page {
         position: relative;
