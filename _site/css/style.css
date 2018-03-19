@@ -1308,24 +1308,24 @@
       margin: 0 auto; }
       .HomePage .group .services-page {
         position: relative;
-        height: 406px;
+        height: 722px;
         width: 950px;
         margin: 0 auto; }
         .HomePage .group .services-page .image-backside {
-          width: 481px;
-          height: 310px;
-          background-image: url("/assets/images/peoplemax.jpg"); }
+          width: 758px;
+          height: 547px;
+          background-image: url("/assets/images/people.png"); }
       .HomePage .group .info-contain {
         padding-left: 0px; }
         .HomePage .group .info-contain .service {
           font-size: 32px; }
       .HomePage .group .img-group {
-        padding-top: 120px; }
+        padding-top: 270px; }
       .HomePage .group .sub-info {
         font-family: Nunito;
         font-size: 16px;
         color: #4a4a4a;
-        width: 354px;
+        width: 310px;
         line-height: 1.5; }
       .HomePage .group .Know-more {
         display: block; }
