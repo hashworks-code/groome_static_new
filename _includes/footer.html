@@ -14,36 +14,36 @@
             </div>
             <form class="textbox-container">
                 <div class="form-group">
-                  <input type="text" class="form-control " id="email" placeholder="First Name" name="email">
+                  <input type="text" class="form-control " id="first" placeholder="First Name" name="first">
                 </div>
                 <div class="form-group pad-left">
-                  <input type="text" class="form-control data-info" id="pwd" placeholder="Last Name" name="pwd">
+                  <input type="text" class="form-control data-info" id="last" placeholder="Last Name" name="last">
                 </div>
                 <div class="form-group">
-                 <input type="text" class="form-control data-info" id="pwd" placeholder="Email Id" name="pwd">
+                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email">
                  </div>
                  <div class="form-group pad-left">
-                <input type="text" class="form-control data-info" id="pwd" max-length=10; placeholder="Phone Number" name="pwd">
+                <input type="text" class="form-control data-info" id="phone" max-length=10; placeholder="Phone Number" name="pwd">
                  </div>
                  <div class="form-group">
-                  <input type="text" class="form-control data-info" id="pwd" placeholder="Company Name" name="pwd">
+                  <input type="text" class="form-control data-info" id="company" placeholder="Company Name" name="company">
                    </div>
                    <div class="form-group mobile-text">
-                    <input type="text" class="form-control data-info" id="pwd" placeholder="Number of Employees" name="pwd">
+                    <input type="text" class="form-control data-info emp" id="emp" placeholder="Number of Employees" name="emp">
 
                      </div>
                      <div class="dropdown form-group pad-left" style="border-radius:4px">
-                      <select class="form-control" id="select" style="height:40px !important;background-position:94%">
+                      <select class="form-control emp" id="select" style="height:40px !important;background-position:94%">
                           <option value="" disabled selected>Number of Employees </option>
                           <option>Option Two </option>
                           <option>Option Three </option>
                       </select>
                   </div>
                      <div class="form-group mobile-text">
-                      <input type="text" class="form-control data-info" id="pwd" placeholder="Field of Work" name="pwd">
+                      <input type="text" class="form-control data-info" id="work" placeholder="Field of Work" name="pwd">
                        </div>
-                       <div class="last-dropdown  dropdown form-group" style="width:100% !important;border-radius:4px">
-                        <select class="form-control" id="select" style="height:40px !important;background-position:97%">
+                       <div class="last-dropdown  dropdown form-group  Work" style="width:100% !important;border-radius:4px">
+                        <select class="form-control  work" id="select" style="height:40px !important;background-position:97%">
                             <option value="" disabled selected>Field of Work</option>
                             <option>Option Two </option>
                             <option>Option Three </option>
@@ -51,10 +51,10 @@
                     </div>
                        <div class="checkbox-wrapper">
                 <div class="checkbox">
-                  <label><input type="checkbox" name="remember"><span>Products</span><label>
+                  <label><input type="checkbox"  class="product-check" name="remember" value="products"><span>Products</span><label>
                 </div>
                 <div class="checkbox">
-                  <label><input type="checkbox" name="remember"><span>service consultants</span></label>
+                  <label><input type="checkbox" class="service-check" name="remember" value="service-consultants"><span>service consultants</span></label>
                 </div>
                 </div>
                
@@ -136,14 +136,26 @@
     </div>
 
 </footer>
-<script src="/assets/js/accordion.js"></script>
-<script src="/assets/js/tab-accord.js"></script>
+<script src="/assets/js/accordion.js" async></script>
+<script src="/assets/js/tab-accord.js" async></script>
 
 <script>
 $(document).ready(function(){
 $('.submit-data').click(function(){
-  $('#ContactModal').modal('hide');
+  var first=$("#first").val();
+  var last=$("#last").val();
+  var email=$("#email").val();
+  var phone=$("#phone").val();
+  var company=$("#company").val();
+  var emp=$(".emp option:selected").val();
+  var work=$(".work option:selected").val();
+
+console.log(first,last,email,phone,company,emp,work);
+if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
+{ 
+$('#ContactModal').modal('hide');
 $('#ConfirmModal').modal('show');
+}
 
 })
 
