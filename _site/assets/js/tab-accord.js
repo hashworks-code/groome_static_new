@@ -47,11 +47,11 @@ if(tabs.is(':visible')) {
     item.removeClass('active');
     $(this).addClass('active');
     $(target).addClass('active');
-    $(".tabs").find("a").css({"background-color":"white","color":"#4a4a4a"});
-    $(".tabs").find(".active").css({"background-color":"#00c6c6","color":"#ffffff"});
+    $(".tabs").find("a").css({"background-color":"white","color":"#4a4a4a"}).find(".iconsvg").attr({"fill":"none","stroke":"#4A4A4A"});
+    $(".tabs").find(".active").css({"background-color":"#00c6c6","color":"#ffffff"}).find(".iconsvg").attr({"fill":"#ffffff","stroke":"#ffffff"});
   });
-  $(".tabs").find("a").css({"background-color":"white","color":"#4a4a4a"});
-  $(".tabs").find(".active").css({"background-color":"#00c6c6","color":"#ffffff"});
+  $(".tabs").find("a").css({"background-color":"white","color":"#4a4a4a"}).find(".iconsvg").attr({"fill":"none","stroke":"#4A4A4A"});
+  $(".tabs").find(".active").css({"background-color":"#00c6c6","color":"#ffffff"}).find(".iconsvg").attr({"fill":"#ffffff","stroke":"#ffffff"});
 
 } else {
   
@@ -75,10 +75,10 @@ if ($(window).width() < 768) {
   $("#accr-text-4").before($("#accr-img-4"));
 }
 else{
-$("#accr-img-1").before($("#accr-text-1"));
-$("#accr-img-2").before($("#accr-text-2"));
-$("#accr-img-3").before($("#accr-text-3"));
-$("#accr-img-4").before($("#accr-text-4"));
+  $("#accr-img-1").before($("#accr-text-1"));
+  $("#accr-img-2").before($("#accr-text-2"));
+  $("#accr-img-3").before($("#accr-text-3"));
+  $("#accr-img-4").before($("#accr-text-4"));
  
 }
 }

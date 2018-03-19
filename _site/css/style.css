@@ -1229,7 +1229,7 @@
       background-color: #f3f3f3;
       margin-top: 0px; }
     .HomePage .main-container {
-      height: 722px; }
+      height: 722px !important; }
     .HomePage .image-description {
       width: 950px;
       height: 399px;
@@ -1253,8 +1253,8 @@
           text-align: left; }
       .HomePage .image-description .mypod {
         float: left;
-        width: 450px;
-        height: 330px; }
+        width: 469px;
+        height: 399px; }
     .HomePage .Know-more.ipad {
       margin-top: 0px; }
     .HomePage .Know-more {
@@ -1274,7 +1274,7 @@
           padding-left: 5px; }
     .HomePage img {
       width: 345px;
-      height: 320px;
+      height: 399px;
       margin-top: 0px; }
     .HomePage .info {
       font-family: Nunito;

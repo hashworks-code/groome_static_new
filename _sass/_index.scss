@@ -1103,7 +1103,7 @@ img{
                 margin-top:0px;                 
              }
              .main-container{
-                 height:722px;
+                 height:722px !important;
              }
         .image-description{ 
             width:950px;
@@ -1115,7 +1115,7 @@ img{
             }
             .img-first,.img-next,.img-last{
                 width:469px;
-                height:399px
+                height:399px;
             }
             .img-next{
                 height:346px;
@@ -1134,8 +1134,8 @@ img{
         }
         .mypod{
             float:left;
-            width:450px;
-            height:330px;
+            width:469px;
+            height:399px;
             
         }
         }
@@ -1165,7 +1165,7 @@ img{
         
         img{
             width: 345px;
-            height: 320px;
+            height: 399px;
            margin-top:0px;
         }
         .info{
