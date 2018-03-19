@@ -29,7 +29,7 @@ a {
 
 Modules - reusable parts of our design
 
--------------------------------- */'
+-------------------------------- */
 
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -69,6 +69,10 @@ html, body {
     height: 80px;
     background:white;
     box-shadow: none;
+  }
+  .cd-secondary-nav a:hover{
+    border-bottom:2px solid#37b8ae;
+
   }
   .cd-secondary-nav li :last-child button{
     width:126px !important;
@@ -172,6 +176,7 @@ height:50px;
   font-family: Nunito;
   font-size: 14px;
   color: #4a4a4a;
+  text-decoration: none !important;
 
 
 }
@@ -202,6 +207,10 @@ height:50px;
  font-family: Lato;
   font-size: 16px;
 
+}
+.cd-secondary-nav li :last-child button{
+  width:169px !important;
+  height:41px !important;
 }
 .cd-logo img{
 width:105px;
