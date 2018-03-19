@@ -322,7 +322,7 @@
 <!-- Quote 1 -->
 <div class="item active">
   <div class="row">
-    <div class=" col-xs-12 col-sm-4 nopadding">
+    <div class=" col-xs-12 col-sm-4 nopadding slider-image">
        <img src="/assets/images/mobile.jpg">
       </div>
       <div class=" col-xs-12 col-sm-8 nopadding pad-setter">
@@ -337,7 +337,7 @@
 <!-- Quote 2 -->
 <div class="item">
   <div class="row">
-    <div class=" col-xs-12 col-sm-4 nopadding">
+    <div class=" col-xs-12 col-sm-4 nopadding slider-image">
        <img src="/assets/images/mobile.jpg">
       </div>
       <div class=" col-xs-12 col-sm-8 nopadding pad-setter">
@@ -352,7 +352,7 @@
 <!-- Quote 3 -->
 <div class="item ">
   <div class="row">
-    <div class=" col-xs-12 col-sm-4 nopadding">
+    <div class=" col-xs-12 col-sm-4 nopadding slider-image">
        <img src="/assets/images/mobile.jpg">
       </div>
       <div class=" col-xs-12 col-sm-8 nopadding pad-setter">
@@ -435,7 +435,7 @@ fit: true
                  <input type="text" class="form-control data-info" id="pwd" placeholder="Email Id" name="pwd">
                  </div>
                  <div class="form-group pad-left">
-                <input type="number" class="form-control data-info" id="pwd" placeholder="Phone Number" name="pwd">
+                <input type="text" class="form-control data-info" id="pwd" max-length=10; placeholder="Phone Number" name="pwd">
                  </div>
                  <div class="form-group">
                   <input type="text" class="form-control data-info" id="pwd" placeholder="Company Name" name="pwd">
@@ -445,7 +445,7 @@ fit: true
 
                      </div>
                      <div class="dropdown form-group pad-left" style="border-radius:4px">
-                      <select class="form-control" id="select" style="height:40px !important">
+                      <select class="form-control" id="select" style="height:40px !important;background-position:94%">
                           <option value="" disabled selected>Number of Employees </option>
                           <option>Option Two </option>
                           <option>Option Three </option>
@@ -455,7 +455,7 @@ fit: true
                       <input type="text" class="form-control data-info" id="pwd" placeholder="Field of Work" name="pwd">
                        </div>
                        <div class="last-dropdown  dropdown form-group" style="width:100% !important;border-radius:4px">
-                        <select class="form-control" id="select" style="height:40px !important">
+                        <select class="form-control" id="select" style="height:40px !important;background-position:97%">
                             <option value="" disabled selected>Field of Work</option>
                             <option>Option Two </option>
                             <option>Option Three </option>
@@ -527,10 +527,10 @@ fit: true
      </div>
             
     <div class="footer-links col-xs-12 col-sm-6">
-            <a  href="#">Services</a>
-            <a href="#">Recruitment</a>     
-            <a   href="#">Operation</a>
-            <a href="#">Sales</a>  
+            <a  href="/services">Services</a>
+            <a href="/recruitment">Recruitment</a>     
+            <a   href="/operation">Operation</a>
+            <a href="/sales">Sales</a>  
      </div>
      <div class="col-xs-12 Brand nopadding">
 
@@ -548,6 +548,8 @@ fit: true
 
 </footer>
 <script src="/assets/js/accordion.js"></script>
+<script src="/assets/js/tab-accord.js"></script>
+
 <script>
 $(document).ready(function(){
 $('.submit-data').click(function(){

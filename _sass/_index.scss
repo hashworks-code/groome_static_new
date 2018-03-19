@@ -301,7 +301,7 @@ text-align:center;
 
 img{
    width:260px;
-   height:150px; 
+//    height:150px; 
    margin-top:26px;
 }
 .info{
@@ -365,6 +365,8 @@ img{
      }
      .img-group{
          height:177px;
+         position: relative;
+         z-index:100;
 
      }
      p{
@@ -454,6 +456,9 @@ img{
             }
         }
                 .container{
+                    .slider-image{
+                        padding-top:25px !important;
+                    }
                     .row{
                         width:100%;
                         margin-top:30px;
@@ -878,6 +883,10 @@ img{
         height:618px;
     }
                 .container{
+                    padding-bottom:64px;
+                    .slider-image{
+                        padding-top:70px !important;
+                    }
                     .row{
                         width:100%;
                         margin-top:30px;
@@ -898,6 +907,7 @@ img{
                     }
                     #quote-carousel {
                         padding: 0 10px 30px 10px;
+                        padding-bottom:64px;
                         margin-top: 30px;
                         text-align:center;
                       }
@@ -992,7 +1002,7 @@ img{
 
                           button{
                             width: 169px;
-                            height: 19px;
+                            height: 41px;
                             font-family: Nunito;
                             font-size: 14px;
                             padding:11px 35px;
