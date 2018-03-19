@@ -648,6 +648,7 @@
             font-family: Nunito;
             font-size: 14px;
             padding: 11px 35px;
+            border-radius: 4px;
             text-align: center;
             color: #ffffff;
             font-weight: bold;
@@ -1312,7 +1313,8 @@
         margin: 0 auto; }
         .HomePage .group .services-page .image-backside {
           width: 481px;
-          height: 310px; }
+          height: 310px;
+          background-image: url("/assets/images/peoplemax.jpg"); }
       .HomePage .group .info-contain {
         padding-left: 0px; }
         .HomePage .group .info-contain .service {

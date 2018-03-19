@@ -197,6 +197,7 @@ border:none !important;
                     font-family: Nunito;
                     font-size: 14px;
                     padding:11px 35px;
+                    border-radius:4px;
                     text-align: center;
                     color: #ffffff;
                     font-weight:bold;
@@ -1212,6 +1213,8 @@ img{
                 .image-backside{
                     width:481px;
                     height:310px;
+                    background-image: url('/assets/images/peoplemax.jpg');
+
                 }
 
             }
