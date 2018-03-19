@@ -207,6 +207,9 @@ height:50px;
 width:105px;
 height:27px;
 }
+cd-secondary-nav li{
+  margin-left:4.5em;
+}
 }
 
 .cd-primary-nav-trigger {
