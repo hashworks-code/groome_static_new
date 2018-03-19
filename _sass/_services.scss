@@ -125,10 +125,7 @@
         padding-left: 15px;
         padding-right: 15px;
       min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
-      &::before {
-        // content: attr(data-title);
-        // Instead of polluting the HTML with a duplicate set of tabs, we get the accordion using the data-title attribute.
-    }
+     
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
         display: none;
@@ -301,9 +298,7 @@
                 font-size: 10px;
                         
             }
-            *{
-            //  margin-left: 8px;
-            }
+           
             .tb1{
                 width:132px;
             }
@@ -462,10 +457,7 @@
         padding-left: 0px;
         padding-right: 0px;
       min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
-      &::before {
-        // content: attr(data-title);
-        // Instead of polluting the HTML with a duplicate set of tabs, we get the accordion using the data-title attribute.
-    }
+     
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
         display: none;
