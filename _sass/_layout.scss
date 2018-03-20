@@ -113,7 +113,7 @@
     font-weight: bold;
     outline: none;
     border: none;
-    background-color: #00c6c6;
+    background-color: grey;
    }
   }
     .checkbox{
@@ -442,7 +442,6 @@ span{
       font-weight: bold;
       outline: none;
       border: none;
-      background-color: #00c6c6;
      }
     }
       .checkbox{
@@ -713,6 +712,7 @@ span{
     top: 6px;
   } 
   .Groome-footer{
+    height:353px !important;
     .footer-btn{
 button{
   width: 243px;
@@ -733,6 +733,7 @@ height:26px;
       height: 66px;
       font-family: NotoSans;
       font-size: 24px;
+      margin-top:50px;
       }
     }
       
