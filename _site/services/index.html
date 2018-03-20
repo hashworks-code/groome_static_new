@@ -527,7 +527,29 @@
 
 <script>
 $(document).ready(function(){
-  
+  if(window.location.pathname.includes("sales"))
+{
+  $(".cd-secondary-nav a").removeClass("activeMainTab");
+  $(".cd-secondary-nav a[href='/sales']").addClass("activeMainTab");
+}
+else if(window.location.pathname.includes("operation"))
+{
+  $(".cd-secondary-nav a").removeClass("activeMainTab");
+  $(".cd-secondary-nav a[href='/operation']").addClass("activeMainTab");
+}
+else if(window.location.pathname.includes("recruitment"))
+{
+  $(".cd-secondary-nav a").removeClass("activeMainTab");
+  $(".cd-secondary-nav a[href='/recruitment']").addClass("activeMainTab");
+}
+else if(window.location.pathname.includes("services"))
+{
+  $(".cd-secondary-nav a").removeClass("activeMainTab");
+  $(".cd-secondary-nav a[href='/services']").addClass("activeMainTab");
+}
+
+
+
 
 
 $('.submit-data').click(function(){
