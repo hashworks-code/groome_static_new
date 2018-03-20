@@ -6,6 +6,10 @@
      height:100%;
   }
 
+  .activeMainTab{
+    border-bottom: 2px solid#37b8ae;
+  }
+
 
 #ConfirmModal{
   .close{
@@ -605,6 +609,12 @@ span{
 }
 
 @media screen  and (min-width:1024px){
+  select:required:invalid {
+    color: gray;
+  }
+  option {
+    color: black;
+  }
 
   #ConfirmModal{
     .close{

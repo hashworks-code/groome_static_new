@@ -54,6 +54,9 @@
     padding: 0;
     height: 100%; }
 
+  .activeMainTab {
+    border-bottom: 2px solid #37b8ae; }
+
   #ConfirmModal .close {
     background-image: url("/assets/images/close-icon.svg");
     background-repeat: no-repeat;
@@ -436,6 +439,12 @@
       .Groome-footer .footer-links a {
         font-size: 14px; } }
 @media screen and (min-width: 1024px) {
+  select:required:invalid {
+    color: gray; }
+
+  option {
+    color: black; }
+
   #ConfirmModal .close {
     background-image: url("/assets/images/close-icon.svg");
     background-repeat: no-repeat;
