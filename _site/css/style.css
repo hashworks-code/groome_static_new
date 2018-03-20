@@ -118,18 +118,24 @@
       display: block; }
     #ContactModal .modal-dialog .dropdown {
       display: none !important; }
-    #ContactModal .modal-dialog .btn-demo button {
-      width: 210px;
-      height: 41px;
-      font-family: Nunito;
-      font-size: 14px;
-      padding: 11px 35px;
-      text-align: center;
-      color: #ffffff;
-      font-weight: bold;
-      outline: none;
-      border: none;
-      background-color: #00c6c6; }
+    #ContactModal .modal-dialog .btn-demo {
+      width: 213px;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 5px; }
+      #ContactModal .modal-dialog .btn-demo button {
+        width: 210px;
+        height: 41px;
+        font-family: Nunito;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 11px 35px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        background-color: grey; }
     #ContactModal .modal-dialog .checkbox {
       height: 25px;
       margin-bottom: 0px; }
@@ -190,6 +196,9 @@
     background: #f8f9f9 !important; }
 
   .Groome-footer {
+    background-image: url("/assets/images/footer-mob.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #f3f3f3;
     position: relative;
     bottom: 0;
@@ -322,7 +331,9 @@
         background-position: center right; }
     #ContactModal .modal-dialog .btn-demo {
       width: 175px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px; }
       #ContactModal .modal-dialog .btn-demo button {
         width: 175px;
         height: 41px;
@@ -333,8 +344,7 @@
         color: #ffffff;
         font-weight: bold;
         outline: none;
-        border: none;
-        background-color: #00c6c6; }
+        border: none; }
     #ContactModal .modal-dialog .checkbox {
       height: 25px;
       margin-bottom: 0px;
@@ -483,29 +493,32 @@
     height: 26px;
     top: 6px; }
 
-  .Groome-footer .footer-btn button {
-    width: 243px;
-    height: 41px; }
-  .Groome-footer .groom-img img {
-    width: 105px;
-    height: 26px; }
-  .Groome-footer .content p {
-    width: 343px;
-    height: 66px;
-    font-family: NotoSans;
-    font-size: 24px; }
-  .Groome-footer .footer-links {
-    margin-top: 50px; }
-    .Groome-footer .footer-links a {
-      font-size: 18px;
-      font-family: Nunito; }
-  .Groome-footer .Brand {
-    padding-bottom: 30px;
-    border-top: 1px solid #95989a; }
-    .Groome-footer .Brand a {
-      padding-left: 18px; }
-    .Groome-footer .Brand p {
-      font-size: 18px; } }
+  .Groome-footer {
+    height: 353px !important; }
+    .Groome-footer .footer-btn button {
+      width: 243px;
+      height: 41px; }
+    .Groome-footer .groom-img img {
+      width: 105px;
+      height: 26px; }
+    .Groome-footer .content p {
+      width: 343px;
+      height: 66px;
+      font-family: NotoSans;
+      font-size: 24px;
+      margin-top: 50px; }
+    .Groome-footer .footer-links {
+      margin-top: 50px; }
+      .Groome-footer .footer-links a {
+        font-size: 18px;
+        font-family: Nunito; }
+    .Groome-footer .Brand {
+      padding-bottom: 30px;
+      border-top: 1px solid #95989a; }
+      .Groome-footer .Brand a {
+        padding-left: 18px; }
+      .Groome-footer .Brand p {
+        font-size: 18px; } }
 @media screen and (max-width: 767px) {
   .image-description {
     max-width: 460px; } }
@@ -658,7 +671,7 @@
     .HomePage .details.row {
       width: 100%;
       background-color: #00c6c6;
-      height: 120px;
+      height: 98px;
       margin-top: 30px; }
       .HomePage .details.row .img-container {
         width: 290px;
@@ -666,9 +679,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center; }
+        .HomePage .details.row .img-container p {
+          color: white;
+          font-size: 16px;
+          text-align: center; }
         .HomePage .details.row .img-container img {
           width: 40px;
-          height: 70px; }
+          height: 70px;
+          margin-top: 0px; }
     .HomePage .Accordion-title {
       padding-bottom: 20px;
       padding-top: 30px; }
@@ -899,13 +917,13 @@
       margin: 0 auto; }
       .HomePage .banner-btn .row a {
         display: inline-block;
-        width: 210px;
+        width: 163px;
         height: 41px;
         border-radius: 4px;
         background-color: #00c6c6;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
         .HomePage .banner-btn .row a button {
-          width: 210px;
+          width: 163px;
           height: 19px;
           font-family: Nunito;
           font-size: 14px;
@@ -921,7 +939,9 @@
       height: 110px; }
       .HomePage .details.row .img-container {
         width: 388px;
-        height: 100px; }
+        height: 111px; }
+        .HomePage .details.row .img-container p {
+          font-size: 20px; }
         .HomePage .details.row .img-container img {
           width: 57px;
           height: 60px; }
@@ -1308,24 +1328,24 @@
       margin: 0 auto; }
       .HomePage .group .services-page {
         position: relative;
-        height: 406px;
+        height: 722px;
         width: 950px;
         margin: 0 auto; }
         .HomePage .group .services-page .image-backside {
-          width: 481px;
-          height: 310px;
-          background-image: url("/assets/images/peoplemax.jpg"); }
+          width: 758px;
+          height: 547px;
+          background-image: url("/assets/images/people.png"); }
       .HomePage .group .info-contain {
         padding-left: 0px; }
         .HomePage .group .info-contain .service {
           font-size: 32px; }
       .HomePage .group .img-group {
-        padding-top: 120px; }
+        padding-top: 270px; }
       .HomePage .group .sub-info {
         font-family: Nunito;
         font-size: 16px;
         color: #4a4a4a;
-        width: 354px;
+        width: 310px;
         line-height: 1.5; }
       .HomePage .group .Know-more {
         display: block; }

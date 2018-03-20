@@ -397,7 +397,7 @@
                     </div>
                        <div class="checkbox-wrapper">
                 <div class="checkbox">
-                  <label><input type="checkbox"  class="product-check" name="remember" value="products"><span>Products</span><label>
+                  <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="remember" value="products"><span>Products</span><label>
                 </div>
                 <div class="checkbox">
                   <label><input type="checkbox" class="service-check" name="remember" value="service-consultants"><span>service consultants</span></label>
@@ -406,8 +406,8 @@
                
               </form>
               <div class="btn-demo">
-                <a class="submit-data">
-                  <button>Request Demo</button>
+                <a>
+                  <button class="submit-data" disabled="disabled">Demo</button>
                 </a>
 
               </div>
@@ -501,15 +501,33 @@ if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !=
 { 
 $('#ContactModal').modal('hide');
 $('#ConfirmModal').modal('show');
+$('.textbox-container')[0].reset();
+
 }
 
 })
 
+$('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
+    if(allFilled()) $('.submit-data').removeAttr('disabled');
+});
+
+function allFilled() {
+  alert("ADa");
+    var filled = true;
+    $('body input').each(function() {
+        if($(this).val() == '') filled = false;
+    });
+    return filled;
+}
+
 })
 
 
 
 
+</script>
+<script>
+  
 </script>
 </body>
 
