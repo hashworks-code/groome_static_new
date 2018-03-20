@@ -53,7 +53,10 @@ html, body {
 }
 
 .cd-header {
-  position: absolute;
+  -webkit-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  position: fixed;
   top: 0;
   left: 0;
   background:white;
@@ -68,7 +71,6 @@ html, body {
   .cd-header {
     height: 80px;
     background:white;
-    box-shadow: none;
   }
   .cd-secondary-nav a:hover{
     border-bottom:2px solid#37b8ae;
