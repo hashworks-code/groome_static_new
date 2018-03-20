@@ -6,7 +6,8 @@
             background-image: url('../assets/images/recruitment/recruitment.jpg');
             width: 100%;
             height: 347px;
-            background-size: 100% 100%;
+            background-size: cover;
+            background-position: center center;
             background-repeat: no-repeat;
             .row{
                 width:87%;
@@ -282,7 +283,7 @@
           display: inline-block;
           a {
             display: block;
-            height: 32px;
+            padding: 2px;
             border-radius: 2px;
             border: solid 1px #00c6c6;
             line-height: 26px;
@@ -294,11 +295,9 @@
          
           }
           span{
-                  width: 63px;
-                height: 17px;
                 font-family: NotoSans;
                 font-size: 12px;
-                        
+                 margin-right: 2px;       
             }
             *{
             //  margin-left: 8px;
