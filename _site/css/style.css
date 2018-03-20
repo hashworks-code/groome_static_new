@@ -119,9 +119,12 @@
     width: 310px; }
     #ContactModal .modal-dialog .mobile-text {
       display: block; }
+    #ContactModal .modal-dialog .work {
+      background-position: 97% !important; }
+    #ContactModal .modal-dialog .emp {
+      background-position: 97% !important; }
     #ContactModal .modal-dialog .emp, #ContactModal .modal-dialog .work {
       background: url("/assets/images/arrowdown.svg") no-repeat 60px;
-      background-position: center right;
       background-color: #f2f2f2;
       border: solid 1px #95989a;
       margin-top: 10px;
@@ -324,6 +327,10 @@
     transform: translate(-50%, -50%);
     margin: 0px;
     width: 578px; }
+    #ContactModal .modal-dialog .work {
+      background-position: 97% !important; }
+    #ContactModal .modal-dialog .emp {
+      background-position: 94% !important; }
     #ContactModal .modal-dialog .emp, #ContactModal .modal-dialog .work {
       height: 40px; }
     #ContactModal .modal-dialog .btn-demo {

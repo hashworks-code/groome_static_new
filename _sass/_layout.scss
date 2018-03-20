@@ -95,9 +95,15 @@
     .mobile-text{
       display:block;
     }
+    .work{
+      background-position:97% !important;
+    }
+    .emp{
+      background-position:97% !important;
+    }
     .emp,.work{
       background: url("/assets/images/arrowdown.svg") no-repeat 60px ;
-      background-position:center right; 
+     
       background-color: #f2f2f2;
     border: solid 1px #95989a;
     margin-top:10px;
@@ -416,7 +422,12 @@ span{
       margin:0px;
       
       width: 578px;
-
+      .work{
+        background-position:97% !important;
+      }
+      .emp{
+        background-position:94% !important;
+      }
       .emp,.work{
         height:40px;
 
