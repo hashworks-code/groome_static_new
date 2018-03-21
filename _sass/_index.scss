@@ -240,6 +240,9 @@ border:none !important;
     .Accordion-title{
 padding-bottom:20px;
 padding-top:30px; 
+.customer-centric{
+    display:none;
+}
         .title{
             width: 242px;
             font-family: NotoSans;
@@ -674,6 +677,16 @@ img{
             .Accordion-title{
                 padding-top:64px;
                 padding-bottom:64px;
+                .customer-centric{
+                    padding-top:18px;
+                    display:block;
+                    width: 595px;
+                    font-family: Nunito;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #8c90a7;
+                    margin:0 auto;
+                }
                 .title{
                     width: 414px;
                     font-size: 24px;
@@ -1056,7 +1069,11 @@ img{
             }
             .Accordion-title{
                 padding-top:52px;
-                padding-bottom:105px;
+                padding-bottom:70px;
+                .customer-centric{
+                    width:777px;
+                    font-size:18px;
+                }
                 .title{
                     font-size: 24px;
                     text-align:center;

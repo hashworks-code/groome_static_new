@@ -697,6 +697,8 @@
     .HomePage .Accordion-title {
       padding-bottom: 20px;
       padding-top: 30px; }
+      .HomePage .Accordion-title .customer-centric {
+        display: none; }
       .HomePage .Accordion-title .title {
         width: 242px;
         font-family: NotoSans;
@@ -963,6 +965,15 @@
     .HomePage .Accordion-title {
       padding-top: 64px;
       padding-bottom: 64px; }
+      .HomePage .Accordion-title .customer-centric {
+        padding-top: 18px;
+        display: block;
+        width: 595px;
+        font-family: Nunito;
+        font-size: 14px;
+        text-align: center;
+        color: #8c90a7;
+        margin: 0 auto; }
       .HomePage .Accordion-title .title {
         width: 414px;
         font-size: 24px;
@@ -1215,7 +1226,10 @@
           height: 88px; }
     .HomePage .Accordion-title {
       padding-top: 52px;
-      padding-bottom: 105px; }
+      padding-bottom: 70px; }
+      .HomePage .Accordion-title .customer-centric {
+        width: 777px;
+        font-size: 18px; }
       .HomePage .Accordion-title .title {
         font-size: 24px;
         text-align: center;
