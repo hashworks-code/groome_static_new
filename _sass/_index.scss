@@ -5,6 +5,9 @@
     }
 }
 @media screen  and (min-width:320px){
+    .tab-one{
+     display:none;
+    }
     h2.resp-accordion:first-child{
         border-top:none !important;
     }
@@ -528,9 +531,19 @@ img{
                 .main-page{
                     height:370px;
                 }
+                .tab-one{
+                    width: 24px;
+                height: 24px;
+                background-color: #e0e0e0;
+                
+                border-radius: 50%;
+                text-align: center;
+                line-height: 1.9;
+                display:inline-block;
+                }
                 .tab-text{
-                    display:inline-block;
-
+                   
+                    color: #8c90a7;
                     font-size:12px;
                     padding-left:20px;
 
@@ -867,9 +880,9 @@ img{
             }
         }
         .resp-tabs-container{
-            width:307px !important;
+            width:409px !important;
             border:none !important;
-            margin-left:172px;
+            margin-left:74px;
         }
         .resp-tabs-list{
             width:310px !important;
@@ -880,6 +893,9 @@ img{
             span
             {
             font-size:16px;
+            color: #8c90a7;
+            font-weight:normal;
+
             }
         }
           .resp-vtabs li.resp-tab-active {

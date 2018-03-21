@@ -527,6 +527,9 @@
   .image-description {
     max-width: 460px; } }
 @media screen and (min-width: 320px) {
+  .tab-one {
+    display: none; }
+
   h2.resp-accordion:first-child {
     border-top: none !important; }
 
@@ -859,8 +862,16 @@
         font-style: italic; }
     .HomePage .main-page {
       height: 370px; }
+    .HomePage .tab-one {
+      width: 24px;
+      height: 24px;
+      background-color: #e0e0e0;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 1.9;
+      display: inline-block; }
     .HomePage .tab-text {
-      display: inline-block;
+      color: #8c90a7;
       font-size: 12px;
       padding-left: 20px;
       width: 140px; }
@@ -1079,16 +1090,18 @@
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
       font-size: 15px; }
     .HomePage .resp-tabs-container {
-      width: 307px !important;
+      width: 409px !important;
       border: none !important;
-      margin-left: 172px; }
+      margin-left: 74px; }
     .HomePage .resp-tabs-list {
       width: 310px !important;
       height: 288px; }
     .HomePage .tab-text {
       width: 180px; }
       .HomePage .tab-text span {
-        font-size: 16px; }
+        font-size: 16px;
+        color: #8c90a7;
+        font-weight: normal; }
     .HomePage .resp-vtabs li.resp-tab-active {
       border: none !important;
       background-color: #f2f2f2; }

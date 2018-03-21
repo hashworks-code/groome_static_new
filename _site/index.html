@@ -168,13 +168,13 @@
 
 <div id="verticalTab">
     <ul class="resp-tabs-list">
-    <li><div  style="display:inline-block"><span class="tab-oppur icon-size"></span></div><div class="tab-text"><span>Lurk opportunity</span></div></li>
-    <li><div style="display:inline-block"><span class="tab-recruit icon-size"></span></div><div class="tab-text"><span>Recruiter Productivity & Queue in Hiring</span></div></li>
-    <li><div style="display:inline-block"><span class="tab-market icon-size"></span></div><div class="tab-text"><span>Market Variability</span></div></li>
-    <li><div style="display:inline-block"><span class="tab-absence icon-size"></span></div><div class="tab-text"><span>Absense Of Cadence</span></div></li>
+    <li ><div class="tab-one number-circle">1</div><div class="tab-text"><span class="font-active">Lurk opportunity</span></div></li>
+    <li><div class="tab-one"> 2</div><div class="tab-text"><span>Recruiter Productivity & Queue in Hiring</span></div></li>
+    <li><div  class="tab-one" >3</div><div class="tab-text"><span>Market Variability</span></div></li>
+    <li><div class="tab-one">4</div><div class="tab-text"><span>Absense Of Cadence</span></div></li>
     </ul>
     <div class="resp-tabs-container">
-    <div>
+    <div >
 
       <img class="tab-data" src="/assets/images/shakehand.png"/>
     <p> Sorting out which leads have good potential and which don’t, makes a world of difference to your business.</p>
@@ -398,7 +398,14 @@ width: 'auto',
 fit: true
 });
 
+$("#verticalTab  ul >li").click(function(){
+$(this).children('div.tab-one').addClass('number-circle');
+$(this).children().find('span').addClass('font-active');
 
+$(this).siblings().children('div.tab-one').removeClass('number-circle');
+$(this).siblings().children().find('span').removeClass('font-active');
+
+})
   
 })
    
@@ -586,7 +593,7 @@ else if(window.location.pathname.includes("services"))
 
 
 
-$('.submit-data').click(function(){
+$('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
   var first=$("#first").val();
   var last=$("#last").val();
   var email=$("#email").val();
@@ -598,26 +605,29 @@ $('.submit-data').click(function(){
 console.log(first,last,email,phone,company,emp,work);
 if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
 { 
-$('#ContactModal').modal('hide');
-$('#ConfirmModal').modal('show');
-$('.textbox-container')[0].reset();
 
+$('.submit-data').removeAttr('disabled');
+$('.submit-data').css('background-color','cyan');
 }
 
 })
+$('.submit-data').click(function(){
+  $('#ContactModal').modal('hide');
+$('#ConfirmModal').modal('show');
+$('.textbox-container')[0].reset();
+})
+// $('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
+//     if(allFilled()) $('.submit-data').removeAttr('disabled');
+// });
 
-$('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
-    if(allFilled()) $('.submit-data').removeAttr('disabled');
-});
-
-function allFilled() {
-  alert("ADa");
-    var filled = true;
-    $('body input').each(function() {
-        if($(this).val() == '') filled = false;
-    });
-    return filled;
-}
+// function allFilled() {
+//   alert("ADa");
+//     var filled = true;
+//     $('body input').each(function() {
+//         if($(this).val() == '') filled = false;
+//     });
+//     return filled;
+// }
 
 })
 

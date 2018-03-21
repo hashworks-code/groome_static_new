@@ -511,7 +511,7 @@ else if(window.location.pathname.includes("services"))
 
 
 
-$('.submit-data').click(function(){
+$('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
   var first=$("#first").val();
   var last=$("#last").val();
   var email=$("#email").val();
@@ -523,26 +523,29 @@ $('.submit-data').click(function(){
 console.log(first,last,email,phone,company,emp,work);
 if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
 { 
-$('#ContactModal').modal('hide');
-$('#ConfirmModal').modal('show');
-$('.textbox-container')[0].reset();
 
+$('.submit-data').removeAttr('disabled');
+$('.submit-data').css('background-color','cyan');
 }
 
 })
+$('.submit-data').click(function(){
+  $('#ContactModal').modal('hide');
+$('#ConfirmModal').modal('show');
+$('.textbox-container')[0].reset();
+})
+// $('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
+//     if(allFilled()) $('.submit-data').removeAttr('disabled');
+// });
 
-$('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
-    if(allFilled()) $('.submit-data').removeAttr('disabled');
-});
-
-function allFilled() {
-  alert("ADa");
-    var filled = true;
-    $('body input').each(function() {
-        if($(this).val() == '') filled = false;
-    });
-    return filled;
-}
+// function allFilled() {
+//   alert("ADa");
+//     var filled = true;
+//     $('body input').each(function() {
+//         if($(this).val() == '') filled = false;
+//     });
+//     return filled;
+// }
 
 })
 
