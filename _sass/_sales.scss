@@ -155,14 +155,12 @@
          margin: 0 auto;
       }
     }  
-    .tab-image{
-        width: 100%;
-        // height: 170px;
-      }
-    .img-mobile{
+    
+    .tab-image-mob{
         display: block;
+        width: 100%;
       }
-      .img-desktop{
+      .tab-image-desk{
         display: none;
     }
     .accor-icon-active{
@@ -187,36 +185,46 @@
       }
     
       .tab-heading{
-        display: none;
+        // display: none;
+                 font-family:NotoSans;
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                margin-top: 40px;
+                color:#000000;
+        
       }
-      .tab-info-title{
-        font-family: Nunito;
-        font-size: 12px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: left;
-        color: #4a4a4a;
-      }
-      .tab-info-content{
-        font-family: Nunito;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.83;
-        letter-spacing: normal;
-        text-align: left;
-        color: #4a4a4a;
-        margin-top: 18px;
-      }
-      .tab-info{
-          margin-top: 30px !important;
-          margin-left: 0px;
-          margin-right: 0px;
-      }
+            .tab-info-title{
+                font-family: Nunito;
+                font-size: 12px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4a4a4a;
+            }
+            .tab-info-content{
+                font-family: Nunito;
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.83;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4a4a4a;
+                margin-top: 18px;
+            }
+            .tab-info{
+                margin-top: 30px !important;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
     
     }  
     }
@@ -229,6 +237,10 @@
     .banner-left1{
         display: block;
     }
+    .maincontent{
+      overflow: hidden;
+    }
+
     .banner-right1{
         .bannerHeading{
         font-family:NotoSans;
@@ -288,22 +300,37 @@
             color:black;
             text-decoration: none;
             text-align: center;
+
+            &:hover{
+                background-color: #00c6c6 !important;
+                color:white !important;
+            }
+            &:hover .iconsvg{
+               fill:#ffffff;
+               stroke:#ffffff;
+            }
           }
+          
+
           span{
                 font-family:NotoSans;
                 font-size: 12px;
                 margin-right: 2px;     
             }
+            .icon{
+                position: relative; 
+                top:2px;
+            }
             
             .tb1{
-                width:89px;
+                width:100px;
             }
             .tb2{
-                        width: 122px;
-                    }
-                    .tb3{
-                        width: 122px;
-                    }
+                 width: 155px;
+            }
+             .tb3{
+                 width: 130px;
+             }
         }
       }
       .tabButtonsGroup{
@@ -355,27 +382,34 @@
               margin-top: 20px;
           }
       }
-      .tab-image{
-        width: 100%;
+      .tab-image-desk{
+        width: 1281px;
+        height: 340px;
+        // width:369px;
+        // height: 340px;
         margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
         display: block;
-    }
-    .img-mobile{
+        background-repeat: no-repeat;
+        background-size: 1281px 340px;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+      .img-t3-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+     
+    .tab-image-mob{
       display: none;
     }
     }
-    
-     
-
 }
 }
 
-
-
-@media screen  and (min-width:1200px){
+@media screen  and (min-width:1024px){
     .sales-wrapper{
     .banner-left1{
         display: block;
@@ -492,15 +526,42 @@
         padding-right: 30px;
       }
     }  
-    .tab-image{
-        width: 100%;
+    .tab-image-desk{
+        width: 1281px;
+        height: 452px;
+        // width:369px;
+        // height: 340px;
         margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
         display: block;
-    }
-    .img-mobile{
+        background-repeat: no-repeat;
+        background-size: 1281px 452px;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
+
+      .img-t3-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
+    // .tab-image{
+    //     // width: 100%;
+    //     // margin-top: 30px;
+    //     // height: 286px;
+    //   }
+    //   .img-desktop{
+    //     width: 480px;
+    //     height: 452px;
+    //     margin-top: 30px;
+    //     display: block;
+    //     background-image: url(../assets/images/sales/saleImgDesk2.png);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+
+    // }
+    .tab-image-mob{
         display: none;
     }
     .accor-icon-active{

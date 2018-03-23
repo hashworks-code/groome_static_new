@@ -1495,11 +1495,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
         margin: 0 auto; }
-    .operation-wrapper .tabbed-content .tab-image {
+    .operation-wrapper .tabbed-content .tab-image-mob {
+      display: block;
       width: 100%; }
-    .operation-wrapper .tabbed-content .img-mobile {
-      display: block; }
-    .operation-wrapper .tabbed-content .img-desktop {
+    .operation-wrapper .tabbed-content .tab-image-desk {
       display: none; }
     .operation-wrapper .tabbed-content .accor-icon-active {
       width: 12px;
@@ -1516,7 +1515,15 @@
     .operation-wrapper .tabbed-content .leftside > div {
       margin-bottom: 30px; }
     .operation-wrapper .tabbed-content .tab-heading {
-      display: none; }
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-top: 40px;
+      color: #000000; }
     .operation-wrapper .tabbed-content .tab-info-title {
       font-family: Nunito;
       font-size: 12px;
@@ -1545,6 +1552,8 @@
 @media screen and (min-width: 768px) {
   .operation-wrapper .banner-left1 {
     display: block; }
+  .operation-wrapper .maincontent {
+    overflow: hidden; }
   .operation-wrapper .banner-right1 .bannerHeading {
     font-family: NotoSans;
     font-size: 24px;
@@ -1595,16 +1604,25 @@
         color: black;
         text-decoration: none;
         text-align: center; }
+        .operation-wrapper .tabbed-content .tabs li a:hover {
+          background-color: #00c6c6 !important;
+          color: white !important; }
+        .operation-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+          fill: #ffffff;
+          stroke: #ffffff; }
       .operation-wrapper .tabbed-content .tabs li span {
         font-family: NotoSans;
         font-size: 12px;
         margin-right: 2px; }
+      .operation-wrapper .tabbed-content .tabs li .icon {
+        position: relative;
+        top: 2px; }
       .operation-wrapper .tabbed-content .tabs li .tb1 {
-        width: 115px; }
+        width: 138px; }
       .operation-wrapper .tabbed-content .tabs li .tb2 {
-        width: 122px; }
+        width: 152px; }
       .operation-wrapper .tabbed-content .tabs li .tb3 {
-        width: 122px; }
+        width: 164px; }
   .operation-wrapper .tabbed-content .tabButtonsGroup {
     display: block; }
   .operation-wrapper .tabbed-content .accordian-heading {
@@ -1646,15 +1664,22 @@
     font-size: 14px; }
   .operation-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
-  .operation-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .operation-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 340px;
     margin-top: 30px;
-    height: 286px; }
-  .operation-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .operation-wrapper .tabbed-content .img-mobile {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 340px; }
+  .operation-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/operation/saleImgTab1.png); }
+  .operation-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/operation/saleImgTab1.png); }
+  .operation-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/operation/saleImgTab1.png); }
+  .operation-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .operation-wrapper .banner-left1 {
     display: block; }
   .operation-wrapper .banner-right1 .salesBtn {
@@ -1744,12 +1769,19 @@
     .operation-wrapper .tabbed-content .item .rightside {
       padding-left: 30px;
       padding-right: 30px; }
-  .operation-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .operation-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 452px;
     margin-top: 30px;
-    height: 286px; }
-  .operation-wrapper .tabbed-content .img-desktop {
-    display: block; }
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 452px; }
+  .operation-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+  .operation-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+  .operation-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/operation/saleImgDesk4.png); }
   .operation-wrapper .tabbed-content .img-mobile {
     display: none; }
   .operation-wrapper .tabbed-content .accor-icon-active {
@@ -1930,11 +1962,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
         margin: 0 auto; }
-    .recruitment-wrapper .tabbed-content .tab-image {
+    .recruitment-wrapper .tabbed-content .tab-image-mob {
+      display: block;
       width: 100%; }
-    .recruitment-wrapper .tabbed-content .img-mobile {
-      display: block; }
-    .recruitment-wrapper .tabbed-content .img-desktop {
+    .recruitment-wrapper .tabbed-content .tab-image-desk {
       display: none; }
     .recruitment-wrapper .tabbed-content .accor-icon-active {
       width: 12px;
@@ -1951,7 +1982,15 @@
     .recruitment-wrapper .tabbed-content .leftside > div {
       margin-bottom: 30px; }
     .recruitment-wrapper .tabbed-content .tab-heading {
-      display: none; }
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-top: 40px;
+      color: #000000; }
     .recruitment-wrapper .tabbed-content .tab-info-title {
       font-family: Nunito;
       font-size: 12px;
@@ -1980,6 +2019,8 @@
 @media screen and (min-width: 768px) {
   .recruitment-wrapper .banner-left1 {
     display: block; }
+  .recruitment-wrapper .maincontent {
+    overflow: hidden; }
   .recruitment-wrapper .banner-right1 .bannerHeading {
     font-family: NotoSans;
     font-size: 24px;
@@ -2030,16 +2071,25 @@
         color: black;
         text-decoration: none;
         text-align: center; }
+        .recruitment-wrapper .tabbed-content .tabs li a:hover {
+          background-color: #00c6c6 !important;
+          color: white !important; }
+        .recruitment-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+          fill: #ffffff;
+          stroke: #ffffff; }
       .recruitment-wrapper .tabbed-content .tabs li span {
         font-family: NotoSans;
         font-size: 12px;
         margin-right: 2px; }
+      .recruitment-wrapper .tabbed-content .tabs li .icon {
+        position: relative;
+        top: 2px; }
       .recruitment-wrapper .tabbed-content .tabs li .tb1 {
-        width: 115px; }
+        width: 140px; }
       .recruitment-wrapper .tabbed-content .tabs li .tb2 {
-        width: 122px; }
+        width: 144px; }
       .recruitment-wrapper .tabbed-content .tabs li .tb3 {
-        width: 162px; }
+        width: 170px; }
   .recruitment-wrapper .tabbed-content .tabButtonsGroup {
     display: block; }
   .recruitment-wrapper .tabbed-content .accordian-heading {
@@ -2081,13 +2131,20 @@
     font-size: 14px; }
   .recruitment-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
-  .recruitment-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .recruitment-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 340px;
     margin-top: 30px;
-    height: 286px; }
-  .recruitment-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .recruitment-wrapper .tabbed-content .img-mobile {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 340px; }
+  .recruitment-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .recruitment-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .recruitment-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .recruitment-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
 @media screen and (min-width: 1200px) {
   .recruitment-wrapper .banner-left1 {
@@ -2179,14 +2236,19 @@
     .recruitment-wrapper .tabbed-content .item .rightside {
       padding-left: 30px;
       padding-right: 30px; }
-  .recruitment-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .recruitment-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 452px;
     margin-top: 30px;
-    height: 286px; }
-  .recruitment-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .recruitment-wrapper .tabbed-content .img-mobile {
-    display: none; }
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 452px; }
+  .recruitment-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+  .recruitment-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+  .recruitment-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
   .recruitment-wrapper .tabbed-content .accor-icon-active {
     width: 12px;
     height: 7px;
@@ -2365,11 +2427,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
         margin: 0 auto; }
-    .sales-wrapper .tabbed-content .tab-image {
+    .sales-wrapper .tabbed-content .tab-image-mob {
+      display: block;
       width: 100%; }
-    .sales-wrapper .tabbed-content .img-mobile {
-      display: block; }
-    .sales-wrapper .tabbed-content .img-desktop {
+    .sales-wrapper .tabbed-content .tab-image-desk {
       display: none; }
     .sales-wrapper .tabbed-content .accor-icon-active {
       width: 12px;
@@ -2386,7 +2447,15 @@
     .sales-wrapper .tabbed-content .leftside > div {
       margin-bottom: 30px; }
     .sales-wrapper .tabbed-content .tab-heading {
-      display: none; }
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-top: 40px;
+      color: #000000; }
     .sales-wrapper .tabbed-content .tab-info-title {
       font-family: Nunito;
       font-size: 12px;
@@ -2415,6 +2484,8 @@
 @media screen and (min-width: 768px) {
   .sales-wrapper .banner-left1 {
     display: block; }
+  .sales-wrapper .maincontent {
+    overflow: hidden; }
   .sales-wrapper .banner-right1 .bannerHeading {
     font-family: NotoSans;
     font-size: 24px;
@@ -2465,16 +2536,25 @@
         color: black;
         text-decoration: none;
         text-align: center; }
+        .sales-wrapper .tabbed-content .tabs li a:hover {
+          background-color: #00c6c6 !important;
+          color: white !important; }
+        .sales-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+          fill: #ffffff;
+          stroke: #ffffff; }
       .sales-wrapper .tabbed-content .tabs li span {
         font-family: NotoSans;
         font-size: 12px;
         margin-right: 2px; }
+      .sales-wrapper .tabbed-content .tabs li .icon {
+        position: relative;
+        top: 2px; }
       .sales-wrapper .tabbed-content .tabs li .tb1 {
-        width: 89px; }
+        width: 100px; }
       .sales-wrapper .tabbed-content .tabs li .tb2 {
-        width: 122px; }
+        width: 155px; }
       .sales-wrapper .tabbed-content .tabs li .tb3 {
-        width: 122px; }
+        width: 130px; }
   .sales-wrapper .tabbed-content .tabButtonsGroup {
     display: block; }
   .sales-wrapper .tabbed-content .accordian-heading {
@@ -2516,15 +2596,22 @@
     font-size: 14px; }
   .sales-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
-  .sales-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .sales-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 340px;
     margin-top: 30px;
-    height: 286px; }
-  .sales-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .sales-wrapper .tabbed-content .img-mobile {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 340px; }
+  .sales-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .sales-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .sales-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/sales/saleImgTab1.png); }
+  .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .sales-wrapper .banner-left1 {
     display: block; }
   .sales-wrapper .banner-right1 .salesBtn {
@@ -2614,13 +2701,20 @@
     .sales-wrapper .tabbed-content .item .rightside {
       padding-left: 30px;
       padding-right: 30px; }
-  .sales-wrapper .tabbed-content .tab-image {
-    width: 100%;
+  .sales-wrapper .tabbed-content .tab-image-desk {
+    width: 1281px;
+    height: 452px;
     margin-top: 30px;
-    height: 286px; }
-  .sales-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .sales-wrapper .tabbed-content .img-mobile {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1281px 452px; }
+  .sales-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+  .sales-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+  .sales-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+  .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .sales-wrapper .tabbed-content .accor-icon-active {
     width: 12px;
@@ -2800,11 +2894,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
         margin: 0 auto; }
-    .services-wrapper .tabbed-content .tab-image {
+    .services-wrapper .tabbed-content .tab-image-mob {
+      display: block;
       width: 100%; }
-    .services-wrapper .tabbed-content .img-mobile {
-      display: block; }
-    .services-wrapper .tabbed-content .img-desktop {
+    .services-wrapper .tabbed-content .tab-image-desk {
       display: none; }
     .services-wrapper .tabbed-content .accor-icon-active {
       width: 12px;
@@ -2821,7 +2914,15 @@
     .services-wrapper .tabbed-content .leftside > div {
       margin-bottom: 30px; }
     .services-wrapper .tabbed-content .tab-heading {
-      display: none; }
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-top: 40px;
+      color: #000000; }
     .services-wrapper .tabbed-content .tab-info-title {
       font-family: Nunito;
       font-size: 12px;
@@ -2850,6 +2951,8 @@
 @media screen and (min-width: 768px) {
   .services-wrapper .banner-left1 {
     display: block; }
+  .services-wrapper .maincontent {
+    overflow: hidden; }
   .services-wrapper .banner-right1 .bannerHeading {
     font-family: NotoSans;
     font-size: 24px;
@@ -2900,10 +3003,19 @@
         color: black;
         text-decoration: none;
         text-align: center; }
+        .services-wrapper .tabbed-content .tabs li a:hover {
+          background-color: #00c6c6 !important;
+          color: white !important; }
+        .services-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+          fill: #ffffff;
+          stroke: #ffffff; }
       .services-wrapper .tabbed-content .tabs li span {
         font-family: NotoSans;
         font-size: 10px;
         margin-right: 3px; }
+      .services-wrapper .tabbed-content .tabs li .icon {
+        position: relative;
+        top: 2px; }
       .services-wrapper .tabbed-content .tabs li .tb1 {
         width: 132px; }
       .services-wrapper .tabbed-content .tabs li .tb2 {
@@ -2911,7 +3023,7 @@
       .services-wrapper .tabbed-content .tabs li .tb3 {
         width: 138px; }
       .services-wrapper .tabbed-content .tabs li .tb4 {
-        width: 105px; }
+        width: 120px; }
   .services-wrapper .tabbed-content .tabButtonsGroup {
     display: block; }
   .services-wrapper .tabbed-content .accordian-heading {
@@ -2953,15 +3065,24 @@
     font-size: 14px; }
   .services-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
-  .services-wrapper .tabbed-content .tab-image {
+  .services-wrapper .tabbed-content .tab-image-desk {
     width: 100%;
-    margin-top: 30px;
-    height: 286px; }
-  .services-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .services-wrapper .tabbed-content .img-mobile {
+    height: 263px;
+    margin-top: 62px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .services-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk1.png); }
+  .services-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk2.png); }
+  .services-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk3.png); }
+  .services-wrapper .tabbed-content .img-t4-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk4.png); }
+  .services-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .services-wrapper .banner-left1 {
     display: block; }
   .services-wrapper .banner-right1 .salesBtn {
@@ -3024,7 +3145,7 @@
     .services-wrapper .tabbed-content .tabs li .tb3 {
       width: 169px; }
     .services-wrapper .tabbed-content .tabs li .tb4 {
-      width: 107px; }
+      width: 130px; }
   .services-wrapper .tabbed-content .tabButtonsGroup {
     display: block; }
   .services-wrapper .tabbed-content .item {
@@ -3061,13 +3182,22 @@
     .services-wrapper .tabbed-content .item .rightside {
       padding-left: 30px;
       padding-right: 30px; }
-  .services-wrapper .tabbed-content .tab-image {
+  .services-wrapper .tabbed-content .tab-image-desk {
     width: 100%;
-    margin-top: 30px;
-    height: 286px; }
-  .services-wrapper .tabbed-content .img-desktop {
-    display: block; }
-  .services-wrapper .tabbed-content .img-mobile {
+    height: 263px;
+    margin-top: 62px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .services-wrapper .tabbed-content .img-t1-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk1.png); }
+  .services-wrapper .tabbed-content .img-t2-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk2.png); }
+  .services-wrapper .tabbed-content .img-t3-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk3.png); }
+  .services-wrapper .tabbed-content .img-t4-desktop {
+    background-image: url(../assets/images/services/servicesImgDesk4.png); }
+  .services-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .services-wrapper .tabbed-content .accor-icon-active {
     width: 12px;

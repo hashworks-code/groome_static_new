@@ -155,14 +155,11 @@
          margin: 0 auto;
       }
     }  
-    .tab-image{
-        width: 100%;
-        // height: 170px;
-      }
-    .img-mobile{
+    .tab-image-mob{
         display: block;
+        width: 100%;
       }
-      .img-desktop{
+      .tab-image-desk{
         display: none;
     }
     .accor-icon-active{
@@ -187,7 +184,15 @@
       }
     
       .tab-heading{
-        display: none;
+        font-family:NotoSans;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-top: 40px;
+        color:#000000;
       }
       .tab-info-title{
         font-family: Nunito;
@@ -229,6 +234,9 @@
     .banner-left1{
         display: block;
     }
+    .maincontent{
+        overflow: hidden;
+      }
     .banner-right1{
         .bannerHeading{
         font-family: NotoSans;
@@ -289,6 +297,14 @@
             color:black;
             text-decoration: none;
             text-align: center;
+            &:hover{
+                background-color: #00c6c6 !important;
+                color:white !important;
+            }
+            &:hover .iconsvg{
+               fill:#ffffff;
+               stroke:#ffffff;
+            }
          
           }
           span{
@@ -296,16 +312,20 @@
                 font-size: 12px;
                  margin-right: 2px;       
             }
+            .icon{
+                position: relative; 
+                top:2px;
+            }
            
             .tb1{
-                width:115px;
+                width:140px;
             }
             .tb2{
-                        width: 122px;
+                        width: 144px;
                     }
-                    .tb3{
-                        width: 162px;
-                    }
+             .tb3{
+                        width: 170px;
+                }
         }
       }
       .tabButtonsGroup{
@@ -357,15 +377,27 @@
               margin-top: 20px;
           }
       }
-      .tab-image{
-        width: 100%;
+      .tab-image-desk{
+        width: 1281px;
+        height: 340px;
+        // width:369px;
+        // height: 340px;
         margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
         display: block;
-    }
-    .img-mobile{
+        background-repeat: no-repeat;
+        background-size: 1281px 340px;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+      .img-t3-desktop{
+        background-image: url(../assets/images/sales/saleImgTab1.png);
+      }
+     
+    .tab-image-mob{
       display: none;
     }
     }
@@ -492,17 +524,26 @@
         padding-right: 30px;
       }
     }  
-    .tab-image{
-        width: 100%;
+    .tab-image-desk{
+        width: 1281px;
+        height: 452px;
+        // width:369px;
+        // height: 340px;
         margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
         display: block;
-    }
-    .img-mobile{
-        display: none;
-    }
+        background-repeat: no-repeat;
+        background-size: 1281px 452px;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
+
+      .img-t3-desktop{
+        background-image: url(../assets/images/sales/saleImgDesk4.png);
+      }
     .accor-icon-active{
         width: 12px;
         height: 7px;
