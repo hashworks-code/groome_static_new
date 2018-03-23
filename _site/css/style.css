@@ -1051,10 +1051,6 @@
         height: 41px;
         border-radius: 4px;
         background-color: #00c6c6; }
-        .HomePage .banner-btn .row a :hover {
-          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-          transform: scale(1.1);
-          margin-left: 7px; }
         .HomePage .banner-btn .row a button {
           width: 175px;
           height: 19px;
@@ -1369,6 +1365,10 @@
         width: 180px;
         height: 41px;
         border-radius: 4px; }
+        .HomePage .banner-btn .row a :hover {
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          transform: scale(1.1);
+          margin-left: 7px; }
         .HomePage .banner-btn .row a button {
           width: 180px;
           height: 41px;
