@@ -53,22 +53,24 @@ html, body {
 }
 
 .cd-header {
-  position: absolute;
+  -webkit-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  position: fixed;
   top: 0;
   left: 0;
   background:white;
+  z-index:300;
   height: 50px;
   width: 100%;
-  z-index: 3;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
-    height: 80px;
+    height: 60px;
     background:white;
-    box-shadow: none;
   }
   .cd-secondary-nav a:hover{
     border-bottom:2px solid#37b8ae;
@@ -77,7 +79,7 @@ html, body {
   .cd-secondary-nav li :last-child button{
     width:126px !important;
     height:41px !important;
-    background-color:white !important;
+    background-color:white;
     box-shadow:none !important;
   }
   .cd-secondary-nav li :last-child a.req-btn{
@@ -185,7 +187,6 @@ height:50px;
         border: solid 1px #d7c4a7;
         text-decoration:none;
          border-radius: 4px;
-         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 .cd-secondary-nav li :last-child button{
@@ -197,6 +198,11 @@ height:50px;
          height: 31px;
          border-radius: 4px;
 }
+.cd-secondary-nav li a>button:hover{
+  background-color:#cab18b;
+  color:white;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-secondary-nav {
     display: block;
@@ -333,7 +339,7 @@ cd-secondary-nav li{
   height: 100%;
   width: 100%;
   background:#f8f9f9;
-  z-index: 2;
+  z-index: 300;
   text-align: center;
   padding: 90px 0;
   -webkit-backface-visibility: hidden;

@@ -20,7 +20,7 @@
                   <input type="text" class="form-control data-info" id="last" placeholder="Last Name" name="last">
                 </div>
                 <div class="form-group">
-                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email">
+                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email" required>
                  </div>
                  <div class="form-group pad-left">
                 <input type="text" class="form-control data-info" id="phone" max-length=10; placeholder="Phone Number" name="pwd">
@@ -28,23 +28,30 @@
                  <div class="form-group">
                   <input type="text" class="form-control data-info" id="company" placeholder="Company Name" name="company">
                    </div>
-                   <div class="form-group mobile-text">
+                   <!-- <div class="form-group mobile-text">
                     <input type="text" class="form-control data-info emp" id="emp" placeholder="Number of Employees" name="emp">
 
-                     </div>
-                     <div class="dropdown form-group pad-left" style="border-radius:4px">
-                      <select class="form-control emp" id="select" style="height:40px !important;background-position:94%">
-                          <option value="" disabled selected>Number of Employees </option>
+                     </div> -->
+                     <div class=" form-group pad-left" style="border-radius:4px">
+                      <select class="form-control emp" id="select">
+                          <option value="" disabled selected class="default">Number of Employees </option>
                           <option>Option Two </option>
                           <option>Option Three </option>
                       </select>
                   </div>
-                     <div class="form-group mobile-text">
+                     <!-- <div class="form-group mobile-text">
                       <input type="text" class="form-control data-info" id="work" placeholder="Field of Work" name="pwd">
+<<<<<<< HEAD
                        </div>
                        <div class="last-dropdown  dropdown form-group  Work" style="width:100% !important;border-radius:4px">
                         <select class="form-control  work" id="select" style="height:40px !important;background-position:97%">
                             <option value="" disabled selected style="color:grey">Field of Work</option>
+=======
+                       </div> -->
+                       <div class="last-dropdown form-group  Work" style="width:100% !important;border-radius:4px">
+                        <select class="form-control  work" id="select">
+                            <option value="" disabled selected class="default">Field of Work</option>
+>>>>>>> 29a87d8a579250b17435f25b9244bc704f952b0d
                             <option>Option Two </option>
                             <option>Option Three </option>
                         </select>
@@ -166,7 +173,7 @@ else if(window.location.pathname.includes("services"))
 
 
 
-$('.submit-data').click(function(){
+$('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
   var first=$("#first").val();
   var last=$("#last").val();
   var email=$("#email").val();
@@ -176,28 +183,31 @@ $('.submit-data').click(function(){
   var work=$(".work option:selected").val();
 
 console.log(first,last,email,phone,company,emp,work);
-if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
+if((first!='' && last !='' && email !='' && phone!='' && company !='' && emp !=''&& work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
 { 
-$('#ContactModal').modal('hide');
-$('#ConfirmModal').modal('show');
-$('.textbox-container')[0].reset();
 
+$('.submit-data').removeAttr('disabled');
+$('.submit-data').css('background-color','cyan');
 }
 
 })
+$('.submit-data').click(function(){
+  $('#ContactModal').modal('hide');
+$('#ConfirmModal').modal('show');
+$('.textbox-container')[0].reset();
+})
+// $('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
+//     if(allFilled()) $('.submit-data').removeAttr('disabled');
+// });
 
-$('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
-    if(allFilled()) $('.submit-data').removeAttr('disabled');
-});
-
-function allFilled() {
-  alert("ADa");
-    var filled = true;
-    $('body input').each(function() {
-        if($(this).val() == '') filled = false;
-    });
-    return filled;
-}
+// function allFilled() {
+//   alert("ADa");
+//     var filled = true;
+//     $('body input').each(function() {
+//         if($(this).val() == '') filled = false;
+//     });
+//     return filled;
+// }
 
 })
 

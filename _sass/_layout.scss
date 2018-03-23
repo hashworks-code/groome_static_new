@@ -95,9 +95,22 @@
     .mobile-text{
       display:block;
     }
-    .dropdown{
-      display:none !important;
+    .work{
+      background-position:97% !important;
     }
+    .emp{
+      background-position:97% !important;
+    }
+    .emp,.work{
+      background: url("/assets/images/arrowdown.svg") no-repeat 60px ;
+     
+      background-color: #f2f2f2;
+    border: solid 1px #95989a;
+    margin-top:10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    }
+   
    .btn-demo{
     width:213px;
     margin:0 auto;
@@ -409,23 +422,17 @@ span{
       margin:0px;
       
       width: 578px;
-      .mobile-text{
-        display:none !important;
+      .work{
+        background-position:97% !important;
       }
-      .dropdown{
-        display:inline-block !important;
-        background-color: #f2f2f2;
-        border: solid 1px #95989a;
-        height:40px !important;
-        select.form-control{
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          background-color: #f2f2f2;
-          height:40x !important;
-          background: url("/assets/images/arrowdown.svg") no-repeat 60px ;
-          background-position:center right; 
-        }
+      .emp{
+        background-position:94% !important;
       }
+      .emp,.work{
+        height:40px;
+
+      }
+    
      .btn-demo {
        width:175px;
        margin:0 auto;

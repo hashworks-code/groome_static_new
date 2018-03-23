@@ -22,24 +22,6 @@
 @font-face {
   font-family: 'quicksandRegular';
   src: url("../assets/fonts/quicksandRegular.ttf"); }
-@font-face {
-  font-family: 'quicksandLight';
-  src: url("../assets/fonts/quicksandLight.ttf"); }
-@font-face {
-  font-family: 'quicksandSemibold';
-  src: url("../assets/fonts/quicksandSemibold.ttf"); }
-@font-face {
-  font-family: 'quicksandBold';
-  src: url("../assets/fonts/quicksandBold.ttf"); }
-@font-face {
-  font-family: 'robotoRegular';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
-@font-face {
-  font-family: 'robotoLight';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
-@font-face {
-  font-family: 'robotoBold';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
 .noPadding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
@@ -119,8 +101,17 @@
     width: 310px; }
     #ContactModal .modal-dialog .mobile-text {
       display: block; }
-    #ContactModal .modal-dialog .dropdown {
-      display: none !important; }
+    #ContactModal .modal-dialog .work {
+      background-position: 97% !important; }
+    #ContactModal .modal-dialog .emp {
+      background-position: 97% !important; }
+    #ContactModal .modal-dialog .emp, #ContactModal .modal-dialog .work {
+      background: url("/assets/images/arrowdown.svg") no-repeat 60px;
+      background-color: #f2f2f2;
+      border: solid 1px #95989a;
+      margin-top: 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none; }
     #ContactModal .modal-dialog .btn-demo {
       width: 213px;
       margin: 0 auto;
@@ -318,20 +309,12 @@
     transform: translate(-50%, -50%);
     margin: 0px;
     width: 578px; }
-    #ContactModal .modal-dialog .mobile-text {
-      display: none !important; }
-    #ContactModal .modal-dialog .dropdown {
-      display: inline-block !important;
-      background-color: #f2f2f2;
-      border: solid 1px #95989a;
-      height: 40px !important; }
-      #ContactModal .modal-dialog .dropdown select.form-control {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background-color: #f2f2f2;
-        height: 40x !important;
-        background: url("/assets/images/arrowdown.svg") no-repeat 60px;
-        background-position: center right; }
+    #ContactModal .modal-dialog .work {
+      background-position: 97% !important; }
+    #ContactModal .modal-dialog .emp {
+      background-position: 94% !important; }
+    #ContactModal .modal-dialog .emp, #ContactModal .modal-dialog .work {
+      height: 40px; }
     #ContactModal .modal-dialog .btn-demo {
       width: 175px;
       margin: 0 auto;
@@ -530,8 +513,14 @@
         font-size: 18px; } }
 @media screen and (max-width: 767px) {
   .image-description {
+    max-width: 460px; }
+
+  .product-container {
     max-width: 460px; } }
 @media screen and (min-width: 320px) {
+  .tab-one {
+    display: none; }
+
   h2.resp-accordion:first-child {
     border-top: none !important; }
 
@@ -550,6 +539,70 @@
 
   .HomePage {
     margin-top: 50px; }
+    .HomePage .product-container {
+      align-items: center;
+      width: 87%;
+      margin: 0 auto;
+      height: 404px; }
+      .HomePage .product-container a {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 600;
+        width: 120px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 15px;
+        text-decoration: none;
+        color: #c5aa7f;
+        border-bottom: 1px solid  #c5aa7f; }
+      .HomePage .product-container .small-device {
+        padding-top: 20px; }
+      .HomePage .product-container .images-sale {
+        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png");
+        height: 320px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-recruit {
+        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png");
+        height: 320px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; }
+      .HomePage .product-container .images-operation {
+        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png");
+        height: 320px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .HomePage .product-container .images-exp .sale {
+        border-bottom: 1px solid #00c6c6; }
+        .HomePage .product-container .images-exp .sale p {
+          display: inline-block;
+          padding-left: 10px; }
+        .HomePage .product-container .images-exp .sale span {
+          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 30px;
+          position: relative;
+          top: 10px;
+          display: inline-block; }
+      .HomePage .product-container .images-exp .all-info {
+        padding-top: 16px;
+        font-family: Nunito;
+        font-size: 12px;
+        color: #4a4a4a; }
+      .HomePage .product-container .images-exp a {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 600;
+        width: 110px;
+        margin: 0 auto;
+        padding-top: 15px;
+        text-decoration: none;
+        color: #c5aa7f;
+        border-bottom: 1px solid  #c5aa7f; }
     .HomePage .resp-tab-content-active {
       background-color: #f2f2f2; }
     .HomePage .resp-tab-content {
@@ -699,6 +752,8 @@
     .HomePage .Accordion-title {
       padding-bottom: 20px;
       padding-top: 30px; }
+      .HomePage .Accordion-title .customer-centric {
+        display: none; }
       .HomePage .Accordion-title .title {
         width: 242px;
         font-family: NotoSans;
@@ -813,6 +868,70 @@
 @media screen and (min-width: 768px) {
   .HomePage {
     margin-top: 100px; }
+    .HomePage .product-container.reverse-align {
+      background-color: white; }
+    .HomePage .product-container {
+      padding-top: 4em;
+      align-items: center;
+      height: 436px;
+      width: 100%;
+      background-color: #f3f3f3; }
+      .HomePage .product-container .overflow-control {
+        overflow: hidden; }
+      .HomePage .product-container .small-device {
+        padding-top: 0px; }
+      .HomePage .product-container .images-sale {
+        width: 1299px;
+        background-size: cover;
+        background-position: center left;
+        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521713324/selepage_rrnhhc.png");
+        height: 322px;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-recruit {
+        width: 1299px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 324px;
+        height: 322px; }
+      .HomePage .product-container .images-operation {
+        width: 1299px;
+        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521714143/recruit_hhmzl7.png");
+        background-size: cover;
+        height: 324px;
+        height: 322px;
+        background-position: center left;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-exp .sale {
+        width: 239px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #00c6c6; }
+        .HomePage .product-container .images-exp .sale p {
+          display: inline-block;
+          padding-left: 10px; }
+        .HomePage .product-container .images-exp .sale span {
+          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 30px;
+          position: relative;
+          top: 5px;
+          display: inline-block; }
+      .HomePage .product-container .images-exp .all-info {
+        padding-top: 16px;
+        width: 274px;
+        font-family: Nunito;
+        font-size: 14px;
+        color: #4a4a4a; }
+      .HomePage .product-container .images-exp a {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        margin: 0px;
+        padding-top: 15px;
+        text-decoration: none;
+        color: #c5aa7f;
+        border-bottom: 1px solid  #c5aa7f; }
     .HomePage .resp-tab-content-active {
       background-color: white; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
@@ -864,8 +983,16 @@
         font-style: italic; }
     .HomePage .main-page {
       height: 370px; }
+    .HomePage .tab-one {
+      width: 24px;
+      height: 24px;
+      background-color: #e0e0e0;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 1.9;
+      display: inline-block; }
     .HomePage .tab-text {
-      display: inline-block;
+      color: #8c90a7;
       font-size: 12px;
       padding-left: 20px;
       width: 140px; }
@@ -926,13 +1053,12 @@
       margin: 0 auto; }
       .HomePage .banner-btn .row a {
         display: inline-block;
-        width: 163px;
+        width: 175px;
         height: 41px;
         border-radius: 4px;
-        background-color: #00c6c6;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+        background-color: #00c6c6; }
         .HomePage .banner-btn .row a button {
-          width: 163px;
+          width: 175px;
           height: 19px;
           font-family: Nunito;
           font-size: 14px;
@@ -950,13 +1076,23 @@
         width: 388px;
         height: 111px; }
         .HomePage .details.row .img-container p {
-          font-size: 20px; }
+          font-size: 16px;
+          padding-top: 10px; }
         .HomePage .details.row .img-container img {
-          width: 57px;
+          width: 45px;
           height: 60px; }
     .HomePage .Accordion-title {
       padding-top: 64px;
       padding-bottom: 64px; }
+      .HomePage .Accordion-title .customer-centric {
+        padding-top: 18px;
+        display: block;
+        width: 595px;
+        font-family: Nunito;
+        font-size: 14px;
+        text-align: center;
+        color: #8c90a7;
+        margin: 0 auto; }
       .HomePage .Accordion-title .title {
         width: 414px;
         font-size: 24px;
@@ -965,13 +1101,6 @@
         margin: 0 auto;
         color: #000000; }
     .HomePage .image-description.color {
-      background-color: #f3f3f3; }
-    .HomePage .main-container {
-      height: 312px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       background-color: #f3f3f3; }
     .HomePage .set-color {
       background-color: white; }
@@ -1081,19 +1210,78 @@
 @media screen and (min-width: 1024px) {
   .HomePage {
     margin-top: 100px; }
+    .HomePage .product-container {
+      padding-top: 4em;
+      align-items: center;
+      height: 690px;
+      background-color: #f3f3f3; }
+      .HomePage .product-container .max-padder {
+        padding-top: 144px; }
+      .HomePage .product-container .images-sale {
+        float: right;
+        width: 1299px;
+        height: 635px;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-recruit {
+        width: 1299px;
+        height: 635px;
+        float: right;
+        width: 1299px;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-operation {
+        width: 1299px;
+        background-size: cover;
+        height: 635px;
+        background-position: center left;
+        background-repeat: no-repeat; }
+      .HomePage .product-container .images-exp .sale {
+        width: 239px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #00c6c6; }
+        .HomePage .product-container .images-exp .sale p {
+          display: inline-block;
+          padding-left: 10px; }
+        .HomePage .product-container .images-exp .sale span {
+          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 24px;
+          display: inline-block; }
+      .HomePage .product-container .images-exp .all-info {
+        padding-top: 16px;
+        width: 274px;
+        font-family: Nunito;
+        font-size: 16px;
+        color: #4a4a4a; }
+      .HomePage .product-container .images-exp a {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 600;
+        width: 120px;
+        margin: 0px;
+        padding-top: 15px;
+        text-decoration: none;
+        color: #c5aa7f;
+        border-bottom: 1px solid  #c5aa7f; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
       font-size: 15px; }
     .HomePage .resp-tabs-container {
-      width: 307px !important;
+      width: 409px !important;
       border: none !important;
-      margin-left: 172px; }
+      margin-left: 74px; }
     .HomePage .resp-tabs-list {
       width: 310px !important;
       height: 288px; }
     .HomePage .tab-text {
       width: 180px; }
       .HomePage .tab-text span {
-        font-size: 16px; }
+        font-size: 16px;
+        display: inline-block;
+        width: 200px;
+        color: #8c90a7;
+        font-weight: normal; }
     .HomePage .resp-vtabs li.resp-tab-active {
       border: none !important;
       background-color: #f2f2f2; }
@@ -1180,11 +1368,15 @@
       margin-top: 30px;
       margin-left: 0px; }
       .HomePage .banner-btn .row a {
-        width: 169px;
+        width: 180px;
         height: 41px;
         border-radius: 4px; }
+        .HomePage .banner-btn .row a :hover {
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          transform: scale(1.1);
+          margin-left: 7px; }
         .HomePage .banner-btn .row a button {
-          width: 169px;
+          width: 180px;
           height: 41px;
           font-family: Nunito;
           font-size: 14px;
@@ -1207,7 +1399,10 @@
           height: 88px; }
     .HomePage .Accordion-title {
       padding-top: 52px;
-      padding-bottom: 105px; }
+      padding-bottom: 70px; }
+      .HomePage .Accordion-title .customer-centric {
+        width: 777px;
+        font-size: 18px; }
       .HomePage .Accordion-title .title {
         font-size: 24px;
         text-align: center;
@@ -1246,20 +1441,9 @@
         transform: rotate(270deg); }
       .HomePage .Accordion-content .content-open {
         padding-top: 20px; }
-      .HomePage .Accordion-content .main-content {
-        padding-left: 28px;
-        color: #4a4a4a;
-        max-height: 0;
-        font-family: Nunito;
-        font-size: 12px;
-        overflow: hidden;
-        background-color: #f2f2f2;
-        transition: max-height 0.2s ease-out; }
     .HomePage .image-description.color {
       background-color: #f3f3f3;
       margin-top: 0px; }
-    .HomePage .main-container {
-      height: 722px !important; }
     .HomePage .image-description {
       width: 950px;
       height: 399px;
@@ -1312,8 +1496,7 @@
       color: #4a4a4a;
       width: 274px;
       object-fit: contain;
-      width: 388px;
-      height: 72px; }
+      width: 388px; }
     .HomePage .circle-wrap {
       width: 241px;
       height: 35px;
