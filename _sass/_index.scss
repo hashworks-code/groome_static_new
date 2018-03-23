@@ -584,30 +584,30 @@ img{
 
             }
             .images-sale{
-                width:1299px;
-          
-                background-size:cover;
+                width:650px;
+                float:right;
+                background-size:650px 331px;
                 background-position: center left;
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521713324/selepage_rrnhhc.png');
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_331,q_100,w_650/v1521808283/tab-sale_ssc1at.png');
                height:322px;
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
-                width:1299px;
-
-                background-size:cover;
+                width:650px;
+                
+                background-size:650px 331px ;
                 background-repeat:no-repeat;
-                height:324px;
-                height:322px;
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_331,w_650/v1521808986/tab-recruit_yb6oly.png');
+
+                height:331px;
             }
             .images-operation{
-                width:1299px;
-
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521714143/recruit_hhmzl7.png');
-                background-size:cover;
-                height:324px;
-                height:322px;              
+                width:650px;
+                float:right;
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_331,w_650/v1521808513/tab-operate_ndv70c.png');
+                background-size:650px 331px;
+               height:331px;            
                   background-position: center left;
                 background-repeat:no-repeat;
             }
@@ -615,6 +615,7 @@ img{
 
                 .sale{
                     width:239px;
+                    padding-top:3em;
                     padding-bottom:10px;
                     border-bottom: 1px solid #00c6c6;
                     p{
@@ -1096,30 +1097,31 @@ img{
                 width:1299px;
 
                 height:635px;
-                background-size:cover;
-                // background-position: center right;
+                background-size:1299px 635px;
+                background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521713324/selepage_rrnhhc.png");
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
                 width:1299px;
                 height:635px;
-
+                background-image:url("http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png");
                  float:right;
                  width:1299px;
-                background-size:cover;
-
+                 background-size:1299px 635px;
                 background-repeat:no-repeat;
             }
             .images-operation{
                 width:1299px;
                 background-size:cover;
                 height:635px;
+                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635,q_100,w_1399/v1521811974/desktop-op_jximca.png');
 
-                background-position:center left;
 
 
-                // background-position: center right;
+                background-size:1299px 635px;
+
+
                 background-repeat:no-repeat;
             }
             .images-exp{

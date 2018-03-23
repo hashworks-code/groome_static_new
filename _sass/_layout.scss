@@ -5,6 +5,9 @@
      padding:0;
      height:100%;
   }
+select.form-control{
+  color:grey;
+}
 
   .activeMainTab{
     border-bottom: 2px solid#37b8ae;
@@ -197,7 +200,7 @@ padding-top:0px;
           padding: 6px 12px;
           font-size: 14px;
           line-height: 1.42857143;
-          color: #555;
+          color: black;
           background-color: #f2f2f2;
           border: solid 1px #95989a;
         
@@ -413,6 +416,9 @@ span{
   #ContactModal
   
   {
+    .checkbox-align{
+      padding-left:50px;
+    }
     .modal-dialog{
       position: absolute;
       top: 50%;
@@ -524,7 +530,7 @@ span{
             padding: 6px 12px;
             font-size: 14px;
             line-height: 1.42857143;
-            color: #555;
+          
             background-color: #f2f2f2;
             border: solid 1px #95989a;
           
