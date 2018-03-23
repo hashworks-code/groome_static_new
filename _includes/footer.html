@@ -20,7 +20,7 @@
                   <input type="text" class="form-control data-info" id="last" placeholder="Last Name" name="last">
                 </div>
                 <div class="form-group">
-                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email">
+                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email" required>
                  </div>
                  <div class="form-group pad-left">
                 <input type="text" class="form-control data-info" id="phone" max-length=10; placeholder="Phone Number" name="pwd">
@@ -176,7 +176,7 @@ $('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
   var work=$(".work option:selected").val();
 
 console.log(first,last,email,phone,company,emp,work);
-if((first!='' && last !='' && email !='',phone!='',company !='',emp !='',work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
+if((first!='' && last !='' && email !='' && phone!='' && company !='' && emp !=''&& work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
 { 
 
 $('.submit-data').removeAttr('disabled');
