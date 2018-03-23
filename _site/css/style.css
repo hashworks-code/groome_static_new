@@ -22,24 +22,6 @@
 @font-face {
   font-family: 'quicksandRegular';
   src: url("../assets/fonts/quicksandRegular.ttf"); }
-@font-face {
-  font-family: 'quicksandLight';
-  src: url("../assets/fonts/quicksandLight.ttf"); }
-@font-face {
-  font-family: 'quicksandSemibold';
-  src: url("../assets/fonts/quicksandSemibold.ttf"); }
-@font-face {
-  font-family: 'quicksandBold';
-  src: url("../assets/fonts/quicksandBold.ttf"); }
-@font-face {
-  font-family: 'robotoRegular';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
-@font-face {
-  font-family: 'robotoLight';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
-@font-face {
-  font-family: 'robotoBold';
-  src: url("../assets/fonts/robotoRegular.ttf"); }
 .noPadding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
@@ -560,7 +542,7 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        width: 110px;
+        width: 120px;
         text-align: center;
         margin: 0 auto;
         padding-top: 15px;
@@ -588,7 +570,6 @@
         background-repeat: no-repeat;
         background-size: cover; }
       .HomePage .product-container .images-exp .sale {
-        padding-bottom: 10px;
         border-bottom: 1px solid #00c6c6; }
         .HomePage .product-container .images-exp .sale p {
           display: inline-block;
@@ -1066,13 +1047,16 @@
       margin: 0 auto; }
       .HomePage .banner-btn .row a {
         display: inline-block;
-        width: 163px;
+        width: 175px;
         height: 41px;
         border-radius: 4px;
-        background-color: #00c6c6;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+        background-color: #00c6c6; }
+        .HomePage .banner-btn .row a :hover {
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          transform: scale(1.1);
+          margin-left: 7px; }
         .HomePage .banner-btn .row a button {
-          width: 163px;
+          width: 175px;
           height: 19px;
           font-family: Nunito;
           font-size: 14px;
@@ -1090,9 +1074,10 @@
         width: 388px;
         height: 111px; }
         .HomePage .details.row .img-container p {
-          font-size: 20px; }
+          font-size: 16px;
+          padding-top: 10px; }
         .HomePage .details.row .img-container img {
-          width: 57px;
+          width: 45px;
           height: 60px; }
     .HomePage .Accordion-title {
       padding-top: 64px;
@@ -1272,7 +1257,7 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        width: 110px;
+        width: 120px;
         margin: 0px;
         padding-top: 15px;
         text-decoration: none;
@@ -1291,6 +1276,8 @@
       width: 180px; }
       .HomePage .tab-text span {
         font-size: 16px;
+        display: inline-block;
+        width: 200px;
         color: #8c90a7;
         font-weight: normal; }
     .HomePage .resp-vtabs li.resp-tab-active {
@@ -1379,11 +1366,11 @@
       margin-top: 30px;
       margin-left: 0px; }
       .HomePage .banner-btn .row a {
-        width: 169px;
+        width: 180px;
         height: 41px;
         border-radius: 4px; }
         .HomePage .banner-btn .row a button {
-          width: 169px;
+          width: 180px;
           height: 41px;
           font-family: Nunito;
           font-size: 14px;
@@ -1503,8 +1490,7 @@
       color: #4a4a4a;
       width: 274px;
       object-fit: contain;
-      width: 388px;
-      height: 72px; }
+      width: 388px; }
     .HomePage .circle-wrap {
       width: 241px;
       height: 35px;

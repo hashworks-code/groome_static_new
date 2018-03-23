@@ -69,7 +69,7 @@ html, body {
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
-    height: 80px;
+    height: 60px;
     background:white;
   }
   .cd-secondary-nav a:hover{
@@ -79,7 +79,7 @@ html, body {
   .cd-secondary-nav li :last-child button{
     width:126px !important;
     height:41px !important;
-    background-color:white !important;
+    background-color:white;
     box-shadow:none !important;
   }
   .cd-secondary-nav li :last-child a.req-btn{
@@ -198,6 +198,11 @@ height:50px;
          height: 31px;
          border-radius: 4px;
 }
+.cd-secondary-nav li a>button:hover{
+  background-color:#cab18b;
+  color:white;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-secondary-nav {
     display: block;

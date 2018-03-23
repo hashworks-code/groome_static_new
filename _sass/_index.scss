@@ -46,7 +46,7 @@ border:none !important;
                 font-family: Nunito;
                 font-size: 16px;
                 font-weight: 600;
-                width:110px;
+                width:120px;
                 text-align:center;
                 margin:0 auto;
                 padding-top:15px;
@@ -89,7 +89,6 @@ border:none !important;
 
                 .sale{
                    
-                    padding-bottom:10px;
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
@@ -846,13 +845,18 @@ img{
                     
                         a{
                             display:inline-block;
-                            width:163px;
+                            width:175px;
                             height: 41px;
                             border-radius: 4px;
                             background-color: #00c6c6;
-                            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+                            :hover{
+                                box-shadow: 0 0 11px rgba(33,33,33,.2); 
+                                transform:scale(1.1);
+                                margin-left:7px;
+
+                            }
                           button{
-                            width: 163px;
+                            width: 175px;
                             height: 19px;
                             font-family: Nunito;
                             font-size: 14px;
@@ -875,10 +879,11 @@ img{
                     width:388px;
                     height:111px;
                 p{
-                    font-size:20px;
+                    font-size:16px;
+                    padding-top:10px;
                 }
                     img{
-                        width:57px;
+                        width:45px;
                         height:60px;
                     }
                 }
@@ -1153,7 +1158,7 @@ img{
                     font-family: Nunito;
                     font-size: 16px;
                     font-weight: 600;
-                    width:110px;
+                    width:120px;
                     margin: 0px;
                     padding-top:15px;
                     text-decoration: none;
@@ -1200,6 +1205,8 @@ img{
             span
             {
             font-size:16px;
+            display:inline-block;
+            width:200px;
             color: #8c90a7;
             font-weight:normal;
 
@@ -1327,12 +1334,12 @@ img{
                     
                         a{
                           
-                            width:169px;
+                            width:180px;
                             height: 41px;
                             border-radius: 4px;
 
                           button{
-                            width: 169px;
+                            width: 180px;
                             height: 41px;
                             font-family: Nunito;
                             font-size: 14px;
@@ -1499,7 +1506,6 @@ img{
             width:274px;
             object-fit: contain;
             width: 388px;
-            height: 72px;
           
           
         }
