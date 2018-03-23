@@ -106,7 +106,6 @@
                 margin-top: 30px;
         }
 
-
     // Accordion for small screens (mobile first principle)
     .tabbed-content {
         .tabs {
@@ -150,19 +149,16 @@
         font-size: 12px;
       }
       .accor-container{
-          padding-top: 24px;
+        padding-top: 24px;
          padding-bottom: 24px;
          margin: 0 auto;
       }
     }  
-    .tab-image{
-        width: 100%;
-        // height: 170px;
-      }
-    .img-mobile{
+    .tab-image-mob{
         display: block;
+        width: 100%;
       }
-      .img-desktop{
+      .tab-image-desk{
         display: none;
     }
     .accor-icon-active{
@@ -179,7 +175,6 @@
         float: right;
         margin-top: 8px;
     }
-
     .leftside{
         > div{
           margin-bottom: 30px;
@@ -187,7 +182,15 @@
       }
     
       .tab-heading{
-        display: none;
+        font-family:NotoSans;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-top: 40px;
+        color:#000000;
       }
       .tab-info-title{
         font-family: Nunito;
@@ -217,11 +220,9 @@
           margin-left: 0px;
           margin-right: 0px;
       }
-    
     }  
     }
 }
-
 
 
 @media screen  and (min-width:768px){
@@ -229,6 +230,10 @@
     .banner-left1{
         display: block;
     }
+    .maincontent{
+        overflow: hidden;
+      }
+  
     .banner-right1{
         .bannerHeading{
         font-family: NotoSans;
@@ -289,6 +294,14 @@
             color:black;
             text-decoration: none;
             text-align: center;
+            &:hover{
+                background-color: #00c6c6 !important;
+                color:white !important;
+            }
+            &:hover .iconsvg{
+               fill:#ffffff;
+               stroke:#ffffff;
+            }
           }
           span{
                 font-family: NotoSans;
@@ -296,18 +309,22 @@
                 margin-right: 3px;
                         
             }
+            .icon{
+                position: relative; 
+                top:2px;
+            }
            
             .tb1{
                 width:132px;
             }
             .tb2{
-                        width: 141px;
+                  width: 141px;
                 }
              .tb3{
-                        width: 138px;
+                 width: 138px;
              }
              .tb4{
-                        width: 105px;
+                width: 120px;
             }
         }
       }
@@ -360,15 +377,29 @@
               margin-top: 20px;
           }
       }
-      .tab-image{
+      .tab-image-desk{
         width: 100%;
-        margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
+        height: 263px;
+        margin-top: 62px;
         display: block;
-    }
-    .img-mobile{
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk1.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk2.png);
+      }
+
+      .img-t3-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk3.png);
+      }
+      .img-t4-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk4.png);
+      }
+     
+    .tab-image-mob{
       display: none;
     }
     }
@@ -378,7 +409,7 @@
 
 
 
-@media screen  and (min-width:1200px){
+@media screen  and (min-width:1024px){
     .services-wrapper{
     .banner-left1{
         display: block;
@@ -455,13 +486,13 @@
             width:162px;
         }
         .tb2{
-                    width: 162px;
+             width: 162px;
             }
          .tb3{
-                    width: 169px;
+             width: 169px;
          }
          .tb4{
-                    width: 107px;
+           width: 130px;
         }
       }
      
@@ -513,15 +544,28 @@
         padding-right: 30px;
       }
     }  
-    .tab-image{
+    .tab-image-desk{
         width: 100%;
-        margin-top: 30px;
-        height: 286px;
-      }
-      .img-desktop{
+        height: 263px;
+        margin-top: 62px;
         display: block;
-    }
-    .img-mobile{
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .img-t1-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk1.png);
+      }
+      .img-t2-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk2.png);
+      }
+
+      .img-t3-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk3.png);
+      }
+      .img-t4-desktop{
+        background-image: url(../assets/images/services/servicesImgDesk4.png);
+      }
+    .tab-image-mob{
         display: none;
     }
     .accor-icon-active{

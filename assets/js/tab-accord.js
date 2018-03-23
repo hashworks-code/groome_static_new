@@ -8,6 +8,9 @@ $(document).ready(function(){
   switchingTabs();
   tabControl();
 
+
+ 
+
 /*
 We also apply the switch when a viewport change is detected on the fly
 (e.g. when you resize the browser window or flip your device from 
@@ -75,11 +78,10 @@ if ($(window).width() < 768) {
   $("#accr-text-4").before($("#accr-img-4"));
 }
 else{
-  $("#accr-img-1").before($("#accr-text-1"));
-  $("#accr-img-2").before($("#accr-text-2"));
-  $("#accr-img-3").before($("#accr-text-3"));
-  $("#accr-img-4").before($("#accr-text-4"));
- 
+$("#accr-img-1").before($("#accr-text-1"));
+$("#accr-img-2").before($("#accr-text-2"));
+$("#accr-img-3").before($("#accr-text-3"));
+$("#accr-img-4").before($("#accr-text-4"));
 }
 }
 
