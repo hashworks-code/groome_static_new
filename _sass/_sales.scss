@@ -3,7 +3,7 @@
     .sales-wrapper{
         margin-top: 80px;
         .banner{
-            background-image: url('../assets/images/sales/salesBanner.jpg');
+            background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959775/sales/salesBanner.jpg);
             width: 100%;
             height: 347px;
             background-size: cover;
@@ -225,7 +225,6 @@
                 margin-left: 0px;
                 margin-right: 0px;
             }
-    
     }  
     }
 }
@@ -319,7 +318,7 @@
             }
             .icon{
                 position: relative; 
-                top:2px;
+                top:3px;
             }
             
             .tb1{
@@ -393,13 +392,13 @@
         background-size: 902px 340px;
       }
       .img-t1-desktop{
-        background-image: url(../assets/images/sales/imgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgTab1.png);
       }
       .img-t2-desktop{
-        background-image: url(../assets/images/sales/imgTab2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab2.png);
       }
       .img-t3-desktop{
-        background-image: url(../assets/images/sales/imgTab3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab3.png);
       }
      
     .tab-image-mob{
@@ -537,14 +536,14 @@
         background-size: 902px 452px;
       }
       .img-t1-desktop{
-        background-image: url(../assets/images/sales/imgDesk1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgDesk1.png);
       }
       .img-t2-desktop{
-        background-image: url(../assets/images/sales/imgDesk2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgDesk2.png);
       }
 
       .img-t3-desktop{
-        background-image: url(../assets/images/sales/imgDesk3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959477/sales/imgDesk3.png);
       }
     // .tab-image{
     //     // width: 100%;
