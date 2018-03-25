@@ -1848,18 +1848,18 @@
   .operation-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
   .operation-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
+    width: 902px;
     height: 340px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 340px; }
+    background-size: 902px 340px; }
   .operation-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
+    background-image: url(../assets/images/operation/imgTab1.png); }
   .operation-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
+    background-image: url(../assets/images/operation/imgTab2.png); }
   .operation-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
+    background-image: url(../assets/images/operation/imgTab3.png); }
   .operation-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
 @media screen and (min-width: 1024px) {
@@ -1953,18 +1953,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .operation-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 452px;
+    width: 902px;
+    height: 451px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 451px; }
   .operation-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(../assets/images/operation/imgDesk1.png); }
   .operation-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(../assets/images/operation/imgDesk2.png); }
   .operation-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(../assets/images/operation/imgDesk3.png); }
   .operation-wrapper .tabbed-content .img-mobile {
     display: none; }
   .operation-wrapper .tabbed-content .accor-icon-active {
@@ -2315,18 +2315,18 @@
   .recruitment-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
   .recruitment-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
+    width: 902px;
     height: 340px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 340px; }
+    background-size: 902px 340px; }
   .recruitment-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/recruitment/imgTab1.png); }
   .recruitment-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/recruitment/imgTab2.png); }
   .recruitment-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/recruitment/imgTab3.png); }
   .recruitment-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
 @media screen and (min-width: 1200px) {
@@ -2420,18 +2420,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .recruitment-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 452px;
+    width: 902px;
+    height: 451px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 451px; }
   .recruitment-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/recruitment/imgDesk1.png); }
   .recruitment-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/recruitment/imgDesk2.png); }
   .recruitment-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/recruitment/imgDesk3.png); }
   .recruitment-wrapper .tabbed-content .accor-icon-active {
     width: 12px;
     height: 7px;
@@ -2780,18 +2780,18 @@
   .sales-wrapper .tabbed-content .leftside > div {
     margin-top: 20px; }
   .sales-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
+    width: 902px;
     height: 340px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 340px; }
+    background-size: 902px 340px; }
   .sales-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/sales/imgTab1.png); }
   .sales-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/sales/imgTab2.png); }
   .sales-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
+    background-image: url(../assets/images/sales/imgTab3.png); }
   .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; } }
 @media screen and (min-width: 1024px) {
@@ -2885,18 +2885,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .sales-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
+    width: 902px;
     height: 452px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 452px; }
   .sales-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/sales/imgDesk1.png); }
   .sales-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/sales/imgDesk2.png); }
   .sales-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(../assets/images/sales/imgDesk3.png); }
   .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .sales-wrapper .tabbed-content .accor-icon-active {
