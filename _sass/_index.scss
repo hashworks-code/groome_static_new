@@ -35,7 +35,9 @@ border:none !important;
     .HomePage{
 
      
-
+         .top-align{
+             margin-top:30px;
+         }
         .product-container{
             align-items: center;
             width:87%;
@@ -563,6 +565,9 @@ img{
    
 
     .HomePage{
+        .top-align{
+            margin-top:0px;
+        }
         .product-container.reverse-align{
             background-color:white;
         }

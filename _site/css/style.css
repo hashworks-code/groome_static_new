@@ -543,6 +543,8 @@
 
   .HomePage {
     margin-top: 50px; }
+    .HomePage .top-align {
+      margin-top: 30px; }
     .HomePage .product-container {
       align-items: center;
       width: 87%;
@@ -872,6 +874,8 @@
 @media screen and (min-width: 768px) {
   .HomePage {
     margin-top: 100px; }
+    .HomePage .top-align {
+      margin-top: 0px; }
     .HomePage .product-container.reverse-align {
       background-color: white; }
     .HomePage .product-container {
