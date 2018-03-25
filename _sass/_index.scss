@@ -595,7 +595,7 @@ img{
             }
             .images-recruit{
                 width:650px;
-                
+                 float:right;
                 background-size:650px 340px ;
                 background-repeat:no-repeat;
                 background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521833145/group-4-copy_zvtssx.png');
@@ -604,7 +604,7 @@ img{
             }
             .images-operation{
                 width:650px;
-                float:right;
+                float:left;
                 background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521832985/group-3-copy-2_ows3p8.png');
                 background-size:650px 340px;
                height:331px;            
@@ -612,7 +612,11 @@ img{
                 background-repeat:no-repeat;
             }
             .images-exp{
-
+                 position: relative;
+                 height:379px;
+                 .child-wrapper{
+                   float:right;
+                 }
                 .sale{
                     width:239px;
                     padding-top:3em;
