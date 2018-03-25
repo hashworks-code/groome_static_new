@@ -53,14 +53,14 @@ html, body {
 }
 
 .cd-header {
-  -webkit-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 2px 5px rgba(57, 63, 72, 0.3);
+  -webkit-box-shadow: 0 1px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 1px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 1px 5px rgba(57, 63, 72, 0.3);
   position: fixed;
   top: 0;
   left: 0;
   background:white;
-  z-index:300;
+  z-index:350;
   height: 50px;
   width: 100%;
 

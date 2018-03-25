@@ -445,7 +445,7 @@
                 <div class="checkbox">
                   <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="remember" value="products">Products</label>
                 </div>
-                <div class="checkbox">
+                <div class="checkbox checkbox-align">
                   <label><input type="checkbox" class="service-check" name="remember" value="service-consultants">Service consultants</label>
                 </div>
                 </div>
@@ -533,6 +533,12 @@
 
 <script>
 $(document).ready(function(){
+
+$('select').change(function(){
+  $(this).css('color','black');
+})
+
+
   if(window.location.pathname.includes("sales"))
 {
   $(".cd-secondary-nav a").removeClass("activeMainTab");
@@ -558,7 +564,7 @@ else if(window.location.pathname.includes("services"))
 
 
 
-$('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
+$('.submit-data').click(function(){
   var first=$("#first").val();
   var last=$("#last").val();
   var email=$("#email").val();
@@ -567,32 +573,13 @@ $('#first, #last, #email, #phone,#company,.work,.emp').keyup(function(){
   var emp=$(".emp option:selected").val();
   var work=$(".work option:selected").val();
 
-console.log(first,last,email,phone,company,emp,work);
-if((first!='' && last !='' && email !='' && phone!='' && company !='' && emp !=''&& work !='') && (($('.product-check').is(":checked"))||($('.service-check').is(":checked"))))
-{ 
-
-$('.submit-data').removeAttr('disabled');
-$('.submit-data').css('background-color','cyan');
-}
-
-})
-$('.submit-data').click(function(){
-  $('#ContactModal').modal('hide');
-$('#ConfirmModal').modal('show');
-$('.textbox-container')[0].reset();
-})
-// $('#first, #last, #email, #phone,#company,.work,.emp').bind('keyup', function() {
-//     if(allFilled()) $('.submit-data').removeAttr('disabled');
-// });
-
-// function allFilled() {
-//   alert("ADa");
-//     var filled = true;
-//     $('body input').each(function() {
-//         if($(this).val() == '') filled = false;
-//     });
-//     return filled;
-// }
+   var atpos = email.indexOf("@");
+    var dotpos = email.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+});
 
 })
 

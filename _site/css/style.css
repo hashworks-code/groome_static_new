@@ -36,6 +36,9 @@
     padding: 0;
     height: 100%; }
 
+  select.form-control {
+    color: grey; }
+
   .activeMainTab {
     border-bottom: 2px solid #37b8ae; }
 
@@ -173,7 +176,7 @@
         padding: 6px 12px;
         font-size: 14px;
         line-height: 1.42857143;
-        color: #555;
+        color: black;
         background-color: #f2f2f2;
         border: solid 1px #95989a;
         border-radius: 4px; }
@@ -301,6 +304,8 @@
     transform: translate(-50%, -50%);
     margin: 0px; }
 
+  #ContactModal .checkbox-align {
+    padding-left: 50px; }
   #ContactModal .modal-dialog {
     position: absolute;
     top: 50%;
@@ -378,7 +383,6 @@
         padding: 6px 12px;
         font-size: 14px;
         line-height: 1.42857143;
-        color: #555;
         background-color: #f2f2f2;
         border: solid 1px #95989a;
         border-radius: 4px; }
@@ -539,11 +543,13 @@
 
   .HomePage {
     margin-top: 50px; }
+    .HomePage .top-align {
+      margin-top: 30px; }
     .HomePage .product-container {
       align-items: center;
       width: 87%;
       margin: 0 auto;
-      height: 404px; }
+      height: 500px; }
       .HomePage .product-container a {
         font-family: Nunito;
         font-size: 16px;
@@ -675,7 +681,7 @@
       width: 210px;
       margin: 0 auto; }
     .HomePage .main-page {
-      margin-top: 30px; }
+      margin-top: 80px; }
     .HomePage .banner-img {
       width: 210px;
       height: 143px;
@@ -868,6 +874,8 @@
 @media screen and (min-width: 768px) {
   .HomePage {
     margin-top: 100px; }
+    .HomePage .top-align {
+      margin-top: 0px; }
     .HomePage .product-container.reverse-align {
       background-color: white; }
     .HomePage .product-container {
@@ -881,57 +889,65 @@
       .HomePage .product-container .small-device {
         padding-top: 0px; }
       .HomePage .product-container .images-sale {
-        width: 1299px;
-        background-size: cover;
+        width: 650px;
+        float: right;
+        background-size: 650px 340px;
         background-position: center left;
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521713324/selepage_rrnhhc.png");
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521832754/group-2-copy-2_hnibtq.png");
         height: 322px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
-        width: 1299px;
-        background-size: cover;
+        width: 650px;
+        float: right;
+        background-size: 650px 340px;
         background-repeat: no-repeat;
-        height: 324px;
-        height: 322px; }
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521833145/group-4-copy_zvtssx.png");
+        height: 331px; }
       .HomePage .product-container .images-operation {
-        width: 1299px;
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521714143/recruit_hhmzl7.png");
-        background-size: cover;
-        height: 324px;
-        height: 322px;
+        width: 650px;
+        float: left;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521832985/group-3-copy-2_ows3p8.png");
+        background-size: 650px 340px;
+        height: 331px;
         background-position: center left;
         background-repeat: no-repeat; }
-      .HomePage .product-container .images-exp .sale {
-        width: 239px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #00c6c6; }
-        .HomePage .product-container .images-exp .sale p {
-          display: inline-block;
-          padding-left: 10px; }
-        .HomePage .product-container .images-exp .sale span {
-          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-          background-repeat: no-repeat;
-          width: 30px;
-          height: 30px;
-          position: relative;
-          top: 5px;
-          display: inline-block; }
-      .HomePage .product-container .images-exp .all-info {
-        padding-top: 16px;
-        width: 274px;
-        font-family: Nunito;
-        font-size: 14px;
-        color: #4a4a4a; }
-      .HomePage .product-container .images-exp a {
-        font-family: Nunito;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: left;
-        margin: 0px;
-        padding-top: 15px;
-        text-decoration: none;
-        color: #c5aa7f;
-        border-bottom: 1px solid  #c5aa7f; }
+      .HomePage .product-container .images-exp {
+        position: relative;
+        height: 379px; }
+        .HomePage .product-container .images-exp .child-wrapper {
+          float: right; }
+        .HomePage .product-container .images-exp .sale {
+          width: 239px;
+          padding-top: 3em;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #00c6c6; }
+          .HomePage .product-container .images-exp .sale p {
+            display: inline-block;
+            padding-left: 10px; }
+          .HomePage .product-container .images-exp .sale span {
+            background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 5px;
+            display: inline-block; }
+        .HomePage .product-container .images-exp .all-info {
+          padding-top: 16px;
+          width: 274px;
+          font-family: Nunito;
+          font-size: 14px;
+          color: #4a4a4a; }
+        .HomePage .product-container .images-exp a {
+          font-family: Nunito;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: left;
+          margin: 0px;
+          padding-top: 15px;
+          text-decoration: none;
+          color: #c5aa7f;
+          border-bottom: 1px solid  #c5aa7f; }
     .HomePage .resp-tab-content-active {
       background-color: white; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
@@ -1221,20 +1237,23 @@
         float: right;
         width: 1299px;
         height: 635px;
-        background-size: cover;
+        background-size: 1299px 635px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831484/group-2_2x_alovec.png");
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
         width: 1299px;
         height: 635px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_700,w_1270/v1521832373/group-4_2x_v1q0i7.png");
         float: right;
         width: 1299px;
-        background-size: cover;
+        background-size: 1299px 635px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-operation {
         width: 1299px;
         background-size: cover;
         height: 635px;
-        background-position: center left;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831854/group-3_2x_re4chb.png");
+        background-size: 1299px 635px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-exp .sale {
         width: 239px;

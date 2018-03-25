@@ -35,13 +35,15 @@ border:none !important;
     .HomePage{
 
      
-
+         .top-align{
+             margin-top:30px;
+         }
         .product-container{
             align-items: center;
             width:87%;
             
             margin:0 auto;
-             height:404px;
+             height:500px;
              a{
                 font-family: Nunito;
                 font-size: 16px;
@@ -244,7 +246,7 @@ border:none !important;
            
         }
         .main-page{
-            margin-top:30px;
+            margin-top:80px;
         }
         
         .banner-img{
@@ -563,6 +565,9 @@ img{
    
 
     .HomePage{
+        .top-align{
+            margin-top:0px;
+        }
         .product-container.reverse-align{
             background-color:white;
         }
@@ -584,37 +589,42 @@ img{
 
             }
             .images-sale{
-                width:1299px;
-          
-                background-size:cover;
+                width:650px;
+                float:right;
+                background-size:650px 340px;
                 background-position: center left;
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521713324/selepage_rrnhhc.png');
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521832754/group-2-copy-2_hnibtq.png');
                height:322px;
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
-                width:1299px;
-
-                background-size:cover;
+                width:650px;
+                 float:right;
+                background-size:650px 340px ;
                 background-repeat:no-repeat;
-                height:324px;
-                height:322px;
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521833145/group-4-copy_zvtssx.png');
+
+                height:331px;
             }
             .images-operation{
-                width:1299px;
-
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521714143/recruit_hhmzl7.png');
-                background-size:cover;
-                height:324px;
-                height:322px;              
+                width:650px;
+                float:left;
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521832985/group-3-copy-2_ows3p8.png');
+                background-size:650px 340px;
+               height:331px;            
                   background-position: center left;
                 background-repeat:no-repeat;
             }
             .images-exp{
-
+                 position: relative;
+                 height:379px;
+                 .child-wrapper{
+                   float:right;
+                 }
                 .sale{
                     width:239px;
+                    padding-top:3em;
                     padding-bottom:10px;
                     border-bottom: 1px solid #00c6c6;
                     p{
@@ -1096,30 +1106,31 @@ img{
                 width:1299px;
 
                 height:635px;
-                background-size:cover;
-                // background-position: center right;
+                background-size:1299px 635px;
+                background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831484/group-2_2x_alovec.png");
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
                 width:1299px;
                 height:635px;
-
+                background-image:url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_700,w_1270/v1521832373/group-4_2x_v1q0i7.png");
                  float:right;
                  width:1299px;
-                background-size:cover;
-
+                 background-size:1299px 635px;
                 background-repeat:no-repeat;
             }
             .images-operation{
                 width:1299px;
                 background-size:cover;
                 height:635px;
+                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831854/group-3_2x_re4chb.png');
 
-                background-position:center left;
 
 
-                // background-position: center right;
+                background-size:1299px 635px;
+
+
                 background-repeat:no-repeat;
             }
             .images-exp{
