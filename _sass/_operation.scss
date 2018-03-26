@@ -1,11 +1,11 @@
 
 @media screen  and (min-width:320px){
     .operation-wrapper{
-        margin-top: 80px;
+        margin-top: 51px;
         .banner{
-            background-image: url('../assets/images/operation/operation-banner.jpg');
+            background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959789/operation/operation-banner.jpg);
             width: 100%;
-            height: 347px;
+            height: 367px;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -231,6 +231,7 @@
 
 @media screen  and (min-width:768px){
     .operation-wrapper{
+        margin-top: 61px;
     .banner-left1{
         display: block;
     }
@@ -315,7 +316,7 @@
             }
             .icon{
                 position: relative; 
-                top:2px;
+                top:3px;
             }
             
             .tb1{
@@ -379,23 +380,23 @@
           }
       }
       .tab-image-desk{
-        width: 1281px;
+        width: 902px;
         height: 340px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 1281px 340px;
+        background-size: 902px 340px;
       }
       .img-t1-desktop{
-        background-image: url(../assets/images/operation/saleImgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgTab1.png);
       }
       .img-t2-desktop{
-        background-image: url(../assets/images/operation/saleImgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab2.png);
       }
       .img-t3-desktop{
-        background-image: url(../assets/images/operation/saleImgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab3.png);
       }
      
     .tab-image-mob{
@@ -526,24 +527,24 @@
       }
     }  
     .tab-image-desk{
-        width: 1281px;
-        height: 452px;
+        width: 902px;
+        height: 451px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 1281px 452px;
+        background-size: 902px 451px;
       }
       .img-t1-desktop{
-        background-image: url(../assets/images/operation/saleImgDesk4.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk1.png);
       }
       .img-t2-desktop{
-        background-image: url(../assets/images/operation/saleImgDesk4.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk2.png);
       }
 
       .img-t3-desktop{
-        background-image: url(../assets/images/operation/saleImgDesk4.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgDesk3.png);
       }
     .img-mobile{
         display: none;

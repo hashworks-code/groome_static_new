@@ -1581,11 +1581,11 @@
             padding-left: 5px; } }
 @media screen and (min-width: 320px) {
   .operation-wrapper {
-    margin-top: 80px; }
+    margin-top: 51px; }
     .operation-wrapper .banner {
-      background-image: url("../assets/images/operation/operation-banner.jpg");
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959789/operation/operation-banner.jpg);
       width: 100%;
-      height: 347px;
+      height: 367px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -1760,135 +1760,137 @@
       margin-left: 0px;
       margin-right: 0px; } }
 @media screen and (min-width: 768px) {
-  .operation-wrapper .banner-left1 {
-    display: block; }
-  .operation-wrapper .maincontent {
-    overflow: hidden; }
-  .operation-wrapper .banner-right1 .bannerHeading {
-    font-family: NotoSans;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .operation-wrapper .banner-right1 .sales-content {
-    font-family: Nunito;
-    font-size: 18px;
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .operation-wrapper .sales-subheading {
-    font-family: NotoSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-    margin: 0 auto; }
-  .operation-wrapper .sales-subcontent {
-    font-size: 14px; }
-  .operation-wrapper .tabbed-content .tabs {
-    display: block;
-    margin-left: 0px;
-    padding-left: 0px; }
-    .operation-wrapper .tabbed-content .tabs li {
-      display: inline-block; }
-      .operation-wrapper .tabbed-content .tabs li a {
-        display: block;
-        padding: 2px;
-        border-radius: 2px;
-        border: solid 1px #00c6c6;
-        line-height: 26px;
-        margin-right: 20px;
-        cursor: pointer;
-        color: black;
-        text-decoration: none;
-        text-align: center; }
-        .operation-wrapper .tabbed-content .tabs li a:hover {
-          background-color: #00c6c6 !important;
-          color: white !important; }
-        .operation-wrapper .tabbed-content .tabs li a:hover .iconsvg {
-          fill: #ffffff;
-          stroke: #ffffff; }
-      .operation-wrapper .tabbed-content .tabs li span {
-        font-family: NotoSans;
-        font-size: 12px;
-        margin-right: 2px; }
-      .operation-wrapper .tabbed-content .tabs li .icon {
-        position: relative;
-        top: 2px; }
-      .operation-wrapper .tabbed-content .tabs li .tb1 {
-        width: 138px; }
-      .operation-wrapper .tabbed-content .tabs li .tb2 {
-        width: 152px; }
-      .operation-wrapper .tabbed-content .tabs li .tb3 {
-        width: 164px; }
-  .operation-wrapper .tabbed-content .tabButtonsGroup {
-    display: block; }
-  .operation-wrapper .tabbed-content .accordian-heading {
-    max-width: 460px;
-    margin: 0 auto;
-    border-top: 1px solid #f2f2f2;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: Nunito;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: 12px;
-    display: none; }
-  .operation-wrapper .tabbed-content .tab-heading {
-    display: block;
-    font-family: NotoSans;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000; }
-  .operation-wrapper .tabbed-content .tab-info-title {
-    font-family: Nunito;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4a4a4a; }
-  .operation-wrapper .tabbed-content .tab-info-content {
-    font-size: 14px; }
-  .operation-wrapper .tabbed-content .leftside > div {
-    margin-top: 20px; }
-  .operation-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 340px;
-    margin-top: 30px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 1281px 340px; }
-  .operation-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
-  .operation-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
-  .operation-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/operation/saleImgTab1.png); }
-  .operation-wrapper .tabbed-content .tab-image-mob {
-    display: none; } }
+  .operation-wrapper {
+    margin-top: 61px; }
+    .operation-wrapper .banner-left1 {
+      display: block; }
+    .operation-wrapper .maincontent {
+      overflow: hidden; }
+    .operation-wrapper .banner-right1 .bannerHeading {
+      font-family: NotoSans;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .operation-wrapper .banner-right1 .sales-content {
+      font-family: Nunito;
+      font-size: 18px;
+      font-weight: 200;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .operation-wrapper .sales-subheading {
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0 auto; }
+    .operation-wrapper .sales-subcontent {
+      font-size: 14px; }
+    .operation-wrapper .tabbed-content .tabs {
+      display: block;
+      margin-left: 0px;
+      padding-left: 0px; }
+      .operation-wrapper .tabbed-content .tabs li {
+        display: inline-block; }
+        .operation-wrapper .tabbed-content .tabs li a {
+          display: block;
+          padding: 2px;
+          border-radius: 2px;
+          border: solid 1px #00c6c6;
+          line-height: 26px;
+          margin-right: 20px;
+          cursor: pointer;
+          color: black;
+          text-decoration: none;
+          text-align: center; }
+          .operation-wrapper .tabbed-content .tabs li a:hover {
+            background-color: #00c6c6 !important;
+            color: white !important; }
+          .operation-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+            fill: #ffffff;
+            stroke: #ffffff; }
+        .operation-wrapper .tabbed-content .tabs li span {
+          font-family: NotoSans;
+          font-size: 12px;
+          margin-right: 2px; }
+        .operation-wrapper .tabbed-content .tabs li .icon {
+          position: relative;
+          top: 3px; }
+        .operation-wrapper .tabbed-content .tabs li .tb1 {
+          width: 138px; }
+        .operation-wrapper .tabbed-content .tabs li .tb2 {
+          width: 152px; }
+        .operation-wrapper .tabbed-content .tabs li .tb3 {
+          width: 164px; }
+    .operation-wrapper .tabbed-content .tabButtonsGroup {
+      display: block; }
+    .operation-wrapper .tabbed-content .accordian-heading {
+      max-width: 460px;
+      margin: 0 auto;
+      border-top: 1px solid #f2f2f2;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Nunito;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 12px;
+      display: none; }
+    .operation-wrapper .tabbed-content .tab-heading {
+      display: block;
+      font-family: NotoSans;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000; }
+    .operation-wrapper .tabbed-content .tab-info-title {
+      font-family: Nunito;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #4a4a4a; }
+    .operation-wrapper .tabbed-content .tab-info-content {
+      font-size: 14px; }
+    .operation-wrapper .tabbed-content .leftside > div {
+      margin-top: 20px; }
+    .operation-wrapper .tabbed-content .tab-image-desk {
+      width: 902px;
+      height: 340px;
+      margin-top: 30px;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: 902px 340px; }
+    .operation-wrapper .tabbed-content .img-t1-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgTab1.png); }
+    .operation-wrapper .tabbed-content .img-t2-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab2.png); }
+    .operation-wrapper .tabbed-content .img-t3-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab3.png); }
+    .operation-wrapper .tabbed-content .tab-image-mob {
+      display: none; } }
 @media screen and (min-width: 1024px) {
   .operation-wrapper .banner-left1 {
     display: block; }
@@ -1980,18 +1982,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .operation-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 452px;
+    width: 902px;
+    height: 451px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 451px; }
   .operation-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk1.png); }
   .operation-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk2.png); }
   .operation-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/operation/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgDesk3.png); }
   .operation-wrapper .tabbed-content .img-mobile {
     display: none; }
   .operation-wrapper .tabbed-content .accor-icon-active {
@@ -2048,11 +2050,11 @@
     margin-top: 30px !important; } }
 @media screen and (min-width: 320px) {
   .recruitment-wrapper {
-    margin-top: 80px; }
+    margin-top: 51px; }
     .recruitment-wrapper .banner {
-      background-image: url("../assets/images/recruitment/recruitment.jpg");
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959847/recruitment/recruitment.jpg);
       width: 100%;
-      height: 347px;
+      height: 367px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -2227,135 +2229,137 @@
       margin-left: 0px;
       margin-right: 0px; } }
 @media screen and (min-width: 768px) {
-  .recruitment-wrapper .banner-left1 {
-    display: block; }
-  .recruitment-wrapper .maincontent {
-    overflow: hidden; }
-  .recruitment-wrapper .banner-right1 .bannerHeading {
-    font-family: NotoSans;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .recruitment-wrapper .banner-right1 .sales-content {
-    font-family: Nunito;
-    font-size: 18px;
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .recruitment-wrapper .sales-subheading {
-    font-family: NotoSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-    margin: 0 auto; }
-  .recruitment-wrapper .sales-subcontent {
-    font-size: 14px; }
-  .recruitment-wrapper .tabbed-content .tabs {
-    display: block;
-    margin-left: 0px;
-    padding-left: 0px; }
-    .recruitment-wrapper .tabbed-content .tabs li {
-      display: inline-block; }
-      .recruitment-wrapper .tabbed-content .tabs li a {
-        display: block;
-        padding: 2px;
-        border-radius: 2px;
-        border: solid 1px #00c6c6;
-        line-height: 26px;
-        margin-right: 20px;
-        cursor: pointer;
-        color: black;
-        text-decoration: none;
-        text-align: center; }
-        .recruitment-wrapper .tabbed-content .tabs li a:hover {
-          background-color: #00c6c6 !important;
-          color: white !important; }
-        .recruitment-wrapper .tabbed-content .tabs li a:hover .iconsvg {
-          fill: #ffffff;
-          stroke: #ffffff; }
-      .recruitment-wrapper .tabbed-content .tabs li span {
-        font-family: NotoSans;
-        font-size: 12px;
-        margin-right: 2px; }
-      .recruitment-wrapper .tabbed-content .tabs li .icon {
-        position: relative;
-        top: 2px; }
-      .recruitment-wrapper .tabbed-content .tabs li .tb1 {
-        width: 140px; }
-      .recruitment-wrapper .tabbed-content .tabs li .tb2 {
-        width: 144px; }
-      .recruitment-wrapper .tabbed-content .tabs li .tb3 {
-        width: 170px; }
-  .recruitment-wrapper .tabbed-content .tabButtonsGroup {
-    display: block; }
-  .recruitment-wrapper .tabbed-content .accordian-heading {
-    max-width: 460px;
-    margin: 0 auto;
-    border-top: 1px solid #f2f2f2;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: Nunito;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: 12px;
-    display: none; }
-  .recruitment-wrapper .tabbed-content .tab-heading {
-    display: block;
-    font-family: NotoSans;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000; }
-  .recruitment-wrapper .tabbed-content .tab-info-title {
-    font-family: Nunito;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4a4a4a; }
-  .recruitment-wrapper .tabbed-content .tab-info-content {
-    font-size: 14px; }
-  .recruitment-wrapper .tabbed-content .leftside > div {
-    margin-top: 20px; }
-  .recruitment-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 340px;
-    margin-top: 30px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 1281px 340px; }
-  .recruitment-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .recruitment-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .recruitment-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .recruitment-wrapper .tabbed-content .tab-image-mob {
-    display: none; } }
+  .recruitment-wrapper {
+    margin-top: 61px; }
+    .recruitment-wrapper .banner-left1 {
+      display: block; }
+    .recruitment-wrapper .maincontent {
+      overflow: hidden; }
+    .recruitment-wrapper .banner-right1 .bannerHeading {
+      font-family: NotoSans;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .recruitment-wrapper .banner-right1 .sales-content {
+      font-family: Nunito;
+      font-size: 18px;
+      font-weight: 200;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .recruitment-wrapper .sales-subheading {
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0 auto; }
+    .recruitment-wrapper .sales-subcontent {
+      font-size: 14px; }
+    .recruitment-wrapper .tabbed-content .tabs {
+      display: block;
+      margin-left: 0px;
+      padding-left: 0px; }
+      .recruitment-wrapper .tabbed-content .tabs li {
+        display: inline-block; }
+        .recruitment-wrapper .tabbed-content .tabs li a {
+          display: block;
+          padding: 2px;
+          border-radius: 2px;
+          border: solid 1px #00c6c6;
+          line-height: 26px;
+          margin-right: 20px;
+          cursor: pointer;
+          color: black;
+          text-decoration: none;
+          text-align: center; }
+          .recruitment-wrapper .tabbed-content .tabs li a:hover {
+            background-color: #00c6c6 !important;
+            color: white !important; }
+          .recruitment-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+            fill: #ffffff;
+            stroke: #ffffff; }
+        .recruitment-wrapper .tabbed-content .tabs li span {
+          font-family: NotoSans;
+          font-size: 12px;
+          margin-right: 2px; }
+        .recruitment-wrapper .tabbed-content .tabs li .icon {
+          position: relative;
+          top: 3px; }
+        .recruitment-wrapper .tabbed-content .tabs li .tb1 {
+          width: 140px; }
+        .recruitment-wrapper .tabbed-content .tabs li .tb2 {
+          width: 144px; }
+        .recruitment-wrapper .tabbed-content .tabs li .tb3 {
+          width: 170px; }
+    .recruitment-wrapper .tabbed-content .tabButtonsGroup {
+      display: block; }
+    .recruitment-wrapper .tabbed-content .accordian-heading {
+      max-width: 460px;
+      margin: 0 auto;
+      border-top: 1px solid #f2f2f2;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Nunito;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 12px;
+      display: none; }
+    .recruitment-wrapper .tabbed-content .tab-heading {
+      display: block;
+      font-family: NotoSans;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000; }
+    .recruitment-wrapper .tabbed-content .tab-info-title {
+      font-family: Nunito;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #4a4a4a; }
+    .recruitment-wrapper .tabbed-content .tab-info-content {
+      font-size: 14px; }
+    .recruitment-wrapper .tabbed-content .leftside > div {
+      margin-top: 20px; }
+    .recruitment-wrapper .tabbed-content .tab-image-desk {
+      width: 902px;
+      height: 340px;
+      margin-top: 30px;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: 902px 340px; }
+    .recruitment-wrapper .tabbed-content .img-t1-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgTab1.png); }
+    .recruitment-wrapper .tabbed-content .img-t2-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab2.png); }
+    .recruitment-wrapper .tabbed-content .img-t3-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab3.png); }
+    .recruitment-wrapper .tabbed-content .tab-image-mob {
+      display: none; } }
 @media screen and (min-width: 1200px) {
   .recruitment-wrapper .banner-left1 {
     display: block; }
@@ -2447,18 +2451,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .recruitment-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 452px;
+    width: 902px;
+    height: 451px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 451px; }
   .recruitment-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959842/recruitment/imgDesk1.png); }
   .recruitment-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgDesk2.png); }
   .recruitment-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgDesk3.png); }
   .recruitment-wrapper .tabbed-content .accor-icon-active {
     width: 12px;
     height: 7px;
@@ -2513,11 +2517,11 @@
     margin-top: 30px !important; } }
 @media screen and (min-width: 320px) {
   .sales-wrapper {
-    margin-top: 80px; }
+    margin-top: 51px; }
     .sales-wrapper .banner {
-      background-image: url("../assets/images/sales/salesBanner.jpg");
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959775/sales/salesBanner.jpg);
       width: 100%;
-      height: 347px;
+      height: 367px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -2692,135 +2696,137 @@
       margin-left: 0px;
       margin-right: 0px; } }
 @media screen and (min-width: 768px) {
-  .sales-wrapper .banner-left1 {
-    display: block; }
-  .sales-wrapper .maincontent {
-    overflow: hidden; }
-  .sales-wrapper .banner-right1 .bannerHeading {
-    font-family: NotoSans;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .sales-wrapper .banner-right1 .sales-content {
-    font-family: Nunito;
-    font-size: 18px;
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .sales-wrapper .sales-subheading {
-    font-family: NotoSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-    margin: 0 auto; }
-  .sales-wrapper .sales-subcontent {
-    font-size: 14px; }
-  .sales-wrapper .tabbed-content .tabs {
-    display: block;
-    margin-left: 0px;
-    padding-left: 0px; }
-    .sales-wrapper .tabbed-content .tabs li {
-      display: inline-block; }
-      .sales-wrapper .tabbed-content .tabs li a {
-        display: block;
-        padding: 2px;
-        border-radius: 2px;
-        border: solid 1px #00c6c6;
-        line-height: 26px;
-        margin-right: 20px;
-        cursor: pointer;
-        color: black;
-        text-decoration: none;
-        text-align: center; }
-        .sales-wrapper .tabbed-content .tabs li a:hover {
-          background-color: #00c6c6 !important;
-          color: white !important; }
-        .sales-wrapper .tabbed-content .tabs li a:hover .iconsvg {
-          fill: #ffffff;
-          stroke: #ffffff; }
-      .sales-wrapper .tabbed-content .tabs li span {
-        font-family: NotoSans;
-        font-size: 12px;
-        margin-right: 2px; }
-      .sales-wrapper .tabbed-content .tabs li .icon {
-        position: relative;
-        top: 2px; }
-      .sales-wrapper .tabbed-content .tabs li .tb1 {
-        width: 100px; }
-      .sales-wrapper .tabbed-content .tabs li .tb2 {
-        width: 155px; }
-      .sales-wrapper .tabbed-content .tabs li .tb3 {
-        width: 130px; }
-  .sales-wrapper .tabbed-content .tabButtonsGroup {
-    display: block; }
-  .sales-wrapper .tabbed-content .accordian-heading {
-    max-width: 460px;
-    margin: 0 auto;
-    border-top: 1px solid #f2f2f2;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: Nunito;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: 12px;
-    display: none; }
-  .sales-wrapper .tabbed-content .tab-heading {
-    display: block;
-    font-family: NotoSans;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000; }
-  .sales-wrapper .tabbed-content .tab-info-title {
-    font-family: Nunito;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4a4a4a; }
-  .sales-wrapper .tabbed-content .tab-info-content {
-    font-size: 14px; }
-  .sales-wrapper .tabbed-content .leftside > div {
-    margin-top: 20px; }
-  .sales-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
-    height: 340px;
-    margin-top: 30px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 1281px 340px; }
-  .sales-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .sales-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .sales-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgTab1.png); }
-  .sales-wrapper .tabbed-content .tab-image-mob {
-    display: none; } }
+  .sales-wrapper {
+    margin-top: 61px; }
+    .sales-wrapper .banner-left1 {
+      display: block; }
+    .sales-wrapper .maincontent {
+      overflow: hidden; }
+    .sales-wrapper .banner-right1 .bannerHeading {
+      font-family: NotoSans;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .sales-wrapper .banner-right1 .sales-content {
+      font-family: Nunito;
+      font-size: 18px;
+      font-weight: 200;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .sales-wrapper .sales-subheading {
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0 auto; }
+    .sales-wrapper .sales-subcontent {
+      font-size: 14px; }
+    .sales-wrapper .tabbed-content .tabs {
+      display: block;
+      margin-left: 0px;
+      padding-left: 0px; }
+      .sales-wrapper .tabbed-content .tabs li {
+        display: inline-block; }
+        .sales-wrapper .tabbed-content .tabs li a {
+          display: block;
+          padding: 2px;
+          border-radius: 2px;
+          border: solid 1px #00c6c6;
+          line-height: 26px;
+          margin-right: 20px;
+          cursor: pointer;
+          color: black;
+          text-decoration: none;
+          text-align: center; }
+          .sales-wrapper .tabbed-content .tabs li a:hover {
+            background-color: #00c6c6 !important;
+            color: white !important; }
+          .sales-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+            fill: #ffffff;
+            stroke: #ffffff; }
+        .sales-wrapper .tabbed-content .tabs li span {
+          font-family: NotoSans;
+          font-size: 12px;
+          margin-right: 2px; }
+        .sales-wrapper .tabbed-content .tabs li .icon {
+          position: relative;
+          top: 3px; }
+        .sales-wrapper .tabbed-content .tabs li .tb1 {
+          width: 100px; }
+        .sales-wrapper .tabbed-content .tabs li .tb2 {
+          width: 155px; }
+        .sales-wrapper .tabbed-content .tabs li .tb3 {
+          width: 130px; }
+    .sales-wrapper .tabbed-content .tabButtonsGroup {
+      display: block; }
+    .sales-wrapper .tabbed-content .accordian-heading {
+      max-width: 460px;
+      margin: 0 auto;
+      border-top: 1px solid #f2f2f2;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Nunito;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 12px;
+      display: none; }
+    .sales-wrapper .tabbed-content .tab-heading {
+      display: block;
+      font-family: NotoSans;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000; }
+    .sales-wrapper .tabbed-content .tab-info-title {
+      font-family: Nunito;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #4a4a4a; }
+    .sales-wrapper .tabbed-content .tab-info-content {
+      font-size: 14px; }
+    .sales-wrapper .tabbed-content .leftside > div {
+      margin-top: 20px; }
+    .sales-wrapper .tabbed-content .tab-image-desk {
+      width: 902px;
+      height: 340px;
+      margin-top: 30px;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: 902px 340px; }
+    .sales-wrapper .tabbed-content .img-t1-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgTab1.png); }
+    .sales-wrapper .tabbed-content .img-t2-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab2.png); }
+    .sales-wrapper .tabbed-content .img-t3-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab3.png); }
+    .sales-wrapper .tabbed-content .tab-image-mob {
+      display: none; } }
 @media screen and (min-width: 1024px) {
   .sales-wrapper .banner-left1 {
     display: block; }
@@ -2912,18 +2918,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .sales-wrapper .tabbed-content .tab-image-desk {
-    width: 1281px;
+    width: 902px;
     height: 452px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 1281px 452px; }
+    background-size: 902px 452px; }
   .sales-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgDesk1.png); }
   .sales-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgDesk2.png); }
   .sales-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/sales/saleImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959477/sales/imgDesk3.png); }
   .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .sales-wrapper .tabbed-content .accor-icon-active {
@@ -2980,11 +2986,11 @@
     margin-top: 30px !important; } }
 @media screen and (min-width: 320px) {
   .services-wrapper {
-    margin-top: 80px; }
+    margin-top: 51px; }
     .services-wrapper .banner {
-      background-image: url("../assets/images/services/services.jpg");
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959898/services/services.jpg);
       width: 100%;
-      height: 347px;
+      height: 367px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -3159,139 +3165,141 @@
       margin-left: 0px;
       margin-right: 0px; } }
 @media screen and (min-width: 768px) {
-  .services-wrapper .banner-left1 {
-    display: block; }
-  .services-wrapper .maincontent {
-    overflow: hidden; }
-  .services-wrapper .banner-right1 .bannerHeading {
-    font-family: NotoSans;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .services-wrapper .banner-right1 .sales-content {
-    font-family: Nunito;
-    font-size: 18px;
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff; }
-  .services-wrapper .sales-subheading {
-    font-family: NotoSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-    margin: 0 auto; }
-  .services-wrapper .sales-subcontent {
-    font-size: 14px; }
-  .services-wrapper .tabbed-content .tabs {
-    display: block;
-    margin-left: 0px;
-    padding-left: 0px; }
-    .services-wrapper .tabbed-content .tabs li {
-      display: inline-block; }
-      .services-wrapper .tabbed-content .tabs li a {
-        display: block;
-        padding: 2px;
-        border-radius: 2px;
-        border: solid 1px #00c6c6;
-        line-height: 26px;
-        margin-right: 10px;
-        cursor: pointer;
-        color: black;
-        text-decoration: none;
-        text-align: center; }
-        .services-wrapper .tabbed-content .tabs li a:hover {
-          background-color: #00c6c6 !important;
-          color: white !important; }
-        .services-wrapper .tabbed-content .tabs li a:hover .iconsvg {
-          fill: #ffffff;
-          stroke: #ffffff; }
-      .services-wrapper .tabbed-content .tabs li span {
-        font-family: NotoSans;
-        font-size: 10px;
-        margin-right: 3px; }
-      .services-wrapper .tabbed-content .tabs li .icon {
-        position: relative;
-        top: 2px; }
-      .services-wrapper .tabbed-content .tabs li .tb1 {
-        width: 132px; }
-      .services-wrapper .tabbed-content .tabs li .tb2 {
-        width: 141px; }
-      .services-wrapper .tabbed-content .tabs li .tb3 {
-        width: 138px; }
-      .services-wrapper .tabbed-content .tabs li .tb4 {
-        width: 120px; }
-  .services-wrapper .tabbed-content .tabButtonsGroup {
-    display: block; }
-  .services-wrapper .tabbed-content .accordian-heading {
-    max-width: 460px;
-    margin: 0 auto;
-    border-top: 1px solid #f2f2f2;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: Nunito;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: 12px;
-    display: none; }
-  .services-wrapper .tabbed-content .tab-heading {
-    display: block;
-    font-family: NotoSans;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000; }
-  .services-wrapper .tabbed-content .tab-info-title {
-    font-family: Nunito;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4a4a4a; }
-  .services-wrapper .tabbed-content .tab-info-content {
-    font-size: 14px; }
-  .services-wrapper .tabbed-content .leftside > div {
-    margin-top: 20px; }
-  .services-wrapper .tabbed-content .tab-image-desk {
-    width: 100%;
-    height: 263px;
-    margin-top: 62px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: contain; }
-  .services-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk1.png); }
-  .services-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk2.png); }
-  .services-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk3.png); }
-  .services-wrapper .tabbed-content .img-t4-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk4.png); }
-  .services-wrapper .tabbed-content .tab-image-mob {
-    display: none; } }
+  .services-wrapper {
+    margin-top: 61px; }
+    .services-wrapper .banner-left1 {
+      display: block; }
+    .services-wrapper .maincontent {
+      overflow: hidden; }
+    .services-wrapper .banner-right1 .bannerHeading {
+      font-family: NotoSans;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .services-wrapper .banner-right1 .sales-content {
+      font-family: Nunito;
+      font-size: 18px;
+      font-weight: 200;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
+    .services-wrapper .sales-subheading {
+      font-family: NotoSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0 auto; }
+    .services-wrapper .sales-subcontent {
+      font-size: 14px; }
+    .services-wrapper .tabbed-content .tabs {
+      display: block;
+      margin-left: 0px;
+      padding-left: 0px; }
+      .services-wrapper .tabbed-content .tabs li {
+        display: inline-block; }
+        .services-wrapper .tabbed-content .tabs li a {
+          display: block;
+          padding: 2px;
+          border-radius: 2px;
+          border: solid 1px #00c6c6;
+          line-height: 26px;
+          margin-right: 10px;
+          cursor: pointer;
+          color: black;
+          text-decoration: none;
+          text-align: center; }
+          .services-wrapper .tabbed-content .tabs li a:hover {
+            background-color: #00c6c6 !important;
+            color: white !important; }
+          .services-wrapper .tabbed-content .tabs li a:hover .iconsvg {
+            fill: #ffffff;
+            stroke: #ffffff; }
+        .services-wrapper .tabbed-content .tabs li span {
+          font-family: NotoSans;
+          font-size: 10px;
+          margin-right: 3px; }
+        .services-wrapper .tabbed-content .tabs li .icon {
+          position: relative;
+          top: 4px; }
+        .services-wrapper .tabbed-content .tabs li .tb1 {
+          width: 132px; }
+        .services-wrapper .tabbed-content .tabs li .tb2 {
+          width: 141px; }
+        .services-wrapper .tabbed-content .tabs li .tb3 {
+          width: 138px; }
+        .services-wrapper .tabbed-content .tabs li .tb4 {
+          width: 120px; }
+    .services-wrapper .tabbed-content .tabButtonsGroup {
+      display: block; }
+    .services-wrapper .tabbed-content .accordian-heading {
+      max-width: 460px;
+      margin: 0 auto;
+      border-top: 1px solid #f2f2f2;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Nunito;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 12px;
+      display: none; }
+    .services-wrapper .tabbed-content .tab-heading {
+      display: block;
+      font-family: NotoSans;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000; }
+    .services-wrapper .tabbed-content .tab-info-title {
+      font-family: Nunito;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #4a4a4a; }
+    .services-wrapper .tabbed-content .tab-info-content {
+      font-size: 14px; }
+    .services-wrapper .tabbed-content .leftside > div {
+      margin-top: 20px; }
+    .services-wrapper .tabbed-content .tab-image-desk {
+      width: 100%;
+      height: 263px;
+      margin-top: 62px;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .services-wrapper .tabbed-content .img-t1-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959894/services/servicesImgDesk1.png); }
+    .services-wrapper .tabbed-content .img-t2-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959895/services/servicesImgDesk2.png); }
+    .services-wrapper .tabbed-content .img-t3-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959893/services/servicesImgDesk3.png); }
+    .services-wrapper .tabbed-content .img-t4-desktop {
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959895/services/servicesImgDesk4.png); }
+    .services-wrapper .tabbed-content .tab-image-mob {
+      display: none; } }
 @media screen and (min-width: 1024px) {
   .services-wrapper .banner-left1 {
     display: block; }
@@ -3400,13 +3408,13 @@
     background-repeat: no-repeat;
     background-size: contain; }
   .services-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk1.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959894/services/servicesImgDesk1.png); }
   .services-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk2.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959895/services/servicesImgDesk2.png); }
   .services-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk3.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959893/services/servicesImgDesk3.png); }
   .services-wrapper .tabbed-content .img-t4-desktop {
-    background-image: url(../assets/images/services/servicesImgDesk4.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959895/services/servicesImgDesk4.png); }
   .services-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .services-wrapper .tabbed-content .accor-icon-active {
