@@ -20,7 +20,7 @@ select.form-control{
   }
 #ConfirmModal{
   .close{
-    background-image:url("/assets/images/close-icon.svg");
+    background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg');
     background-repeat:no-repeat;
     width:18px;height:18px;
 
@@ -146,7 +146,7 @@ select.form-control{
     }
 
     .close{
-      background-image:url("/assets/images/close-icon.svg");
+      background-image:url("https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg");
       background-repeat:no-repeat;
       width:18px;height:18px;
 
@@ -361,7 +361,7 @@ span{
 
   #ConfirmModal{
     .close{
-      background-image:url("/assets/images/close-icon.svg");
+      // background-image:url("/assets/images/close-icon.svg");
       background-repeat:no-repeat;
       width:18px;height:18px;
   
