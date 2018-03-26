@@ -36,6 +36,12 @@
     padding: 0;
     height: 100%; }
 
+  .colored {
+    position: absolute;
+    display: none;
+    color: red;
+    font-size: 10px; }
+
   select.form-control {
     color: grey; }
 
@@ -132,7 +138,7 @@
         font-weight: bold;
         outline: none;
         border: none;
-        background-color: grey; }
+        background-color: #00c6c6; }
     #ContactModal .modal-dialog .checkbox {
       height: 25px;
       margin-bottom: 0px; }
@@ -160,7 +166,8 @@
       font-family: NotoSans;
       font-size: 12px;
       padding-top: 16px;
-      color: #4a4a4a; }
+      color: #4a4a4a;
+      text-align: center; }
     #ContactModal .modal-dialog .textbox-container {
       width: 209px !important;
       margin: 0 auto;
@@ -169,6 +176,7 @@
         margin-top: 11px; }
       #ContactModal .modal-dialog .textbox-container .form-group {
         width: 209px !important;
+        position: relative;
         margin: 0 auto; }
       #ContactModal .modal-dialog .textbox-container input.form-control {
         width: 209px !important;
@@ -1392,8 +1400,8 @@
         border-radius: 4px; }
         .HomePage .banner-btn .row a :hover {
           box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-          transform: scale(1.1);
-          margin-left: 7px; }
+          transform: scale(1.05);
+          transition: all .4s; }
         .HomePage .banner-btn .row a button {
           width: 180px;
           height: 41px;
