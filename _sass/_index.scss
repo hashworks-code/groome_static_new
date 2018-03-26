@@ -94,17 +94,30 @@ border:none !important;
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
+                        padding-left:4px;
                         
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
                         background-repeat:no-repeat;
-                        width:30px;
-                        height:30px;
+                        width:20px;
+                        height:20px;
                         position:relative;
-                        top:10px;
+                        top:5px;
                         display:inline-block;
+                        background-size:20px 20px;
+
+                    }
+                    .one-sale{
+                        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522049879/icons/group-35.svg");
+                        
+                    }
+                    .one-operate{
+                       
+                        background-image: url(" https://res.cloudinary.com/shettycloud/image/upload/v1522047892/icons/page-1_2.svg");
+
+                    }
+                    .one-recruit{
+                        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522048875/icons/page-1_5.svg");
                     }
 
                 }
@@ -629,16 +642,14 @@ img{
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-                        background-repeat:no-repeat;
+                       background-size:30px 30px;
                         width:30px;
                         height:30px;
-                        position: relative;
-                        top:5px;
-                        display:inline-block;
+                      
+                        top:10px;
+                      
                     }
 
                 }
@@ -1140,14 +1151,13 @@ img{
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
+                        padding-left:5px;
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-                        background-repeat:no-repeat;
+                       top:10px;
                         width:30px;
-                        height:24px;
-                        display:inline-block;
+                        height:30px;
+                       
                     }
 
                 }
