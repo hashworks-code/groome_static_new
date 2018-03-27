@@ -366,66 +366,70 @@
              <p class="main-head">Get Personalised Demo of Groome  from one of our Experts</p>
              <p class="sub-head">Discover how groome can help you recruit and hire the right talent faster</p>
             </div>
-            <form class="textbox-container">
+            <form class="textbox-container contact" action="">
                 <div class="form-group">
-                  <input type="text" class="form-control " id="first" placeholder="First Name" name="first">
-                  <div class="name colored">please Enter a Name</div>
+                  <input type="text" class="form-control  box-1" id="first" placeholder="First Name" name="FirstName">
+                  <div class="val-1 colored">please Enter a Name</div>
                 </div>
                 <div class="form-group pad-left">
-                  <input type="text" class="form-control data-info" id="last" placeholder="Last Name" name="last">
-                  <div class="lastname colored">Please Enter a last Name</div>
+                  <input type="text" class="form-control data-info box-2" id="last" placeholder="Last Name" name="LastName">
+                  <div class="val-2 colored">Please Enter a last Name</div>
 
                 </div>
                 <div class="form-group">
-                 <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email" required>
-                 <div class="email colored">Please Enter valid email</div>
+                 <input type="email" class="form-control data-info box-3" id="email" placeholder="Email Id" name="Email" required>
+                 <div class="email colored val-3">Please Enter valid email</div>
 
                  </div>
                  <div class="form-group pad-left">
-                <input type="text" class="form-control data-info" id="phone"   maxlength="12" placeholder="Phone Number" name="pwd"  onkeypress="return isNumber(event)">
-                <div class="number colored">Please Enter valid Number</div>
+                <input type="text" class="form-control data-info box-4" id="phone"   maxlength="12" placeholder="Phone Number" name="ContactNo"  onkeypress="return isNumber(event)">
+                <div class="phone colored val-4">Please Enter valid Number</div>
 
                  </div>
                  <div class="form-group">
-                  <input type="text" class="form-control data-info" id="company" placeholder="Company Name" name="company">
-                  <div class="company colored">Please Enter Organization Name</div>
+                  <input type="text" class="form-control data-info box-5" id="company" placeholder="Company Name" name="Company">
+                  <div class="company colored val-5">Please Enter Organization Name</div>
 
                    </div>
 
                      <div class=" form-group pad-left" style="border-radius:4px">
-                      <select class="form-control emp" id="select">
+                      <select class="form-control emp box-6" id="emps" NAME="NoEmps" >
                           <option value="" disabled selected class="default">Number of Employees </option>
-                          <option>500</option>
-                          <option>1000</option>
+                          <option value="500">500</option>
+                          <option value="1000">1000</option>
                       </select>
-                      <div class="emps colored">Please select Number Of Emps</div>
+                      <div class="emps colored val-6">Please select Number Of Emps</div>
 
                   </div>
                        <div class="last-dropdown form-group  Work" style="width:100% !important;border-radius:4px">
-                        <select class="form-control  work" id="select">
+                        <select class="form-control  work box-7" id="works" name="Field">
                             <option value="" disabled selected class="default">Field of Work</option>
                             <option>Education </option>
                             <option>IT Services</option>
                         </select>
-                        <div class="works colored">Please select Field of Work</div>
+                        <div class="works colored val-7">Please select Field of Work</div>
 
                     </div>
                        <div class="checkbox-wrapper">
                 <div class="checkbox">
-                  <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="remember" value="products">Products</label>
+                  <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="productcheckbox" value="products">Products</label>
                 </div>
                 <div class="checkbox checkbox-align">
-                  <label><input type="checkbox" class="service-check" name="remember" value="service-consultants">Service consultants</label>
+                  <label><input type="checkbox" class="service-check" name="ServiceCheckbox" value="service-consultants">Service consultants</label>
                 </div>
+
+                <div class="checkbox-msg colored ">Please select Atleast one Checkbox</div>
+
                 </div>
-               
+              
               </form>
               <div class="btn-demo">
-                <a>
-                  <button class="submit-data">Demo</button>
-                </a>
-
-              </div>
+                  <a>
+                    <button class="submit submit-data" >Demo</button>
+                  </a>
+  
+                </div>
+             
         </div>
        
       </div>
@@ -547,75 +551,50 @@ else if(window.location.pathname.includes("services"))
 
 
 $('.submit-data').click(function(){
-  var first=$("#first").val();
-  var last=$("#last").val();
-  var email=$("#email").val();
-  var phone=$("#phone").val();
-  var company=$("#company").val();
-  var emp=$(".emp option:selected").val();
-  var work=$(".work option:selected").val();
-   var atpos = email.indexOf("@");
-    var dotpos = email.lastIndexOf(".");
-    // if(first==''){
-    //   $('.name').show();
-    // }
-    // else{
-    //   $('.name').hide();
-    // }
-    // if(last==''){
-    //   $('.lastname').show();
-    // }
-    // else{
-    //   $('.lastname').hide();
-    // }
-    // if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+  // var $form = $('form#contact');
+  // // var data= $form.serializeObject();
+  var data = $('form').serialize();
+  console.log(data);
+  for(i=1;i<=7;i++)
+  {
+        console.log($('.box-2').val());
+        if(($('.box-'+i).val()=='')||($('.box-'+i).val()==null))
+        {
+        $('.val-'+i).show();
 
-    //   $('.email').show();
+        }
+        else
+        {
+          $('.val-'+i).hide();
+        }
 
-    // }
-    // else{
-    //   $('.email').hide();
-    // }
-    // if(company==''){
-    //   $('.company').show();
+  }
 
-    // }
-    // else{
-    //   $('.company').hide();
-    // }
-    // if(emp ==''){
-    //   $('.company').show();
+  
+  if($(".service-check").is(':checked') || $(".product-check").is(':checked'))
+  {
+   $('.checkbox-msg').hide();
 
-    // }
-    // else{
-    //   $('.company').hide();
-    // }
-    // if(phone ==''){
-    //   $('.number').show();
+  }
+  else
+  {
+    $('.checkbox-msg').show();
+  }
 
-    // }
-    // else{
-    //   $('.number').hide();
-    // }
-    // if(work==''){
-    //   $('.works').show();
+  if(($('.box-1').val()!="" && $('.box-2').val()!="" && $('.box-3').val()!="" && $('.box-4').val()!="" && $('.box-5').val()!="" && $('.box-6').val()!=null && $('.box-7').val()!=null) && ($(".service-check").is(':checked') || $(".product-check").is(':checked'))){
+    $('select').css('color','grey');
+$('#ContactModal').modal('hide');
+   $('#ConfirmModal').modal('show');
+   $('form')[0].reset();
 
-    // }
-    // else{
-    //   $('.works').hide();
-    // }
-    // if(emp==''){
-    //   $('.emps').show();
 
-    // }
-    // else{
-    //   $('.emps').hide();
-    // }
-    $('#ContactModal').modal('hide');
-    $('#ConfirmModal').modal('show');
+}
+
 });
 
-})
+  
+});
+
 
 
 
