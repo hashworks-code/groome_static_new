@@ -555,8 +555,7 @@
     .HomePage .product-container {
       align-items: center;
       width: 87%;
-      margin: 0 auto;
-      height: 500px; }
+      margin: 0 auto; }
       .HomePage .product-container a {
         font-family: Nunito;
         font-size: 16px;
@@ -568,23 +567,17 @@
         text-decoration: none;
         color: #c5aa7f;
         border-bottom: 1px solid  #c5aa7f; }
-      .HomePage .product-container .small-device {
-        padding-top: 20px; }
+      .HomePage .product-container img {
+        width: 100%; }
       .HomePage .product-container .images-sale {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png");
-        height: 320px;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png");
-        height: 320px;
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover; }
       .HomePage .product-container .images-operation {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png");
-        height: 320px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }

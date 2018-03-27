@@ -43,7 +43,7 @@ border:none !important;
             width:87%;
             
             margin:0 auto;
-             height:500px;
+
              a{
                 font-family: Nunito;
                 font-size: 16px;
@@ -58,12 +58,13 @@ border:none !important;
 
 
             }
-            .small-device{
-                padding-top:20px;
+            img{
+                width:100%;
             }
+
             .images-sale{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png');
-                height:320px;              
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png');
+             
                   background-size:cover;
                   background-position: center center;
 
@@ -71,8 +72,8 @@ border:none !important;
         
             }
             .images-recruit{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png');
-                height:320px;
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png');
+
                 background-repeat:no-repeat;
                 background-position: center center;
 
@@ -80,8 +81,8 @@ border:none !important;
 
             }
             .images-operation{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png');
-                height:320px;
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png');
+              
                 background-position: center center;
                 background-repeat:no-repeat;
                 background-size:cover;
