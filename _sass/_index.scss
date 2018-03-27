@@ -43,7 +43,7 @@ border:none !important;
             width:87%;
             
             margin:0 auto;
-             height:500px;
+
              a{
                 font-family: Nunito;
                 font-size: 16px;
@@ -58,12 +58,13 @@ border:none !important;
 
 
             }
-            .small-device{
-                padding-top:20px;
+            img{
+                width:100%;
             }
+
             .images-sale{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png');
-                height:320px;              
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png');
+             
                   background-size:cover;
                   background-position: center center;
 
@@ -71,8 +72,8 @@ border:none !important;
         
             }
             .images-recruit{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png');
-                height:320px;
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png');
+
                 background-repeat:no-repeat;
                 background-position: center center;
 
@@ -80,8 +81,8 @@ border:none !important;
 
             }
             .images-operation{
-                background-image: url('http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png');
-                height:320px;
+                // background-image: url('http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png');
+              
                 background-position: center center;
                 background-repeat:no-repeat;
                 background-size:cover;
@@ -94,17 +95,30 @@ border:none !important;
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
+                        padding-left:4px;
                         
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
                         background-repeat:no-repeat;
-                        width:30px;
-                        height:30px;
+                        width:20px;
+                        height:20px;
                         position:relative;
-                        top:10px;
+                        top:5px;
                         display:inline-block;
+                        background-size:20px 20px;
+
+                    }
+                    .one-sale{
+                        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522049879/icons/group-35.svg");
+                        
+                    }
+                    .one-operate{
+                       
+                        background-image: url(" https://res.cloudinary.com/shettycloud/image/upload/v1522047892/icons/page-1_2.svg");
+
+                    }
+                    .one-recruit{
+                        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522048875/icons/page-1_5.svg");
                     }
 
                 }
@@ -470,7 +484,7 @@ img{
 .image-backside{
     height: 226px;
     background-size:contain;
-    background-image: url('/assets/images/people.png');
+    background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522054972/serviceimage/group-55_2x.png');
     background-repeat:no-repeat;
     background-position:center center;
     
@@ -591,28 +605,28 @@ img{
             .images-sale{
                 width:650px;
                 float:right;
-                background-size:650px 340px;
+                background-size:902px 380px;
                 background-position: center left;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521832754/group-2-copy-2_hnibtq.png');
-               height:322px;
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522061277/icons/LandingTab/group-8.png');
+               height:380px;
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
                 width:650px;
                  float:right;
-                background-size:650px 340px ;
+                background-size:902px 380px ;
                 background-repeat:no-repeat;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521833145/group-4-copy_zvtssx.png');
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522065631/group-9_abexc2.png');
 
-                height:331px;
+                height:380px;
             }
             .images-operation{
                 width:650px;
                 float:left;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1521832985/group-3-copy-2_ows3p8.png');
-                background-size:650px 340px;
-               height:331px;            
+                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522058299/operate_stvm1f.png');
+                background-size:902px 380px;
+               height:380px;            
                   background-position: center left;
                 background-repeat:no-repeat;
             }
@@ -629,16 +643,14 @@ img{
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-                        background-repeat:no-repeat;
+                       background-size:30px 30px;
                         width:30px;
                         height:30px;
-                        position: relative;
-                        top:5px;
-                        display:inline-block;
+                      
+                        top:10px;
+                      
                     }
 
                 }
@@ -1095,7 +1107,7 @@ img{
         .product-container{
             padding-top:4em;
             align-items: center;
-             height:690px;
+             height:692px;
              background-color: #f3f3f3;
             .max-padder{
                 padding-top:144px;
@@ -1105,30 +1117,30 @@ img{
                 float:right;
                 width:1299px;
 
-                height:635px;
-                background-size:1299px 635px;
-                background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831484/group-2_2x_alovec.png");
+                height:636px;
+                background-size:1281px 640px;
+                background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057543/group-2_gdtkol.png");
                 background-repeat:no-repeat;
         
             }
             .images-recruit{
                 width:1299px;
                 height:635px;
-                background-image:url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_700,w_1270/v1521832373/group-4_2x_v1q0i7.png");
+                background-image:url("https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png");
                  float:right;
                  width:1299px;
-                 background-size:1299px 635px;
+                 background-size:1281px 640px;
                 background-repeat:no-repeat;
             }
             .images-operation{
                 width:1299px;
                 background-size:cover;
-                height:635px;
-                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831854/group-3_2x_re4chb.png');
+                height:636px;
+                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522057782/group-6_c4jskh.png');
 
 
 
-                background-size:1299px 635px;
+                background-size:1281px 640px;
 
 
                 background-repeat:no-repeat;
@@ -1140,14 +1152,13 @@ img{
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
-                        padding-left:10px;
+                        padding-left:5px;
                     }
                     span{
-                        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-                        background-repeat:no-repeat;
+                       top:10px;
                         width:30px;
-                        height:24px;
-                        display:inline-block;
+                        height:30px;
+                       
                     }
 
                 }
@@ -1233,7 +1244,7 @@ img{
                     }
                     .row{
                         width:100%;
-                        margin-top:30px;
+                        margin-top:0px;
                     }
                     img{
                         width:165px;
@@ -1345,8 +1356,9 @@ img{
                             border-radius: 4px;
                             :hover{
                                 box-shadow: 0 0 11px rgba(33,33,33,.2); 
-                                transform:scale(1.1);
-                                margin-left:7px;
+                                transform:scale(1.05);
+                                transition:all .4s;
+                                // margin-left:7px;
 
                             }
 
@@ -1554,7 +1566,7 @@ img{
                 .image-backside{
                     width:758px;
                     height:547px;
-                    background-image: url('/assets/images/people.png');
+                    background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png');
 
                 }
 

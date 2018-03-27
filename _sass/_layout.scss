@@ -5,6 +5,12 @@
      padding:0;
      height:100%;
   }
+  .colored{
+    position: absolute;
+    display:none;
+    color:red;
+    font-size:10px;
+  }
 select.form-control{
   color:grey;
 }
@@ -14,7 +20,7 @@ select.form-control{
   }
 #ConfirmModal{
   .close{
-    background-image:url("/assets/images/close-icon.svg");
+    background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg');
     background-repeat:no-repeat;
     width:18px;height:18px;
 
@@ -131,8 +137,8 @@ select.form-control{
     font-weight: bold;
     outline: none;
     border: none;
-    background-color: grey;
-   }
+    background-color: #00c6c6;
+     }
   }
     .checkbox{
       height:25px;
@@ -140,7 +146,7 @@ select.form-control{
     }
 
     .close{
-      background-image:url("/assets/images/close-icon.svg");
+      background-image:url("https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg");
       background-repeat:no-repeat;
       width:18px;height:18px;
 
@@ -173,6 +179,7 @@ padding-top:0px;
         font-size: 12px;
         padding-top:16px;
         color: #4a4a4a;
+        text-align:center;
         
       }
 
@@ -191,6 +198,7 @@ padding-top:0px;
 
         .form-group{
         width: 209px !important;
+        position: relative;
         
         margin:0 auto;
         }
@@ -353,7 +361,7 @@ span{
 
   #ConfirmModal{
     .close{
-      background-image:url("/assets/images/close-icon.svg");
+      // background-image:url("/assets/images/close-icon.svg");
       background-repeat:no-repeat;
       width:18px;height:18px;
   

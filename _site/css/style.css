@@ -36,6 +36,12 @@
     padding: 0;
     height: 100%; }
 
+  .colored {
+    position: absolute;
+    display: none;
+    color: red;
+    font-size: 10px; }
+
   select.form-control {
     color: grey; }
 
@@ -43,7 +49,7 @@
     border-bottom: 2px solid #37b8ae; }
 
   #ConfirmModal .close {
-    background-image: url("/assets/images/close-icon.svg");
+    background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg");
     background-repeat: no-repeat;
     width: 18px;
     height: 18px; }
@@ -132,12 +138,12 @@
         font-weight: bold;
         outline: none;
         border: none;
-        background-color: grey; }
+        background-color: #00c6c6; }
     #ContactModal .modal-dialog .checkbox {
       height: 25px;
       margin-bottom: 0px; }
     #ContactModal .modal-dialog .close {
-      background-image: url("/assets/images/close-icon.svg");
+      background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg");
       background-repeat: no-repeat;
       width: 18px;
       height: 18px; }
@@ -160,7 +166,8 @@
       font-family: NotoSans;
       font-size: 12px;
       padding-top: 16px;
-      color: #4a4a4a; }
+      color: #4a4a4a;
+      text-align: center; }
     #ContactModal .modal-dialog .textbox-container {
       width: 209px !important;
       margin: 0 auto;
@@ -169,6 +176,7 @@
         margin-top: 11px; }
       #ContactModal .modal-dialog .textbox-container .form-group {
         width: 209px !important;
+        position: relative;
         margin: 0 auto; }
       #ContactModal .modal-dialog .textbox-container input.form-control {
         width: 209px !important;
@@ -271,7 +279,6 @@
           color: #00c6c6; } }
 @media screen and (min-width: 768px) {
   #ConfirmModal .close {
-    background-image: url("/assets/images/close-icon.svg");
     background-repeat: no-repeat;
     width: 18px;
     height: 18px; }
@@ -547,8 +554,7 @@
     .HomePage .product-container {
       align-items: center;
       width: 87%;
-      margin: 0 auto;
-      height: 500px; }
+      margin: 0 auto; }
       .HomePage .product-container a {
         font-family: Nunito;
         font-size: 16px;
@@ -560,23 +566,17 @@
         text-decoration: none;
         color: #c5aa7f;
         border-bottom: 1px solid  #c5aa7f; }
-      .HomePage .product-container .small-device {
-        padding-top: 20px; }
+      .HomePage .product-container img {
+        width: 100%; }
       .HomePage .product-container .images-sale {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739354/landersale_dkq4aq.png");
-        height: 320px;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521739653/landerrecruit_nyp5s1.png");
-        height: 320px;
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover; }
       .HomePage .product-container .images-operation {
-        background-image: url("http://res.cloudinary.com/shettycloud/image/upload/q_100/v1521713554/opeart_bknzd5.png");
-        height: 320px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -584,15 +584,21 @@
         border-bottom: 1px solid #00c6c6; }
         .HomePage .product-container .images-exp .sale p {
           display: inline-block;
-          padding-left: 10px; }
+          padding-left: 4px; }
         .HomePage .product-container .images-exp .sale span {
-          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
           background-repeat: no-repeat;
-          width: 30px;
-          height: 30px;
+          width: 20px;
+          height: 20px;
           position: relative;
-          top: 10px;
-          display: inline-block; }
+          top: 5px;
+          display: inline-block;
+          background-size: 20px 20px; }
+        .HomePage .product-container .images-exp .sale .one-sale {
+          background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522049879/icons/group-35.svg"); }
+        .HomePage .product-container .images-exp .sale .one-operate {
+          background-image: url(" https://res.cloudinary.com/shettycloud/image/upload/v1522047892/icons/page-1_2.svg"); }
+        .HomePage .product-container .images-exp .sale .one-recruit {
+          background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522048875/icons/page-1_5.svg"); }
       .HomePage .product-container .images-exp .all-info {
         padding-top: 16px;
         font-family: Nunito;
@@ -832,7 +838,7 @@
       .HomePage .group .image-backside {
         height: 226px;
         background-size: contain;
-        background-image: url("/assets/images/people.png");
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522054972/serviceimage/group-55_2x.png");
         background-repeat: no-repeat;
         background-position: center center; }
       .HomePage .group .info-contain {
@@ -890,24 +896,24 @@
       .HomePage .product-container .images-sale {
         width: 650px;
         float: right;
-        background-size: 650px 340px;
+        background-size: 902px 380px;
         background-position: center left;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521832754/group-2-copy-2_hnibtq.png");
-        height: 322px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522061277/icons/LandingTab/group-8.png");
+        height: 380px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
         width: 650px;
         float: right;
-        background-size: 650px 340px;
+        background-size: 902px 380px;
         background-repeat: no-repeat;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521833145/group-4-copy_zvtssx.png");
-        height: 331px; }
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522065631/group-9_abexc2.png");
+        height: 380px; }
       .HomePage .product-container .images-operation {
         width: 650px;
         float: left;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1521832985/group-3-copy-2_ows3p8.png");
-        background-size: 650px 340px;
-        height: 331px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522058299/operate_stvm1f.png");
+        background-size: 902px 380px;
+        height: 380px;
         background-position: center left;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-exp {
@@ -921,16 +927,12 @@
           padding-bottom: 10px;
           border-bottom: 1px solid #00c6c6; }
           .HomePage .product-container .images-exp .sale p {
-            display: inline-block;
-            padding-left: 10px; }
+            display: inline-block; }
           .HomePage .product-container .images-exp .sale span {
-            background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-            background-repeat: no-repeat;
+            background-size: 30px 30px;
             width: 30px;
             height: 30px;
-            position: relative;
-            top: 5px;
-            display: inline-block; }
+            top: 10px; }
         .HomePage .product-container .images-exp .all-info {
           padding-top: 16px;
           width: 274px;
@@ -1228,31 +1230,31 @@
     .HomePage .product-container {
       padding-top: 4em;
       align-items: center;
-      height: 690px;
+      height: 692px;
       background-color: #f3f3f3; }
       .HomePage .product-container .max-padder {
         padding-top: 144px; }
       .HomePage .product-container .images-sale {
         float: right;
         width: 1299px;
-        height: 635px;
-        background-size: 1299px 635px;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831484/group-2_2x_alovec.png");
+        height: 636px;
+        background-size: 1281px 640px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057543/group-2_gdtkol.png");
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
         width: 1299px;
         height: 635px;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_700,w_1270/v1521832373/group-4_2x_v1q0i7.png");
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png");
         float: right;
         width: 1299px;
-        background-size: 1299px 635px;
+        background-size: 1281px 640px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-operation {
         width: 1299px;
         background-size: cover;
-        height: 635px;
-        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/c_scale,h_635/v1521831854/group-3_2x_re4chb.png");
-        background-size: 1299px 635px;
+        height: 636px;
+        background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057782/group-6_c4jskh.png");
+        background-size: 1281px 640px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-exp .sale {
         width: 239px;
@@ -1260,13 +1262,11 @@
         border-bottom: 1px solid #00c6c6; }
         .HomePage .product-container .images-exp .sale p {
           display: inline-block;
-          padding-left: 10px; }
+          padding-left: 5px; }
         .HomePage .product-container .images-exp .sale span {
-          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1521660284/sales_imgkow.svg");
-          background-repeat: no-repeat;
+          top: 10px;
           width: 30px;
-          height: 24px;
-          display: inline-block; }
+          height: 30px; }
       .HomePage .product-container .images-exp .all-info {
         padding-top: 16px;
         width: 274px;
@@ -1315,7 +1315,7 @@
         padding-top: 70px !important; }
       .HomePage .container .row {
         width: 100%;
-        margin-top: 30px; }
+        margin-top: 0px; }
       .HomePage .container img {
         width: 165px;
         height: 155px;
@@ -1391,8 +1391,8 @@
         border-radius: 4px; }
         .HomePage .banner-btn .row a :hover {
           box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-          transform: scale(1.1);
-          margin-left: 7px; }
+          transform: scale(1.05);
+          transition: all .4s; }
         .HomePage .banner-btn .row a button {
           width: 180px;
           height: 41px;
@@ -1544,7 +1544,7 @@
         .HomePage .group .services-page .image-backside {
           width: 758px;
           height: 547px;
-          background-image: url("/assets/images/people.png"); }
+          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png"); }
       .HomePage .group .info-contain {
         padding-left: 0px; }
         .HomePage .group .info-contain .service {
