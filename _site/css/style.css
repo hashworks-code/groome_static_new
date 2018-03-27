@@ -556,6 +556,8 @@
       align-items: center;
       width: 87%;
       margin: 0 auto; }
+      .HomePage .product-container .max-padder {
+        padding-top: 40px; }
       .HomePage .product-container a {
         font-family: Nunito;
         font-size: 16px;
@@ -890,6 +892,8 @@
       height: 436px;
       width: 100%;
       background-color: #f3f3f3; }
+      .HomePage .product-container .max-padder {
+        padding-top: 0px; }
       .HomePage .product-container .overflow-control {
         overflow: hidden; }
       .HomePage .product-container .small-device {

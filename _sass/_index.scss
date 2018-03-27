@@ -43,7 +43,9 @@ border:none !important;
             width:87%;
             
             margin:0 auto;
-
+             .max-padder{
+                 padding-top:40px;
+             }
              a{
                 font-family: Nunito;
                 font-size: 16px;
@@ -592,6 +594,9 @@ img{
              height:436px;
              width:100%;
              background-color: #f3f3f3;
+             .max-padder{
+                 padding-top:0px;
+             }
              .overflow-control{
                 overflow:hidden;
 
