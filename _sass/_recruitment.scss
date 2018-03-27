@@ -125,7 +125,7 @@
     .item {
         padding-left: 15px;
         padding-right: 15px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+     // min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
   
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -306,7 +306,6 @@
                fill:#ffffff;
                stroke:#ffffff;
             }
-         
           }
           span{
                 font-family: NotoSans;
@@ -380,22 +379,22 @@
       }
       .tab-image-desk{
         width: 902px;
-        height: 340px;
+        height: 568px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 340px;
+        background-size: 902px 568px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086351/recruitment/tabImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086353/recruitment/tabImage2.png);
       }
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086354/recruitment/tabImage3.png);
       }
      
     .tab-image-mob{
@@ -408,7 +407,7 @@
 
 
 
-@media screen  and (min-width:1200px){
+@media screen  and (min-width:1024px){
     .recruitment-wrapper{
     .banner-left1{
         display: block;
@@ -431,8 +430,10 @@
         border:1px solid #cab18b;
     }
     .salesBtn:hover{
-            border: solid 1px #00c6c6;
-            border-radius: 0px;
+            // border: solid 1px #00c6c6;
+            // border-radius: 0px;
+            background-color: #cab18b;
+            color:white;
     }
     .bannerHeading{
         font-size: 32px;
@@ -484,7 +485,7 @@
     .item {
         padding-left: 0px;
         padding-right: 0px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+     // min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
 
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -526,24 +527,24 @@
       }
     }  
     .tab-image-desk{
-        width: 902px;
-        height: 451px;
+        width: 1281px;
+        height: 582px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 451px;
+        background-size: 1281px 582px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959842/recruitment/imgDesk1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086043/recruitment/deskImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgDesk2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086044/recruitment/deskImage2.png);
       }
 
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgDesk3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086045/recruitment/deskImage3.png);
       }
     .accor-icon-active{
         width: 12px;

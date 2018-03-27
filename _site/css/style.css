@@ -198,8 +198,7 @@
     background-repeat: no-repeat;
     background-color: #f3f3f3;
     position: relative;
-    bottom: 0;
-    margin-top: 20px; }
+    bottom: 0; }
     .Groome-footer .linkedin, .Groome-footer .facebook, .Groome-footer .twitter {
       width: 18px;
       height: 18px; }
@@ -1674,8 +1673,7 @@
       display: none; }
     .operation-wrapper .tabbed-content .item {
       padding-left: 15px;
-      padding-right: 15px;
-      min-height: 2em; }
+      padding-right: 15px; }
       .operation-wrapper .tabbed-content .item .item-content {
         opacity: 0;
         display: none;
@@ -1870,17 +1868,17 @@
       margin-top: 20px; }
     .operation-wrapper .tabbed-content .tab-image-desk {
       width: 902px;
-      height: 340px;
+      height: 600px;
       margin-top: 30px;
       display: block;
       background-repeat: no-repeat;
-      background-size: 902px 340px; }
+      background-size: 902px 600px; }
     .operation-wrapper .tabbed-content .img-t1-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgTab1.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage1.png); }
     .operation-wrapper .tabbed-content .img-t2-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab2.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132029/operation/tabImage2.png); }
     .operation-wrapper .tabbed-content .img-t3-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab3.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage3.png); }
     .operation-wrapper .tabbed-content .tab-image-mob {
       display: none; } }
 @media screen and (min-width: 1024px) {
@@ -1901,8 +1899,8 @@
     background-color: transparent;
     border: 1px solid #cab18b; }
   .operation-wrapper .banner-right1 .salesBtn:hover {
-    border: solid 1px #00c6c6;
-    border-radius: 0px; }
+    background-color: #cab18b;
+    color: white; }
   .operation-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
   .operation-wrapper .banner-right1 .sales-content {
@@ -1941,8 +1939,7 @@
     display: block; }
   .operation-wrapper .tabbed-content .item {
     padding-left: 0px;
-    padding-right: 0px;
-    min-height: 2em; }
+    padding-right: 0px; }
     .operation-wrapper .tabbed-content .item .item-content {
       opacity: 0;
       display: none;
@@ -1974,18 +1971,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .operation-wrapper .tabbed-content .tab-image-desk {
-    width: 902px;
-    height: 451px;
+    width: 1281px;
+    height: 608px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 902px 451px; }
+    background-size: 1281px 608px; }
   .operation-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk1.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage1.png); }
   .operation-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk2.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage2.png); }
   .operation-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgDesk3.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage3.png); }
   .operation-wrapper .tabbed-content .img-mobile {
     display: none; }
   .operation-wrapper .tabbed-content .accor-icon-active {
@@ -2143,8 +2140,7 @@
       display: none; }
     .recruitment-wrapper .tabbed-content .item {
       padding-left: 15px;
-      padding-right: 15px;
-      min-height: 2em; }
+      padding-right: 15px; }
       .recruitment-wrapper .tabbed-content .item .item-content {
         opacity: 0;
         display: none;
@@ -2339,20 +2335,20 @@
       margin-top: 20px; }
     .recruitment-wrapper .tabbed-content .tab-image-desk {
       width: 902px;
-      height: 340px;
+      height: 568px;
       margin-top: 30px;
       display: block;
       background-repeat: no-repeat;
-      background-size: 902px 340px; }
+      background-size: 902px 568px; }
     .recruitment-wrapper .tabbed-content .img-t1-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgTab1.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086351/recruitment/tabImage1.png); }
     .recruitment-wrapper .tabbed-content .img-t2-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab2.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086353/recruitment/tabImage2.png); }
     .recruitment-wrapper .tabbed-content .img-t3-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgTab3.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086354/recruitment/tabImage3.png); }
     .recruitment-wrapper .tabbed-content .tab-image-mob {
       display: none; } }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .recruitment-wrapper .banner-left1 {
     display: block; }
   .recruitment-wrapper .banner-right1 .salesBtn {
@@ -2370,8 +2366,8 @@
     background-color: transparent;
     border: 1px solid #cab18b; }
   .recruitment-wrapper .banner-right1 .salesBtn:hover {
-    border: solid 1px #00c6c6;
-    border-radius: 0px; }
+    background-color: #cab18b;
+    color: white; }
   .recruitment-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
   .recruitment-wrapper .banner-right1 .sales-content {
@@ -2410,8 +2406,7 @@
     display: block; }
   .recruitment-wrapper .tabbed-content .item {
     padding-left: 0px;
-    padding-right: 0px;
-    min-height: 2em; }
+    padding-right: 0px; }
     .recruitment-wrapper .tabbed-content .item .item-content {
       opacity: 0;
       display: none;
@@ -2443,18 +2438,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .recruitment-wrapper .tabbed-content .tab-image-desk {
-    width: 902px;
-    height: 451px;
+    width: 1281px;
+    height: 582px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 902px 451px; }
+    background-size: 1281px 582px; }
   .recruitment-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959842/recruitment/imgDesk1.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086043/recruitment/deskImage1.png); }
   .recruitment-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959843/recruitment/imgDesk2.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086044/recruitment/deskImage2.png); }
   .recruitment-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959844/recruitment/imgDesk3.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522086045/recruitment/deskImage3.png); }
   .recruitment-wrapper .tabbed-content .accor-icon-active {
     width: 12px;
     height: 7px;
@@ -2610,8 +2605,7 @@
       display: none; }
     .sales-wrapper .tabbed-content .item {
       padding-left: 15px;
-      padding-right: 15px;
-      min-height: 2em; }
+      padding-right: 15px; }
       .sales-wrapper .tabbed-content .item .item-content {
         opacity: 0;
         display: none;
@@ -2806,17 +2800,17 @@
       margin-top: 20px; }
     .sales-wrapper .tabbed-content .tab-image-desk {
       width: 902px;
-      height: 340px;
+      height: 555px;
       margin-top: 30px;
       display: block;
       background-repeat: no-repeat;
-      background-size: 902px 340px; }
+      background-size: 902px 555px; }
     .sales-wrapper .tabbed-content .img-t1-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgTab1.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage1.png); }
     .sales-wrapper .tabbed-content .img-t2-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab2.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage2.png); }
     .sales-wrapper .tabbed-content .img-t3-desktop {
-      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab3.png); }
+      background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage3.png); }
     .sales-wrapper .tabbed-content .tab-image-mob {
       display: none; } }
 @media screen and (min-width: 1024px) {
@@ -2837,8 +2831,8 @@
     background-color: transparent;
     border: 1px solid #cab18b; }
   .sales-wrapper .banner-right1 .salesBtn:hover {
-    border: solid 1px #00c6c6;
-    border-radius: 0px; }
+    background-color: #cab18b;
+    color: white; }
   .sales-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
   .sales-wrapper .banner-right1 .sales-content {
@@ -2877,8 +2871,7 @@
     display: block; }
   .sales-wrapper .tabbed-content .item {
     padding-left: 0px;
-    padding-right: 0px;
-    min-height: 2em; }
+    padding-right: 0px; }
     .sales-wrapper .tabbed-content .item .item-content {
       opacity: 0;
       display: none;
@@ -2910,18 +2903,18 @@
       padding-left: 30px;
       padding-right: 30px; }
   .sales-wrapper .tabbed-content .tab-image-desk {
-    width: 902px;
-    height: 452px;
+    width: 1281px;
+    height: 519px;
     margin-top: 30px;
     display: block;
     background-repeat: no-repeat;
-    background-size: 902px 452px; }
+    background-size: 1281px 519px; }
   .sales-wrapper .tabbed-content .img-t1-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgDesk1.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084875/sales/deskImage1.png); }
   .sales-wrapper .tabbed-content .img-t2-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgDesk2.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084876/sales/deskImage2.png); }
   .sales-wrapper .tabbed-content .img-t3-desktop {
-    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959477/sales/imgDesk3.png); }
+    background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084875/sales/deskImage3.png); }
   .sales-wrapper .tabbed-content .tab-image-mob {
     display: none; }
   .sales-wrapper .tabbed-content .accor-icon-active {
@@ -3310,8 +3303,8 @@
     background-color: transparent;
     border: 1px solid #cab18b; }
   .services-wrapper .banner-right1 .salesBtn:hover {
-    border: solid 1px #00c6c6;
-    border-radius: 0px; }
+    background-color: #cab18b;
+    color: white; }
   .services-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
   .services-wrapper .banner-right1 .sales-content {
