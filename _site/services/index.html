@@ -414,7 +414,7 @@
 
                  </div>
                  <div class="form-group pad-left">
-                <input type="text" class="form-control data-info box-4" id="phone"   maxlength="12" placeholder="Phone Number" name="ContactNo"  onkeypress="return isNumber(event)">
+                <input type="text" class="form-control data-info box-4" id="phone"   maxlength="15" placeholder="Phone Number prefix with Pincode" name="ContactNo"  onkeypress="return isNumber(event)">
                 <div class="phone colored val-4">Please Enter valid Number</div>
 
                  </div>
@@ -425,7 +425,7 @@
                    </div>
 
                      <div class=" form-group pad-left" style="border-radius:4px">
-                      <select class="form-control emp box-6" id="emps" NAME="NoEmps" >
+                      <select class="form-control emp box-6" id="emps" name="NoEmps" >
                           <option value="" disabled selected class="default">Number of Employees </option>
                           <option value="500">500</option>
                           <option value="1000">1000</option>
@@ -444,20 +444,25 @@
                     </div>
                        <div class="checkbox-wrapper">
                 <div class="checkbox">
-                  <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="productcheckbox" value="products">Products</label>
+                  <label style="min-height:0px !important"><input type="checkbox"  class="product-check" name="Product-checkbox" value="products">Products</label>
                 </div>
                 <div class="checkbox checkbox-align">
-                  <label><input type="checkbox" class="service-check" name="ServiceCheckbox" value="service-consultants">Service consultants</label>
+                  <label><input type="checkbox" class="service-check" name="Service-Checkbox" value="service-consultants">Service consultants</label>
                 </div>
 
                 <div class="checkbox-msg colored ">Please select Atleast one Checkbox</div>
 
                 </div>
-              
+                <!-- <div class="btn-demo">
+                  <a>
+                    <button  type="submit" class="submit submit-data" >Demo</button>
+                  </a>
+  
+                </div> -->
               </form>
               <div class="btn-demo">
                   <a>
-                    <button class="submit submit-data" >Demo</button>
+                    <button  class="submit submit-data" >Demo</button>
                   </a>
   
                 </div>
@@ -582,9 +587,12 @@ else if(window.location.pathname.includes("services"))
 
 
 
-$('.submit-data').click(function(){
-  // var $form = $('form#contact');
-  // // var data= $form.serializeObject();
+$('.submit-data').click(function(e){
+  var $form = $('form.contact');
+  
+   var dataall= $form.serialize();
+   console.log(data);
+var url="  https://script.google.com/macros/s/AKfycbxCRkzWmJvRB0t4E4rqcmCPEOldyI6aWJ_oQQHI5nQdCedBOxk/exec";
   var data = $('form').serialize();
   console.log(data);
   for(i=1;i<=7;i++)
@@ -593,7 +601,7 @@ $('.submit-data').click(function(){
         if(($('.box-'+i).val()=='')||($('.box-'+i).val()==null))
         {
         $('.val-'+i).show();
-
+    
         }
         else
         {
@@ -615,9 +623,25 @@ $('.submit-data').click(function(){
 
   if(($('.box-1').val()!="" && $('.box-2').val()!="" && $('.box-3').val()!="" && $('.box-4').val()!="" && $('.box-5').val()!="" && $('.box-6').val()!=null && $('.box-7').val()!=null) && ($(".service-check").is(':checked') || $(".product-check").is(':checked'))){
     $('select').css('color','grey');
-$('#ContactModal').modal('hide');
-   $('#ConfirmModal').modal('show');
-   $('form')[0].reset();
+   
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data:dataall
+  }).success(
+    $('#ContactModal').modal('hide'),
+   $('#ConfirmModal').modal('show'),
+   $('form')[0].reset()
+  );
+
+
+
+
+
+
+
+   
 
 
 }
