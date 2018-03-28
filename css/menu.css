@@ -72,6 +72,9 @@ html, body {
     height: 60px;
     background:white;
   }
+  .cd-secondary-nav li{
+margin-left:1.2em;
+  }
   .cd-secondary-nav a:hover{
     border-bottom:2px solid#37b8ae;
 
@@ -168,7 +171,7 @@ height:50px;
 }
 .cd-secondary-nav li {
   display: inline-block;
-  margin-left: 2.2em;
+
 }
 
 .cd-secondary-nav a {
@@ -214,6 +217,9 @@ height:50px;
   font-size: 16px;
 
 }
+.cd-secondary-nav li{
+  margin-left:2.2em;
+    }
 .cd-secondary-nav li :last-child button{
   width:169px !important;
   height:41px !important;
