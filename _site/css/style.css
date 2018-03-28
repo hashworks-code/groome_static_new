@@ -512,6 +512,8 @@
 
   .Groome-footer {
     height: 360px; }
+    .Groome-footer .row {
+      width: 87%; }
     .Groome-footer .footer-btn button {
       width: 243px;
       height: 41px; }
@@ -572,7 +574,9 @@
       width: 87%;
       margin: 0 auto; }
       .HomePage .product-container .max-padder {
-        padding-top: 40px; }
+        padding-top: 30px; }
+      .HomePage .product-container .sales-align {
+        padding-top: 0px; }
       .HomePage .product-container a {
         font-family: Nunito;
         font-size: 16px;
@@ -932,6 +936,8 @@
       background-color: #f3f3f3; }
       .HomePage .product-container .max-padder {
         padding-top: 0px; }
+      .HomePage .product-container .sales-align {
+        padding-top: 0px; }
       .HomePage .product-container .overflow-control {
         overflow: hidden; }
       .HomePage .product-container .small-device {
@@ -1204,6 +1210,7 @@
         text-align: left;
         display: inline-block;
         height: 21px;
+        margin-top: 20px;
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
@@ -1238,20 +1245,26 @@
         border: 2px solid blue;
         padding-right: 10px; }
     .HomePage .group {
-      padding-top: 20px;
+      padding-top: 0px;
       width: 100%;
-      height: 310px;
+      height: 440px;
       margin: 0 auto;
       margin-top: 0px; }
+      .HomePage .group .services-page {
+        height: 440px;
+        width: 700px;
+        margin: 0 auto;
+        padding-top: 137px;
+        position: relative; }
+      .HomePage .group .info-contain {
+        padding-left: 0px; }
       .HomePage .group .image-backside {
         float: right;
-        width: 360px;
-        height: 237px;
+        width: 428px;
+        height: 303px;
         position: absolute;
-        right: 0;
+        right: 20px;
         bottom: 0; }
-      .HomePage .group .img-group {
-        padding-top: 80px; }
       .HomePage .group p {
         font-family: NotoSans;
         font-size: 18px;
@@ -1590,18 +1603,18 @@
       .HomePage .group .services-page {
         position: relative;
         height: 722px;
-        width: 950px;
+        width: 87%;
+        padding-top: 270px;
         margin: 0 auto; }
         .HomePage .group .services-page .image-backside {
           width: 758px;
           height: 547px;
-          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png"); }
+          background-image: url("http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png");
+          right: 0; }
       .HomePage .group .info-contain {
         padding-left: 0px; }
         .HomePage .group .info-contain .service {
           font-size: 32px; }
-      .HomePage .group .img-group {
-        padding-top: 270px; }
       .HomePage .group .sub-info {
         font-family: Nunito;
         font-size: 16px;

@@ -44,7 +44,10 @@ border:none !important;
             
             margin:0 auto;
              .max-padder{
-                 padding-top:40px;
+                 padding-top:30px;
+             }
+             .sales-align{
+                 padding-top:0px;
              }
              a{
                 font-family: Nunito;
@@ -632,6 +635,9 @@ img{
              .max-padder{
                  padding-top:0px;
              }
+             .sales-align{
+                 padding-top:0px; 
+             }
              .overflow-control{
                 overflow:hidden;
 
@@ -1039,6 +1045,7 @@ img{
                 text-align:left;
                 display:inline-block;
                 height: 21px;
+                margin-top:20px;
                 font-family: Nunito;
                 font-size: 16px;
                 font-weight: 600;
@@ -1085,29 +1092,35 @@ img{
         }
           }
           .group{
-             padding-top:20px;
+             padding-top:0px;
             width:100%;
-            height:310px;
+            height:440px;
             margin:0 auto;
             margin-top:0px; 
+            .services-page{
+                height:440px;
+                width:700px;
+                margin:0 auto;
+                padding-top:137px;
+                position: relative;
+            }
+            .info-contain{
+                padding-left:0px;
+            }
             .image-backside{
                 float:right;
-                width:360px;
-                height:237px;
+                width:428px;
+                height:303px;
                 position: absolute;
-                right:0;
+                right:20px;
                 bottom:0; 
             }
-             .img-group{
-                //  background-image: url('/assets/images/group.jpg');
-                 padding-top:80px;
-                 
-             }
+           
              p{
                 font-family: NotoSans;
                 font-size: 18px;
                 color: #4a4a4a;
-                
+
              }
              .Know-more{
                 display:block;
@@ -1615,13 +1628,15 @@ img{
                 position:relative;
                 
                 height:722px;
-                width:950px;
+                // width:950px;
+                width:87%;
+                padding-top:270px;
                 margin:0 auto;
                 .image-backside{
                     width:758px;
                     height:547px;
                     background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png');
-
+                    right:0;
                 }
 
             }
@@ -1629,14 +1644,12 @@ img{
                 padding-left:0px;
                 .service{
                   font-size: 32px;
-                  
+                 
                     }
                }
-             .img-group{
-                 padding-top:270px;
-                 
-             }
+          
              .sub-info{
+
                 font-family:Nunito;
                 font-size: 16px;
                 color: #4a4a4a;
