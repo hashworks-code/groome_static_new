@@ -50,14 +50,34 @@ border:none !important;
                 font-family: Nunito;
                 font-size: 16px;
                 font-weight: 600;
-                width:120px;
                 text-align:center;
                 margin:0 auto;
-                padding-top:15px;
+                width: 120px;
+                height: 30px;
+                margin-top:20px;
                 text-decoration: none;
                 color: #c5aa7f;
-                border-bottom:1px solid  #c5aa7f;
+                border: solid 1px #d7c4a7;
 
+                border-radius: 4px;
+                &:hover{
+                    background-color: #cab18b;
+                      
+                }
+              button{
+                width: 120px;
+                height: 30px;
+                color: #cab18b;
+                border: none;
+                outline: none;
+
+                text-align: center;
+                background-color:transparent;
+                &:hover{
+                    color:white;
+                }
+
+              }
 
             }
             img{
@@ -98,6 +118,7 @@ border:none !important;
                     p{
                         display:inline-block;
                         padding-left:4px;
+                        font-family:NotoSans;
                         
                     }
                     span{
@@ -136,12 +157,12 @@ border:none !important;
                     font-family: Nunito;
                     font-size: 16px;
                     font-weight: 600;
-                    width:110px;
+                 
                     margin:0 auto;
-                    padding-top:15px;
+                
                     text-decoration: none;
                     color: #c5aa7f;
-                    border-bottom:1px solid  #c5aa7f;
+                   
 
 
                 }
@@ -427,7 +448,6 @@ text-align:center;
         font-size: 16px;
         font-weight: 600;
         padding-bottom:10px;
-        border-bottom:1px solid #c5aa7f;
         color: #c5aa7f;
         span{
             padding-left:5px;
@@ -532,12 +552,27 @@ img{
             font-family: Nunito;
             font-size: 16px;
             font-weight: 600;
-            padding-bottom:10px;
-            border-bottom:1px solid #c5aa7f;
+            width:120px;
+            height:30px;
+            border: solid 1px #d7c4a7;
+    border-radius: 4px;
             color: #c5aa7f;
-            span{
-                padding-left:5px;
+            &:hover{
+                background-color:#cab18b;
             }
+            button{
+                &:hover{
+                    color:white;
+                }
+                width: 120px;
+    height: 30px;
+    color: #cab18b;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+            }
+
         }
     }
   }
@@ -608,7 +643,7 @@ img{
 
             }
             .images-sale{
-                width:650px;
+                width:902px;
                 float:right;
                 background-size:902px 380px;
                 background-position: center left;
@@ -618,7 +653,7 @@ img{
         
             }
             .images-recruit{
-                width:650px;
+                width:902px;
                  float:right;
                 background-size:902px 380px ;
                 background-repeat:no-repeat;
@@ -627,7 +662,7 @@ img{
                 height:380px;
             }
             .images-operation{
-                width:650px;
+                width:902px;
                 float:left;
                 background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522058299/operate_stvm1f.png');
                 background-size:902px 380px;
@@ -648,6 +683,7 @@ img{
                     border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
+                        font-size:19px;
                     }
                     span{
                        background-size:30px 30px;
@@ -674,10 +710,15 @@ img{
                     font-weight: 600;
                     text-align:left;
                     margin:0px;
-                    padding-top:15px;
-                    text-decoration: none;
+                    width:169px;
+                    height:41px;
                     color: #c5aa7f;
-                    border-bottom:1px solid  #c5aa7f;
+                    margin-top:20px;
+                    button{
+                        width:169px;
+                        height:41px;
+                    }
+
     
     
                 }
@@ -1004,8 +1045,7 @@ img{
                 font-family: Nunito;
                 font-size: 16px;
                 font-weight: 600;
-                padding-bottom:10px;
-                border-bottom:1px solid #c5aa7f;
+              
                 color: #c5aa7f;
                 span{
                     padding-left:5px;
@@ -1080,15 +1120,24 @@ img{
                     
                     display:inline-block;
                     height: 21px;
+                    width:169px;
+                    height:41px;
                     font-family: Nunito;
                     font-size: 16px;
                     font-weight: 600;
-                    padding-bottom:10px;
-                    border-bottom:1px solid #c5aa7f;
+                    border: solid 1px #d7c4a7;
                     color: #c5aa7f;
-                    span{
-                        padding-left:5px;
+                    &:hover{
+                        background-color:#c5aa7f;
                     }
+                    button{
+                        width:169px;
+                        height:41px;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+
                 }
             }
           }
@@ -1124,7 +1173,7 @@ img{
                 width:1299px;
 
                 height:636px;
-                background-size:1281px 640px;
+                background-size:1281px 636px;
                 background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057543/group-2_gdtkol.png");
                 background-repeat:no-repeat;
         
@@ -1135,18 +1184,17 @@ img{
                 background-image:url("https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png");
                  float:right;
                  width:1299px;
-                 background-size:1281px 640px;
+                 background-size:1281px 635px;
                 background-repeat:no-repeat;
             }
             .images-operation{
                 width:1299px;
-                background-size:cover;
                 height:636px;
                 background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522057782/group-6_c4jskh.png');
 
 
 
-                background-size:1281px 640px;
+                background-size:1281px 636px;
 
 
                 background-repeat:no-repeat;
@@ -1159,6 +1207,8 @@ img{
                     p{
                         display:inline-block;
                         padding-left:5px;
+
+                        font-size:22px;
                     }
                     span{
                        top:10px;
@@ -1181,13 +1231,14 @@ img{
                     font-family: Nunito;
                     font-size: 16px;
                     font-weight: 600;
-                    width:120px;
+                    border-radius: 4px;
                     margin: 0px;
-                    padding-top:15px;
+                   width:170px;
+                   height:41px;
                     text-decoration: none;
                     color: #c5aa7f;
-                    border-bottom:1px solid  #c5aa7f;
 
+                    margin-top:30px;
 
                 }
             }
@@ -1514,9 +1565,9 @@ img{
                 height: 21px;
                 font-family: Nunito;
                 font-size: 16px;
+              
                 font-weight: 600;
-                padding-bottom:10px;
-                border-bottom:1px solid #c5aa7f;
+
                 color: #c5aa7f;
                 span{
                     padding-left:5px;
@@ -1606,11 +1657,19 @@ img{
                     font-family: Nunito;
                     font-size: 16px;
                     font-weight: 600;
-                    padding-bottom:10px;
-                    border-bottom:1px solid #c5aa7f;
+                    border-radius: 4px;
+
+                     width:170px;
+                     height:41px;
                     color: #c5aa7f;
-                    span{
-                        padding-left:5px;
+                    button{
+                        width: 169px !important;
+    height: 41px !important;
+    color: #cab18b;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
                     }
                 }
             }

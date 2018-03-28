@@ -577,13 +577,27 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        width: 120px;
         text-align: center;
         margin: 0 auto;
-        padding-top: 15px;
+        width: 120px;
+        height: 30px;
+        margin-top: 20px;
         text-decoration: none;
         color: #c5aa7f;
-        border-bottom: 1px solid  #c5aa7f; }
+        border: solid 1px #d7c4a7;
+        border-radius: 4px; }
+        .HomePage .product-container a:hover {
+          background-color: #cab18b; }
+        .HomePage .product-container a button {
+          width: 120px;
+          height: 30px;
+          color: #cab18b;
+          border: none;
+          outline: none;
+          text-align: center;
+          background-color: transparent; }
+          .HomePage .product-container a button:hover {
+            color: white; }
       .HomePage .product-container img {
         width: 100%; }
       .HomePage .product-container .images-sale {
@@ -602,7 +616,8 @@
         border-bottom: 1px solid #00c6c6; }
         .HomePage .product-container .images-exp .sale p {
           display: inline-block;
-          padding-left: 4px; }
+          padding-left: 4px;
+          font-family: NotoSans; }
         .HomePage .product-container .images-exp .sale span {
           background-repeat: no-repeat;
           width: 20px;
@@ -626,12 +641,9 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        width: 110px;
         margin: 0 auto;
-        padding-top: 15px;
         text-decoration: none;
-        color: #c5aa7f;
-        border-bottom: 1px solid  #c5aa7f; }
+        color: #c5aa7f; }
     .HomePage .resp-tab-content-active {
       background-color: #f2f2f2; }
     .HomePage .resp-tab-content {
@@ -814,7 +826,6 @@
         font-size: 16px;
         font-weight: 600;
         padding-bottom: 10px;
-        border-bottom: 1px solid #c5aa7f;
         color: #c5aa7f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
@@ -889,11 +900,23 @@
           font-family: Nunito;
           font-size: 16px;
           font-weight: 600;
-          padding-bottom: 10px;
-          border-bottom: 1px solid #c5aa7f;
+          width: 120px;
+          height: 30px;
+          border: solid 1px #d7c4a7;
+          border-radius: 4px;
           color: #c5aa7f; }
-          .HomePage .group .Know-more a span {
-            padding-left: 5px; } }
+          .HomePage .group .Know-more a:hover {
+            background-color: #cab18b; }
+          .HomePage .group .Know-more a button {
+            width: 120px;
+            height: 30px;
+            color: #cab18b;
+            border: none;
+            outline: none;
+            text-align: center;
+            background-color: transparent; }
+            .HomePage .group .Know-more a button:hover {
+              color: white; } }
 @media screen and (min-width: 768px) {
   .HomePage {
     margin-top: 100px; }
@@ -914,7 +937,7 @@
       .HomePage .product-container .small-device {
         padding-top: 0px; }
       .HomePage .product-container .images-sale {
-        width: 650px;
+        width: 902px;
         float: right;
         background-size: 902px 380px;
         background-position: center left;
@@ -922,14 +945,14 @@
         height: 380px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
-        width: 650px;
+        width: 902px;
         float: right;
         background-size: 902px 380px;
         background-repeat: no-repeat;
         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522065631/group-9_abexc2.png");
         height: 380px; }
       .HomePage .product-container .images-operation {
-        width: 650px;
+        width: 902px;
         float: left;
         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522058299/operate_stvm1f.png");
         background-size: 902px 380px;
@@ -947,7 +970,8 @@
           padding-bottom: 10px;
           border-bottom: 1px solid #00c6c6; }
           .HomePage .product-container .images-exp .sale p {
-            display: inline-block; }
+            display: inline-block;
+            font-size: 19px; }
           .HomePage .product-container .images-exp .sale span {
             background-size: 30px 30px;
             width: 30px;
@@ -965,10 +989,13 @@
           font-weight: 600;
           text-align: left;
           margin: 0px;
-          padding-top: 15px;
-          text-decoration: none;
+          width: 169px;
+          height: 41px;
           color: #c5aa7f;
-          border-bottom: 1px solid  #c5aa7f; }
+          margin-top: 20px; }
+          .HomePage .product-container .images-exp a button {
+            width: 169px;
+            height: 41px; }
     .HomePage .resp-tab-content-active {
       background-color: white; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
@@ -1180,8 +1207,6 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #c5aa7f;
         color: #c5aa7f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
@@ -1237,14 +1262,20 @@
         .HomePage .group .Know-more a {
           display: inline-block;
           height: 21px;
+          width: 169px;
+          height: 41px;
           font-family: Nunito;
           font-size: 16px;
           font-weight: 600;
-          padding-bottom: 10px;
-          border-bottom: 1px solid #c5aa7f;
+          border: solid 1px #d7c4a7;
           color: #c5aa7f; }
-          .HomePage .group .Know-more a span {
-            padding-left: 5px; } }
+          .HomePage .group .Know-more a:hover {
+            background-color: #c5aa7f; }
+          .HomePage .group .Know-more a button {
+            width: 169px;
+            height: 41px; }
+            .HomePage .group .Know-more a button:hover {
+              color: white; } }
 @media screen and (min-width: 1024px) {
   .HomePage {
     margin-top: 100px; }
@@ -1259,7 +1290,7 @@
         float: right;
         width: 1299px;
         height: 636px;
-        background-size: 1281px 640px;
+        background-size: 1281px 636px;
         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057543/group-2_gdtkol.png");
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
@@ -1268,14 +1299,13 @@
         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png");
         float: right;
         width: 1299px;
-        background-size: 1281px 640px;
+        background-size: 1281px 635px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-operation {
         width: 1299px;
-        background-size: cover;
         height: 636px;
         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057782/group-6_c4jskh.png");
-        background-size: 1281px 640px;
+        background-size: 1281px 636px;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-exp .sale {
         width: 239px;
@@ -1283,7 +1313,8 @@
         border-bottom: 1px solid #00c6c6; }
         .HomePage .product-container .images-exp .sale p {
           display: inline-block;
-          padding-left: 5px; }
+          padding-left: 5px;
+          font-size: 22px; }
         .HomePage .product-container .images-exp .sale span {
           top: 10px;
           width: 30px;
@@ -1298,12 +1329,13 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        width: 120px;
+        border-radius: 4px;
         margin: 0px;
-        padding-top: 15px;
+        width: 170px;
+        height: 41px;
         text-decoration: none;
         color: #c5aa7f;
-        border-bottom: 1px solid  #c5aa7f; }
+        margin-top: 30px; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
       font-size: 15px; }
     .HomePage .resp-tabs-container {
@@ -1520,8 +1552,6 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #c5aa7f;
         color: #c5aa7f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
@@ -1586,11 +1616,18 @@
           font-family: Nunito;
           font-size: 16px;
           font-weight: 600;
-          padding-bottom: 10px;
-          border-bottom: 1px solid #c5aa7f;
+          border-radius: 4px;
+          width: 170px;
+          height: 41px;
           color: #c5aa7f; }
-          .HomePage .group .Know-more a span {
-            padding-left: 5px; } }
+          .HomePage .group .Know-more a button {
+            width: 169px !important;
+            height: 41px !important;
+            color: #cab18b;
+            border: none;
+            outline: none;
+            text-align: center;
+            background-color: transparent; } }
 @media screen and (min-width: 320px) {
   .operation-wrapper {
     margin-top: 51px; }
