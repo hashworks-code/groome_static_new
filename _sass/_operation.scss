@@ -125,7 +125,7 @@
     .item {
         padding-left: 15px;
         padding-right: 15px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+      //min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
    
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -222,11 +222,9 @@
           margin-left: 0px;
           margin-right: 0px;
       }
-    
     }  
     }
 }
-
 
 
 @media screen  and (min-width:768px){
@@ -278,7 +276,6 @@
 }
     .sales-subcontent{
         font-size: 14px;
-        
         }
 
     .tabbed-content {
@@ -332,7 +329,7 @@
       }
       .tabButtonsGroup{
         display: block;
-    }
+        }
     .accordian-heading{
         max-width: 460px;
          margin: 0 auto;
@@ -381,30 +378,29 @@
       }
       .tab-image-desk{
         width: 902px;
-        height: 340px;
+        height: 600px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 340px;
+        background-size: 902px 600px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132029/operation/tabImage2.png);
       }
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgTab3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage3.png);
       }
      
     .tab-image-mob{
       display: none;
     }
     }
-    
-}
+ }
 }
 
 
@@ -432,8 +428,10 @@
         border:1px solid #cab18b;
     }
     .salesBtn:hover{
-            border: solid 1px #00c6c6;
-            border-radius: 0px;
+            // border: solid 1px #00c6c6;
+            // border-radius: 0px;
+            background-color: #cab18b;
+            color:white;
     }
     .bannerHeading{
         font-size: 32px;
@@ -485,7 +483,7 @@
     .item {
         padding-left: 0px;
         padding-right: 0px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+    //  min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
     
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -527,24 +525,24 @@
       }
     }  
     .tab-image-desk{
-        width: 902px;
-        height: 451px;
+        width: 1281px;
+        height: 608px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 451px;
+        background-size: 1281px 608px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959633/operation/imgDesk2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage2.png);
       }
 
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959634/operation/imgDesk3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage3.png);
       }
     .img-mobile{
         display: none;

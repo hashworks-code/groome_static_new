@@ -107,7 +107,7 @@ h2.resp-tab-title:last-child {
   width: 12px;
   height: 7px;
   float: right;
-  margin-top: 15px;
+  margin-top: 4px;
   background-image:url("/assets/images/arrowdown.svg")
 }
 
@@ -146,8 +146,8 @@ h2.resp-accordion { display: block; }
 .resp-vtabs .resp-tabs-container {
   border: none;
   float: none;
+  width:87%;
 max-width:460px;
-min-width:360px;
 margin:0 auto;
   min-height: initial;
   clear: none;
@@ -176,8 +176,9 @@ margin:0 auto;
     font-size: 12px;
 
     font-weight: bold;
-    padding-bottom:24px;
+    padding-bottom:20px;
     padding-left:29px; 
+    padding-top:20px;
   }
   .resp-tab-content-active{
     background-color: #f2f2f2;

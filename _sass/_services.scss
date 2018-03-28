@@ -433,8 +433,10 @@
         border:1px solid #cab18b;
     }
     .salesBtn:hover{
-            border: solid 1px #00c6c6;
-            border-radius: 0px;
+            // border: solid 1px #00c6c6;
+            // border-radius: 0px;
+            background-color: #cab18b;
+            color:white;
     }
     .bannerHeading{
         font-size: 32px;

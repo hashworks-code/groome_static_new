@@ -125,7 +125,7 @@
     .item {
         padding-left: 15px;
         padding-right: 15px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+       //  min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
      
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -228,8 +228,6 @@
     }  
     }
 }
-
-
 
 @media screen  and (min-width:768px){
     .sales-wrapper{
@@ -384,28 +382,28 @@
       }
       .tab-image-desk{
         width: 902px;
-        height: 340px;
+        height: 555px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 340px;
+        background-size: 902px 555px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgTab1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage2.png);
       }
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgTab3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522085374/sales/tabImage3.png);
       }
      
     .tab-image-mob{
       display: none;
-    }
-    }
+     }
+ }
 }
 }
 
@@ -432,8 +430,11 @@
         border:1px solid #cab18b;
     }
     .salesBtn:hover{
-            border: solid 1px #00c6c6;
-            border-radius: 0px;
+            // border: solid 1px #00c6c6;
+            // border-radius: 0px;
+            background-color: #cab18b;
+            color:white;
+
     }
     .bannerHeading{
         font-size: 32px;
@@ -485,7 +486,7 @@
     .item {
         padding-left: 0px;
         padding-right: 0px;
-      min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
+      //min-height: 2em; // We need a minimum height for each item or else the accordion buttons would dissapear
      
       .item-content { // We hide the inactive content with zero opacity instead of "display:none" because this allows us to apply transition effects if we want. 
         opacity: 0;
@@ -527,24 +528,24 @@
       }
     }  
     .tab-image-desk{
-        width: 902px;
-        height: 452px;
+        width: 1281px;
+        height: 519px;
         // width:369px;
         // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 902px 452px;
+        background-size: 1281px 519px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959479/sales/imgDesk1.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084875/sales/deskImage1.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959478/sales/imgDesk2.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084876/sales/deskImage2.png);
       }
 
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959477/sales/imgDesk3.png);
+        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522084875/sales/deskImage3.png);
       }
     // .tab-image{
     //     // width: 100%;
@@ -591,14 +592,14 @@
       .tab-heading{
         display: block;
         font-family:NotoSans;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000000;
       }
       .tab-info-title{
         font-family: Nunito;

@@ -32,14 +32,15 @@
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script src="/assets/js/modernizr.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116221188-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116409505-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-116221188-1');
+  gtag('config', 'UA-116409505-1');
 </script>
+
 
     
 </head>
@@ -242,7 +243,7 @@
                                     </div>
                                     <div id="accr-img-1" class="col-sm-6 col-xs-12 rightside">
                                         <div class="tab-image-desk img-t1-desktop"></div>
-                                        <img class="tab-image-mob img-t1-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959635/operation/operImgMob1.png">
+                                        <img class="tab-image-mob img-t1-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage1.png">
                                         
                                     </div>
                                 </div>
@@ -295,7 +296,7 @@
                                     <div id="accr-img-2" class="col-sm-6 col-xs-12 rightside">
  
                                         <div class="tab-image-desk img-t2-desktop"></div>
-                                        <img class="tab-image-mob img-t2-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959635/operation/operImgMob2.png">
+                                        <img class="tab-image-mob img-t2-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132029/operation/tabImage2.png">
                                     </div>
                                 </div>
                             </section>
@@ -344,7 +345,7 @@
                                     <div id="accr-img-3" class="col-sm-6 col-xs-12 rightside">
   
                                         <div class="tab-image-desk img-t3-desktop"></div>
-                                        <img class="tab-image-mob img-t3-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959635/operation/operImgMob3.png">
+                                        <img class="tab-image-mob img-t3-mobile" src="https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/tabImage3.png">
                                     </div>
                                 </div>
                             </section>
@@ -373,46 +374,46 @@
             <form class="textbox-container">
                 <div class="form-group">
                   <input type="text" class="form-control " id="first" placeholder="First Name" name="first">
+                  <div class="name colored">please Enter a Name</div>
                 </div>
                 <div class="form-group pad-left">
                   <input type="text" class="form-control data-info" id="last" placeholder="Last Name" name="last">
+                  <div class="lastname colored">Please Enter a last Name</div>
+
                 </div>
                 <div class="form-group">
                  <input type="email" class="form-control data-info" id="email" placeholder="Email Id" name="email" required>
+                 <div class="email colored">Please Enter valid email</div>
+
                  </div>
                  <div class="form-group pad-left">
-                <input type="text" class="form-control data-info" id="phone" max-length=10; placeholder="Phone Number" name="pwd">
+                <input type="text" class="form-control data-info" id="phone"   maxlength="12" placeholder="Phone Number" name="pwd"  onkeypress="return isNumber(event)">
+                <div class="number colored">Please Enter valid Number</div>
+
                  </div>
                  <div class="form-group">
                   <input type="text" class="form-control data-info" id="company" placeholder="Company Name" name="company">
-                   </div>
-                   <!-- <div class="form-group mobile-text">
-                    <input type="text" class="form-control data-info emp" id="emp" placeholder="Number of Employees" name="emp">
+                  <div class="company colored">Please Enter Organization Name</div>
 
-                     </div> -->
+                   </div>
+
                      <div class=" form-group pad-left" style="border-radius:4px">
                       <select class="form-control emp" id="select">
                           <option value="" disabled selected class="default">Number of Employees </option>
-                          <option>Option Two </option>
-                          <option>Option Three </option>
+                          <option>500</option>
+                          <option>1000</option>
                       </select>
+                      <div class="emps colored">Please select Number Of Emps</div>
+
                   </div>
-                     <!-- <div class="form-group mobile-text">
-                      <input type="text" class="form-control data-info" id="work" placeholder="Field of Work" name="pwd">
-<<<<<<< HEAD
-                       </div>
-                       <div class="last-dropdown  dropdown form-group  Work" style="width:100% !important;border-radius:4px">
-                        <select class="form-control  work" id="select" style="height:40px !important;background-position:97%">
-                            <option value="" disabled selected style="color:grey">Field of Work</option>
-=======
-                       </div> -->
                        <div class="last-dropdown form-group  Work" style="width:100% !important;border-radius:4px">
                         <select class="form-control  work" id="select">
                             <option value="" disabled selected class="default">Field of Work</option>
->>>>>>> 29a87d8a579250b17435f25b9244bc704f952b0d
-                            <option>Option Two </option>
-                            <option>Option Three </option>
+                            <option>Education </option>
+                            <option>IT Services</option>
                         </select>
+                        <div class="works colored">Please select Field of Work</div>
+
                     </div>
                        <div class="checkbox-wrapper">
                 <div class="checkbox">
@@ -426,7 +427,7 @@
               </form>
               <div class="btn-demo">
                 <a>
-                  <button class="submit-data" disabled="disabled">Demo</button>
+                  <button class="submit-data">Demo</button>
                 </a>
 
               </div>
@@ -503,9 +504,22 @@
 </footer>
 <script src="/assets/js/accordion.js" ></script>
 <script src="/assets/js/tab-accord.js"></script>
+<script>
+function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
 
+  
+</script>
 <script>
 $(document).ready(function(){
+
+
 
 $('select').change(function(){
   $(this).css('color','black');
@@ -545,13 +559,65 @@ $('.submit-data').click(function(){
   var company=$("#company").val();
   var emp=$(".emp option:selected").val();
   var work=$(".work option:selected").val();
-
    var atpos = email.indexOf("@");
     var dotpos = email.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
-        alert("Not a valid e-mail address");
-        return false;
-    }
+    // if(first==''){
+    //   $('.name').show();
+    // }
+    // else{
+    //   $('.name').hide();
+    // }
+    // if(last==''){
+    //   $('.lastname').show();
+    // }
+    // else{
+    //   $('.lastname').hide();
+    // }
+    // if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+
+    //   $('.email').show();
+
+    // }
+    // else{
+    //   $('.email').hide();
+    // }
+    // if(company==''){
+    //   $('.company').show();
+
+    // }
+    // else{
+    //   $('.company').hide();
+    // }
+    // if(emp ==''){
+    //   $('.company').show();
+
+    // }
+    // else{
+    //   $('.company').hide();
+    // }
+    // if(phone ==''){
+    //   $('.number').show();
+
+    // }
+    // else{
+    //   $('.number').hide();
+    // }
+    // if(work==''){
+    //   $('.works').show();
+
+    // }
+    // else{
+    //   $('.works').hide();
+    // }
+    // if(emp==''){
+    //   $('.emps').show();
+
+    // }
+    // else{
+    //   $('.emps').hide();
+    // }
+    $('#ContactModal').modal('hide');
+    $('#ConfirmModal').modal('show');
 });
 
 })
