@@ -28,20 +28,15 @@
         position:relative;
         width:100%;
         #g-recaptcha{
-            transform:scale(0.77);
-           -webkit-transform:scale(0.77);
-            right:0;
+            transform:scale(0.3);
+           -webkit-transform:scale(0.3);
+           left:10px;
+           top: -35px;
+
             position: absolute;
         }
     }
-    // #rc-imageselect, #g-recaptcha {
-        
-    //     transform:scale(0.77);
-    //     -webkit-transform:scale(0.77);
-    //     transform-origin:0 0;
-    //     -webkit-transform-origin:0 0;
-    //      float:right;
-    // } 
+
     .tab-one{
      display:none;
     }
@@ -656,7 +651,15 @@ img{
 
 
 @media screen  and (min-width:768px){
-   
+    .captcha-wrapper{
+       
+        #g-recaptcha{
+            transform:scale(0.5);
+           -webkit-transform:scale(0.5);
+           left:235px;
+           top: -45px;
+        }
+    }
 
     .HomePage{
         .top-align{
@@ -1216,7 +1219,16 @@ img{
 
 
 @media screen and (min-width:1024px){
+    .captcha-wrapper{
 
+        #g-recaptcha{
+            transform:scale(0.6);
+           -webkit-transform:scale(0.6);
+           left: 380px;
+            top:-45;
+
+        }
+    }
 
 
     .HomePage{

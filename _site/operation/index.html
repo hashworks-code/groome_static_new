@@ -439,8 +439,9 @@
                   </a>
   
                 </div> -->
-                <div class="g-recaptcha" id="g-recptcha" data-sitekey="6LfsqU8UAAAAAH_8UZtGEsBX2reRFlIcFfeSho-8" style="float:right;"></div>
-
+                <div class="captcha-wrapper">
+                <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LfsqU8UAAAAAH_8UZtGEsBX2reRFlIcFfeSho-8"   data-callback="recaptchaCallback"></div>
+                </div>
               </form>
               <div class="btn-demo">
                   <a>
@@ -531,7 +532,10 @@ function isNumber(evt) {
     }
     return true;
 }
-
+var recaptchachecked;
+function recaptchaCallback() {
+    recaptchachecked = true;
+}
   
 </script>
 <script>
@@ -592,7 +596,12 @@ var url="  https://script.google.com/macros/s/AKfycbxCRkzWmJvRB0t4E4rqcmCPEOldyI
 
   }
 
-  
+  if(recaptchachecked==true){
+    alert("suceess")
+  }
+  else{
+    alert("please check the captch")
+  }
   if($(".service-check").is(':checked') || $(".product-check").is(':checked'))
   {
    $('.checkbox-msg').hide();
@@ -603,7 +612,7 @@ var url="  https://script.google.com/macros/s/AKfycbxCRkzWmJvRB0t4E4rqcmCPEOldyI
     $('.checkbox-msg').show();
   }
 
-  if(($('.box-1').val()!="" && $('.box-2').val()!="" && $('.box-3').val()!="" && $('.box-4').val()!="" && $('.box-5').val()!="" && $('.box-6').val()!=null && $('.box-7').val()!=null) && ($(".service-check").is(':checked') || $(".product-check").is(':checked'))){
+  if(($('.box-1').val()!="" && $('.box-2').val()!="" && $('.box-3').val()!="" && $('.box-4').val()!="" && $('.box-5').val()!="" && $('.box-6').val()!=null && $('.box-7').val()!=null) && ($(".service-check").is(':checked') || $(".product-check").is(':checked')) &&(recaptchachecked==true)){
     $('select').css('color','grey');
    
   var jqxhr = $.ajax({
