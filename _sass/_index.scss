@@ -151,8 +151,8 @@ border:none !important;
                 .all-info{
                     padding-top:16px;
                     font-family: Nunito;
-                    font-size: 12px;
-
+                    font-size: 13px;
+                    line-height:1.7;
                     color: #4a4a4a;
 
                 }
@@ -502,7 +502,8 @@ img{
 }
   }
   .group{
-     padding-top:20px;
+      height:419px;
+    //  padding-top:20px;
      margin:0 auto;
      background-color:#e1e1e1;
      margin-top:30px; 
@@ -517,9 +518,23 @@ img{
      .info-contain{
       padding-left:40px;
       .service{
-        font-size: 24px;
+          width:205px;
+        font-size: 14px;
         margin-top:20px;
-        
+        display:inline-block;
+
+        border-bottom: 1px solid #00c6c6;
+        padding-bottom:10px;
+          }
+          .one-service{
+           
+            background-image: url(' /assets/images/services/servicesicon.png');
+            width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    background-size: 20px 20px;
           }
      }
      .img-group{
@@ -537,9 +552,9 @@ img{
      .sub-info{
          width:240px;
         font-size: 14px;
-        font-weight: 600;
+        // font-weight: 600;
      color: #4a4a4a;
-     margin-top:16px;
+
      font-family:Nunito;
           }
 
@@ -705,9 +720,9 @@ img{
                     padding-top:16px;
                     width:274px;
                     font-family: Nunito;
-                    font-size: 14px;
+                    font-size: 16px;
+                    line-height:1.6;
 
-                    color: #4a4a4a;
 
                 }
                 a{
@@ -1045,7 +1060,7 @@ img{
                 text-align:left;
                 display:inline-block;
                 height: 21px;
-                margin-top:20px;
+               
                 font-family: Nunito;
                 font-size: 16px;
                 font-weight: 600;
@@ -1104,8 +1119,20 @@ img{
                 padding-top:137px;
                 position: relative;
             }
+            .sub-info{
+                width: 280px;
+                font-size: 16px;
+                line-height:1.6;
+            }
             .info-contain{
                 padding-left:0px;
+                width:280px;
+                .service{
+                    font-size:19px;
+                    width:80%;
+                    padding-bottom:10px;
+
+                }
             }
             .image-backside{
                 float:right;
@@ -1180,7 +1207,7 @@ img{
             .images-sale{
 
                 float:right;
-                width:1299px;
+                width1024:1299px;
 
                 height:636px;
                 background-size:1281px 636px;
@@ -1232,9 +1259,9 @@ img{
                     padding-top:16px;
                     width:274px;
                     font-family: Nunito;
-                    font-size: 16px;
-
-                    color: #4a4a4a;
+                    font-size: 18px;
+                    line-height:1.7;
+                    color:black;
 
                 }
                 a{
@@ -1629,7 +1656,7 @@ img{
                 
                 height:722px;
                 // width:950px;
-                width:87%;
+                width:960px;
                 padding-top:270px;
                 margin:0 auto;
                 .image-backside{
@@ -1643,18 +1670,26 @@ img{
             .info-contain{
                 padding-left:0px;
                 .service{
-                  font-size: 32px;
-                 
+                    width:239px;
+                  font-size: 22px;
+                  border-bottom: 1px solid #00c6c6;
+                  padding-bottom:10px;
+                    }
+                    .one-service{
+                        height:30px;
+                        width:30px;
+                        background-repeat:no-repeat;
+                        background-size: 30px 30px;
                     }
                }
           
              .sub-info{
 
                 font-family:Nunito;
-                font-size: 16px;
-                color: #4a4a4a;
+                font-size: 18px;
+                color:black;
                 width:310px;
-                line-height:1.5;
+                line-height:1.7;
                 
              }
              .Know-more{
@@ -1668,7 +1703,7 @@ img{
                     font-size: 16px;
                     font-weight: 600;
                     border-radius: 4px;
-                     margin-top:60px;
+                     margin-top:10px;
                      width:170px;
                      height:41px;
                     color: #c5aa7f;
