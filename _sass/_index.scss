@@ -9,6 +9,19 @@
     .product-container{
         max-width:460px;
     }
+    #servicegroup{
+        width:320px;
+        margin:0 auto;
+        background-size:320px 226px ;
+    }
+    .info-contain{
+        padding-left:0px !important;
+
+    }
+    .img-group{
+        width:320px;
+        margin:0 auto;
+    }
 }
 @media screen  and (min-width:320px){
     .tab-one{
@@ -509,6 +522,7 @@ img{
      margin-top:30px; 
 .image-backside{
     height: 226px;
+  
     background-size:contain;
     background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522054972/serviceimage/group-55_2x.png');
     background-repeat:no-repeat;
