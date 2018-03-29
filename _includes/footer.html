@@ -73,6 +73,8 @@
                   </a>
   
                 </div> -->
+                <div class="g-recaptcha" data-sitekey="6LfsqU8UAAAAAH_8UZtGEsBX2reRFlIcFfeSho-8"></div>
+
               </form>
               <div class="btn-demo">
                   <a>
@@ -211,7 +213,7 @@ var url="  https://script.google.com/macros/s/AKfycbxCRkzWmJvRB0t4E4rqcmCPEOldyI
   
   for(i=1;i<=7;i++)
   {
-        console.log($('.box-2').val());
+
         if(($('.box-'+i).val()=='')||($('.box-'+i).val()==null))
         {
         $('.val-'+i).show();
@@ -249,7 +251,12 @@ var url="  https://script.google.com/macros/s/AKfycbxCRkzWmJvRB0t4E4rqcmCPEOldyI
    $('form')[0].reset()
   );
 
-
+// emailjs.send("<harish_hashworks_co>","<template_iRtnabxU>",{name: "James", notes: "Check this out!"})
+// .then(function(response) {
+//    console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+// }, function(err) {
+//    console.log("FAILED. error=", err);
+// });
 
 
 
