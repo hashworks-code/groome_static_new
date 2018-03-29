@@ -24,6 +24,16 @@
     }
 }
 @media screen  and (min-width:320px){
+    .captcha-wrapper{
+        position:relative;
+        width:100%;
+        #g-recaptcha{
+            transform:scale(0.77);
+           -webkit-transform:scale(0.77);
+            right:0;
+            position: absolute;
+        }
+    }
     // #rc-imageselect, #g-recaptcha {
         
     //     transform:scale(0.77);
@@ -132,13 +142,6 @@ border:none !important;
                 background-position: center center;
                 background-repeat:no-repeat;
                 background-size:cover;
-
-            }
-            .images-exp{
-
-                .sale{
-                   
-                    border-bottom: 1px solid #00c6c6;
                     p{
                         display:inline-block;
                         padding-left:4px;
