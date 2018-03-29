@@ -137,6 +137,7 @@ border:none !important;
                 background-position: center center;
                 background-repeat:no-repeat;
                 background-size:cover;
+            }
                     p{
                         display:inline-block;
                         padding-left:4px;
@@ -165,8 +166,12 @@ border:none !important;
                     .one-recruit{
                         background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522048875/icons/page-1_5.svg");
                     }
+                      .images-exp{
+                          .sale{
+                            border-bottom: 1px solid #00c6c6;                          }
 
-                }
+                      }
+                
                 .all-info{
                     padding-top:16px;
                     font-family: Nunito;
@@ -181,7 +186,7 @@ border:none !important;
                     font-weight: 600;
                  
                     margin:0 auto;
-                
+                    margin-top:20px;
                     text-decoration: none;
                     color: #c5aa7f;
                    
@@ -189,7 +194,7 @@ border:none !important;
 
                 }
             }
-        }
+        
 
 
 
@@ -616,7 +621,7 @@ img{
   }
 }
 
-
+}
 
 
 
