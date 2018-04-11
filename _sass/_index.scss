@@ -1847,16 +1847,16 @@ img{
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1920px) {
     .HomePage {
         .product-container {
             .images-sale{
-                width: 1000px !important;
+                width: 1200px !important;
                 height: 365px !important;
                 background-image: url(/assets/images/homepage/group@3x.png);
             }
             .images-recruit{
-                width: 1000px !important;
+                width: 1200px !important;
                 background-image: url(/assets/images/homepage/group-8@3x.png);
                 height: 380px !important;
             }

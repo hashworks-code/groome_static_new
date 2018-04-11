@@ -1916,13 +1916,13 @@
     text-align: center;
     float: none !important;
     margin-left: 350px; } }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
   .HomePage .product-container .images-sale {
-    width: 1000px !important;
+    width: 1200px !important;
     height: 365px !important;
     background-image: url(/assets/images/homepage/group@3x.png); }
   .HomePage .product-container .images-recruit {
-    width: 1000px !important;
+    width: 1200px !important;
     background-image: url(/assets/images/homepage/group-8@3x.png);
     height: 380px !important; }
   .HomePage .product-container .images-operation {
@@ -2403,7 +2403,7 @@
     margin-top: 30px !important; }
   .operation-wrapper .tabbed-content .tb1, .operation-wrapper .tabbed-content .tb2, .operation-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
   .operation-wrapper .tabbed-content .tab-image-desk {
     width: 770px !important; } }
 @media screen and (min-width: 320px) {
@@ -2874,7 +2874,7 @@
     margin-top: 30px !important; }
   .recruitment-wrapper .tabbed-content .tb1, .recruitment-wrapper .tabbed-content .tb2, .recruitment-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
   .recruitment-wrapper .tabbed-content .img-t1-desktop,
   .recruitment-wrapper .tabbed-content .img-t2-desktop,
   .recruitment-wrapper .tabbed-content .img-t3-desktop {
@@ -3341,7 +3341,7 @@
     margin-top: 30px !important; }
   .sales-wrapper .tabbed-content .tb1, .sales-wrapper .tabbed-content .tb2, .sales-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
   .sales-wrapper .tabbed-content .tab-image-desk {
     background-size: 770px 416px !important; } }
 @media screen and (min-width: 320px) {
