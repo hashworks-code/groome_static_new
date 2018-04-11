@@ -1932,7 +1932,10 @@
   .HomePage .product-container .top-align {
     padding-top: 100px !important; }
   .HomePage .product-container .max-padder {
-    padding-top: 80px !important; } }
+    padding-top: 80px !important; }
+
+  .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
+    font-size: 17px; } }
 @media screen and (min-width: 320px) {
   .operation-wrapper {
     margin-top: 51px; }
