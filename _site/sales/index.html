@@ -81,8 +81,12 @@
       <li><a href="/recruitment">Recruitment</a></li>
       <li><a href="/services">Services</a></li>
       <li ><a data-toggle="modal" data-target="#ContactModal"><button>Request Demo</button></a></li>
-
-
+      <div class="social">
+        <a href="#"><img class="linkedin" src="/assets/images/shape-copy-6.png"></a>
+        <a href="#"><img class="facebook" src="/assets/images/social/shape-copy-5.png"></a>
+        <a href="#"><img class="twitter" src="/assets/images/social/twitter-logo-button-2-copy-3.png"></a>
+      </div>
+      <div class="menu-footer"><a href="/" class="head-logo"></a><p>Product of <span> hashworks.co</span></p></div>
 		</ul>
 	</nav>
   <script>
@@ -92,8 +96,12 @@
     $('.cd-primary-nav-trigger').on('click', function(){
       $('.cd-menu-icon').toggleClass('is-clicked'); 
       $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+      if($('.cd-menu-icon').hasClass('is-clicked')){
+			  $(this).css('width', '100%');
+		  } else {
+        $(this).css('width', '50px');
+      }
       $('.cd-logo').toggle();
-      
       //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
       if( $('.cd-primary-nav').hasClass('is-visible') ) {
         $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
@@ -482,14 +490,12 @@
      </div>
      <div class="col-xs-12 Brand nopadding">
         <div class="pull-right">
-        <a href="#"><img  class="linkedin" src="/assets/images/LinkedIn.svg"></a>
-        <a href="#"><img class="facebook" src="/assets/images/facebook.svg"></a>
-        <a href="#"><img class="twitter"  src="/assets/images/twitter.svg"></a>
+        <a href="#"><img  class="linkedin" src="/assets/images/shape-copy-6@3x.png"></a>
+        <a href="#"><img class="facebook" src="/assets/images/social/shape-copy-5@3x.png"></a>
+        <a href="#"><img class="twitter" src="/assets/images/social/twitter-logo-button-2-copy-3.png"></a>
         </div>
         
      </div>
-
-
     </div>
 
 </footer>
