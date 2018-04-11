@@ -3,7 +3,7 @@
     .operation-wrapper{
         margin-top: 51px;
         .banner{
-            background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959789/operation/operation-banner.jpg);
+            background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1521959775/sales/salesBanner.jpg);
             width: 100%;
             height: 367px;
             background-size: cover;
@@ -525,24 +525,22 @@
       }
     }  
     .tab-image-desk{
-        width: 1281px;
+        width: 613px;
         height: 608px;
-        // width:369px;
-        // height: 340px;
         margin-top: 30px;
         display: block;
         background-repeat: no-repeat;
-        background-size: 1281px 608px;
+        background-size: 773px 484px;
       }
       .img-t1-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage1.png);
+        background-image: url(/assets/images/operation/group-4@3x.png);
       }
       .img-t2-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage2.png);
+        background-image: url(/assets/images/operation/group-4@3x.png);
       }
 
       .img-t3-desktop{
-        background-image: url(https://res.cloudinary.com/dngpsvrmd/image/upload/v1522132031/operation/deskImage3.png);
+        background-image: url(/assets/images/operation/group-4@3x.png);
       }
     .img-mobile{
         display: none;
