@@ -1,13 +1,10 @@
-
-
-
-
 @media screen and (max-width:767px){
     .image-description{
         max-width:460px;
     }
     .product-container{
         max-width:460px;
+        
     }
     #servicegroup{
         width:320px;
@@ -24,6 +21,10 @@
     }
 }
 @media screen  and (min-width:320px){
+    .intro {
+        background-color: #252525;
+        height: 500px;
+    }
     .captcha-wrapper{
         position:relative;
         width:100%;
@@ -39,6 +40,9 @@
 
     .tab-one{
      display:none;
+    }
+    .tab-accord-wrapper{
+        background-color: #fff;
     }
     h2.resp-accordion:first-child{
         border-top:none !important;
@@ -59,7 +63,6 @@
 border:none !important;
     }
     .HomePage{
-
      
          .top-align{
              margin-top:30px;
@@ -189,29 +192,28 @@ border:none !important;
                     margin-top:20px;
                     text-decoration: none;
                     color: #c5aa7f;
-                   
-
-
+                }
+                .sale-info, .opt-info, .recruit-info {
+                    display:block !important;
+                    font-size: 10px;
+                    .info-tick {
+                        background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523253389/tick.png);
+                        background-size: 10px;
+                        height: 12px;
+                        object-fit: contain;
+                    }
                 }
             }
-        
 
-
-
-
-
-        .resp-tab-content-active{
-            background-color:#f2f2f2;
-            
+        .resp-tab-content-active {
+            background-color:#f2f2f2;    
           }
-
           .resp-tab-content{
               padding:0px;
           }
           .resp-vtabs li.resp-tab-active {
-         border:none !important;
-         background-color: #f2f2f2;
-         
+            border:none !important;
+            background-color: #f2f2f2;  
     }
         .row.set-desk{
             margin-left:0px !important;
@@ -317,19 +319,21 @@ border:none !important;
             width:210px;
             height:143px;
             background-size:contain;
-            background-image:url('/assets/images/cover-image.png');
+            background-image:url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1522910397/Groome/herobanner-2-01-copy-3.png');
             background-repeat:no-repeat;
+            margin-top: 40px;
         }
         .banner-content{
             height:81px;
          width:188px;
          margin:0 auto;
          margin-top:30px;
+
          
          p{
             font-family: NotoSans;
             font-size: 20px;
-            color: #000000;
+            color: #fff;
             text-align:center;
             span{
                 color: #00c6c6;
@@ -347,7 +351,7 @@ border:none !important;
                     font-size: 16px;
                     font-weight: 200;
                     text-align:center;
-                    color: #4a4a4a;
+                    color: #fff;
                     
                 }
             }
@@ -379,17 +383,34 @@ border:none !important;
                     outline:none;
                     border:none;
                     background-color: #00c6c6;
-                    
+                    background-image: linear-gradient(to right, #00c5c4, #06abcf);
                   }
                 }
             }
         }
 .details.row{
-        width:100%;
+        width: 100%;
         background-color: #00c6c6;
-        height: 98px;
-        margin-top:30px;
-
+        background-image: linear-gradient(to right, #00c5c4, #06abcf);
+        height: 178px;
+        .details-para {
+            object-fit: contain;
+            font-family: NotoSans;
+            font-size: 12px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 2.83;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            p:nth-child(2) {
+                width: 213px;
+                margin: 0 auto;
+                font-size: 8px;
+                margin-top: -10px;
+            }
+        }
         .img-container{
             width:290px;
             margin:0 auto;
@@ -526,12 +547,15 @@ img{
 }
   }
   .group{
-      height:419px;
+      height:669px;
     //  padding-top:20px;
      margin:0 auto;
      background-color:#e1e1e1;
      margin-top:30px; 
-.image-backside{
+     background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523014588/rawpixel-com-323215-unsplash.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     /*.image-backside{
     height: 226px;
   
     background-size:contain;
@@ -539,21 +563,68 @@ img{
     background-repeat:no-repeat;
     background-position:center center;
     
-}
+}*/
+.service-det {
+    width: 209px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding-top: 10px;
+    p:nth-child(3) {
+        font-size: 10px;
+        text-align: left;
+        margin: 0 auto;
+        width: 175px;
+        color: #fff !important;
+    }
+    .header-det {
+        text-align: left;
+        color: #fff !important;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 175px;
+        margin-top: 20px;
+    }
+  }
+  .service-img {
+    height: 25px;
+    width: 44px;
+    background-repeat: no-repeat;
+    margin-left: 17px;
+  }
+  .project {
+    background-color: #00c6c6;
+    .project-img {
+        background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523018479/noun-1327011-cc-copy-3.png');
+    }
+  }
+  .staffing {
+    background-color: #06aacf;
+      .staff-img {
+          background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523018480/noun-1618296-cc-copy-2.png');  
+        }
+  }
+  .managed-serices {
+        background-color: #ae894f;
+      .manage-img{
+        background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523018479/noun-1061955-cc-copy-2.png');
+    }
+  }
      .info-contain{
       padding-left:40px;
+      text-align:center;
       .service{
           width:205px;
         font-size: 14px;
         margin-top:20px;
+        color: #fff;
         display:inline-block;
 
         border-bottom: 1px solid #00c6c6;
         padding-bottom:10px;
           }
           .one-service{
-           
-            background-image: url(' /assets/images/services/servicesicon.png');
+            background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523015949/page-1-copy-3.png');
             width: 20px;
     height: 20px;
     position: relative;
@@ -561,6 +632,7 @@ img{
     display: inline-block;
     background-size: 20px 20px;
           }
+          
      }
      .img-group{
          height:177px;
@@ -575,17 +647,17 @@ img{
         
      }
      .sub-info{
-         width:240px;
+         //width:240px;
         font-size: 14px;
         // font-weight: 600;
-     color: #4a4a4a;
+     color: #fff;
 
      font-family:Nunito;
           }
 
      .Know-more{
         display:block;
-        margin-top:16px;
+        margin-top:34px;
         text-align:center;
        
         a{
@@ -620,40 +692,7 @@ img{
     }
   }
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen  and (min-width:768px){
     .captcha-wrapper{
@@ -667,6 +706,10 @@ img{
     }
 
     .HomePage{
+        .intro {
+            background-color: #252525;
+            height: 330px;
+        }
         .top-align{
             margin-top:0px;
         }
@@ -694,7 +737,6 @@ img{
                 padding-top:0px;
 
 
-
             }
             .images-sale{
                 width:902px;
@@ -711,18 +753,16 @@ img{
                  float:right;
                 background-size:902px 380px ;
                 background-repeat:no-repeat;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522065631/group-9_abexc2.png');
+                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-8_3x.png');
 
                 height:380px;
             }
             .images-operation{
-                width:902px;
-                float:left;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522058299/operate_stvm1f.png');
-                background-size:902px 380px;
-               height:380px;            
-                  background-position: center left;
-                background-repeat:no-repeat;
+                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png');
+                background-repeat: no-repeat;
+                width: 665px;
+                height: 426px;
+                background-size: 665px 426px;
             }
             .images-exp{
                  position: relative;
@@ -751,7 +791,6 @@ img{
                 }
                 .all-info{
                     padding-top:16px;
-                    width:274px;
                     font-family: Nunito;
                     font-size: 16px;
                     line-height:1.6;
@@ -778,17 +817,17 @@ img{
                 }
                
             }
+            &.sale-container, &.recruitment-container {
+                background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/oval-2_3x.png);
+                background-size: 1286px 692px;
+                background-repeat: no-repeat;
+            }
+            &.operation-container {
+                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266310/triangle-page-1-mask_3x.png');
+                background-size: 1286px 692px;
+                background-repeat: no-repeat;
+            }
         }
-
-
-
-
-
-
-
-
-
-           
         .resp-tab-content-active{
             background-color:white;
             
@@ -914,6 +953,7 @@ img{
                 }
                 .tab-accord-wrapper{
                     height:530px;
+                    background-color: #fff;
                 }
                 .row{
                     width:700px;
@@ -923,8 +963,10 @@ img{
                     width:340px;
                     height:232px;
                     background-size:cover;
-                    background-image:url('/assets/images/cover-image.png');
+                    background-image:url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1522910397/Groome/herobanner-2-01-copy-3.png');
+                    float: right;
                 }
+                
                 .banner-content{
                     height:99px;
                  width:188px;
@@ -937,7 +979,7 @@ img{
                     width:188px;
                     font-family: NotoSans;
                     font-size: 22px;
-                    color: #000000;
+                    color: #fff;
                     text-align:left;
                     span{
                         color: #00c6c6;
@@ -964,8 +1006,6 @@ img{
                     .row{
                         width:210px;
                         margin:0 auto;
-                        
-                    
                         a{
                             display:inline-block;
                             width:175px;
@@ -992,10 +1032,11 @@ img{
                 }
         .details.row{
                 width:100%;
-                height: 110px;
+                height: 174px;
                 .img-container{
-                    width:388px;
+                    width:300px;
                     height:111px;
+                    padding-top: 54px;
                 p{
                     font-size:16px;
                     padding-top:10px;
@@ -1003,9 +1044,15 @@ img{
                     img{
                         width:45px;
                         height:60px;
+                        
                     }
                 }
-       
+                .details-para {
+                    padding-top: 32px;
+                }
+                p:nth-child(2) {
+                    margin-top: 16px;
+                }
             }
             .Accordion-title{
                 padding-top:64px;
@@ -1145,36 +1192,47 @@ img{
             height:440px;
             margin:0 auto;
             margin-top:0px; 
+            background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523014590/rawpixel-com-323215-unsplash_2x.png');
+            .img-group {
+                margin-top: 38px;
+            }
             .services-page{
                 height:440px;
                 width:700px;
                 margin:0 auto;
-                padding-top:137px;
+                //padding-top:137px;
                 position: relative;
+                .service-det {
+                    display: inline-table;
+                    margin-top: 36px;
+                    margin-left: 15px;
+                }
             }
             .sub-info{
-                width: 280px;
+                width: 554px;
                 font-size: 16px;
-                line-height:1.6;
+                line-height: 1.6;
+                height: 42px;
+                margin: 0 auto;
             }
             .info-contain{
                 padding-left:0px;
-                width:280px;
+                //width:280px;
                 .service{
                     font-size:19px;
-                    width:80%;
+                    width:35%;
                     padding-bottom:10px;
 
                 }
             }
-            .image-backside{
+            /*.image-backside{
                 float:right;
                 width:428px;
                 height:303px;
                 position: absolute;
                 right:20px;
                 bottom:0; 
-            }
+            }*/
            
              p{
                 font-family: NotoSans;
@@ -1215,14 +1273,6 @@ img{
     
 }
 
-
-
-
-
-
-
-
-
 @media screen and (min-width:1024px){
     .captcha-wrapper{
 
@@ -1237,45 +1287,42 @@ img{
 
 
     .HomePage{
-     
-        .product-container{
+        .intro {
+            background-color: #252525;
+            height: 420px;
+        }
+        .product-container {
             padding-top:4em;
             align-items: center;
-             height:692px;
+             height:655px;
              background-color: #f3f3f3;
             .max-padder{
                 padding-top:144px;
             }
-            .images-sale{
-
-                float:right;
-                width:1299px;
-
-                height:636px;
-                background-size:1281px 636px;
-                background-image: url("https://res.cloudinary.com/shettycloud/image/upload/v1522057543/group-2_gdtkol.png");
-                background-repeat:no-repeat;
-        
+            .center-align {
+                width: 1000px;
+                margin: 0 auto;
+                height: 400px;
+            }
+            .images-sale {
+                width: 655px;
+                height: 357px;
+                background-size: contain;
+                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/c_scale,h_357,w_665/v1523266307/group.png');
+                background-repeat: no-repeat;
             }
             .images-recruit{
-                width:1299px;
-                height:635px;
-                background-image:url("https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png");
-                 float:right;
-                 width:1299px;
-                 background-size:1281px 635px;
+                width: 595px;
+                height: 357px;
+                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png');
+                 background-size: contain;
                 background-repeat:no-repeat;
             }
             .images-operation{
-                width:1299px;
-                height:636px;
-                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522057782/group-6_c4jskh.png');
-
-
-
-                background-size:1281px 636px;
-
-
+                width: 655px;
+                height: 357px;
+                background-image:url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png');
+                background-size: contain;
                 background-repeat:no-repeat;
             }
             .images-exp{
@@ -1299,12 +1346,11 @@ img{
                 }
                 .all-info{
                     padding-top:16px;
-                    width:274px;
+                    width:350px;
                     font-family: Nunito;
                     font-size: 18px;
                     line-height:1.7;
                     color:black;
-
                 }
                 a{
                     font-family: Nunito;
@@ -1321,23 +1367,16 @@ img{
 
                 }
             }
+            .info-tick {
+                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523253389/tick_3x.png');
+                background-size: 10px !important;
+                /* width: 10px !important; */
+                height: 14px !important;
+            }
+            .top-align {
+                padding-top: 149px;
+            }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         .name-padder{
             strong,.Founder{
@@ -1372,6 +1411,7 @@ img{
     }
     .tab-accord-wrapper{
         height:618px;
+        background-color: #fff;
     }
                 .container{
                     padding-bottom:64px;
@@ -1440,10 +1480,11 @@ img{
                 }
                 .banner-img{
                     width:469px;
-
+                    float:right;
                     height:320px;
                     background-size:cover;
-                    background-image:url('/assets/images/cover-image.png');
+                    background-image:url('/assets/images/homepage/herobanner-2-01@3x.png');
+                    margin-top: 50px;
                 }
                 .banner-content{
                     // height:99px;
@@ -1457,7 +1498,7 @@ img{
                      width:253px;
                     font-family: NotoSans;
                     font-size: 32px;
-                    color: #000000;
+                    color: #fff;
                     span{
                         color: #00c6c6;
                         
@@ -1472,7 +1513,7 @@ img{
                             font-family: Nunito;
                             font-size: 20px;
                             font-weight: 200;
-                            color: #4a4a4a;
+                            color: #fff;
                             line-height:1.5;
                             
                         }
@@ -1517,14 +1558,24 @@ img{
                 }
         .details.row{
                 width:100%;
-                height: 150px;
+                height: 206px;
                 margin-top:0px;
                 .img-container {
-                    width:524px;
+                    width: 460px;
                     height:150px;
                 img {
                     width:58px;
                     height:88px;
+                }
+            }
+            .details-para {
+                padding-top: 24px;
+                p:first-child{
+                    font-size: 24px;
+                }
+                p:nth-child(2){
+                    font-size: 15px;
+                    width: 450px;
                 }
             }
             }
@@ -1691,28 +1742,55 @@ img{
               padding-top:0px;
               margin-top:20px;
             width:100%;
-            height:722px;
+            height:540px;
             margin:0 auto;
+            background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523014591/rawpixel-com-323215-unsplash_3x.png');
             .services-page{
                 position:relative;
                 
-                height:722px;
+                height:627px;
                 // width:950px;
                 width:960px;
-                padding-top:270px;
+                //padding-top:270px;
                 margin:0 auto;
-                .image-backside{
+                /*.image-backside{
                     width:758px;
                     height:547px;
                     background-image: url('http://res.cloudinary.com/shettycloud/image/upload/v1522054862/serviceimage/servicepage/group-55_3x.png');
                     right:0;
+                }*/
+                .project.service-det {
+                    p:nth-child(3) {
+                        width: 260px;
+                    }
                 }
-
+                .service-det {
+                    p:nth-child(3),
+                    p:nth-child(2){
+                        width: 255px;
+                    }
+                }
+                .service-det {
+                    width: 290px;
+                    height: 185px;
+                    margin-top: 80px;
+                    margin-left: 25px;
+                    .header-det {
+                        font-size: 20px;
+                        width: 255px;
+                    }
+                    p:nth-child(3) {
+                        font-size: 14px;
+                    }
+                }
+                .service-img {
+                    margin-top: 18px;
+                }
             }
             .info-contain{
                 padding-left:0px;
                 .service{
-                    width:239px;
+                    width:300px;
                   font-size: 22px;
                   border-bottom: 1px solid #00c6c6;
                   padding-bottom:10px;
@@ -1729,8 +1807,8 @@ img{
 
                 font-family:Nunito;
                 font-size: 18px;
-                color:black;
-                width:310px;
+                color:#fff;
+                width:728px;
                 line-height:1.7;
                 
              }
@@ -1762,11 +1840,12 @@ img{
             }
           }
         }
-    
+}
 
-
-
-
-
-
+@media screen and (min-width:1024px) and (max-width:1366px) {
+    .Groome-footer .Brand .pull-right {
+        text-align: center;
+        float: none !important;
+        margin-left: 350px;
+    }
 }

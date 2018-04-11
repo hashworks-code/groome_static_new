@@ -291,7 +291,7 @@
             display: block;
             padding: 2px;
             border-radius: 2px;
-            border: solid 1px #00c6c6;
+            //border: solid 1px #00c6c6;
             line-height: 26px;
             margin-right: 20px;
             cursor: pointer;
@@ -300,12 +300,12 @@
             text-align: center;
 
             &:hover{
-                background-color: #00c6c6 !important;
-                color:white !important;
+                //background-color: #00c6c6 !important;
+                //color:white !important;
             }
             &:hover .iconsvg{
-               fill:#ffffff;
-               stroke:#ffffff;
+               //fill:#ffffff;
+               //stroke:#ffffff;
             }
           }
           
@@ -326,7 +326,7 @@
             .tb2{
                  width: 155px;
             }
-             .tb3{
+            .tb3{
                  width: 130px;
              }
         }
@@ -627,6 +627,9 @@
       .tab-info{
           margin-top: 30px !important;
       }
+      .tb1,.tb2,.tb3{
+         width: 217px !important;
+     }
     
     }  
 }

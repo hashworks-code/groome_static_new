@@ -145,6 +145,12 @@ background:#f8f9f9 !important;
   transform: translateY(-50%);
   left: .875em;
 }
+.cd-logo p {
+  color: #fff;
+}
+.cd-logo p span {
+  color: #00c6c6;
+}
 .cd-logo img {
   display: block;
 width:60px;
@@ -200,6 +206,7 @@ height:50px;
          width:100%;
          height: 31px;
          border-radius: 4px;
+         background: transparent;
 }
 .cd-secondary-nav li a>button:hover{
   background-color:#cab18b;

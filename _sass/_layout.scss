@@ -14,6 +14,13 @@
 .checkbox-msg{
   display:none;
 }
+.cd-header {
+  height: 80px;
+  background-color: #252525;
+}
+.cd-primary-nav-trigger {
+  background-color: #252525;
+}
 select.form-control{
   color:grey;
 }
@@ -26,8 +33,6 @@ select.form-control{
     background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522068902/close_rllvg1.svg');
     background-repeat:no-repeat;
     width:18px;height:18px;
-
-    
   }
   .checkbox {
   label{
@@ -235,9 +240,9 @@ padding-top:0px;
 
   .head-logo{
     display:inline-block;
-    width: 16px;
+    width: 110px;
     height: 26px;
-    background-image : url("/assets/images/mob.svg");
+    background-image : url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1523257078/logo.png");
     background-repeat:no-repeat;
     position: relative;
 
@@ -247,14 +252,15 @@ padding-top:0px;
   
 }
 .Groome-footer{
-  background-image:url("/assets/images/footer-mob.svg");
+  background-image:url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1522910378/Groome/page-1-copy.png");
   background-size:cover;
   background-repeat:no-repeat; 
 
   .linkedin,.facebook,.twitter
   {
-    width:18px;
-    height:18px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
   }
   .nopadding{
     padding: 0px !important;
@@ -269,29 +275,42 @@ padding-top:0px;
     margin:0 auto;
   }
   .groom-img{
-    width:80%;
-    margin-top:30px;
+    width:100%;
+    margin-top:35px;
     img{
-      width:79px;
-      height:19px;
+      width: 105px;
+      height: 26px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    p {
+      text-align: center;
+      color: #fff;
+      margin-top: 5px;
+      span {
+        color: #00c6c6;
+      }
     }
   }
   .content{
     margin-top:20px;
+    text-align: -webkit-center;
+    text-align: -moz-center;
     p{
-      width:260px;
-      width: 260px;
-      height: 48px;
+      width: 207px;
+      height: 44px;
       font-family: Nunito;
       font-size: 18px;
       font-weight: 600;
-      color: #4a4a4a;
-      
+      color: #fff;
+      /* text-align: center; */
+      /* margin-left: 50px; */
     }
 
   }
   .footer-btn{
-    margin-top:30px;
+    margin-top:15px;
 
     :hover{
       box-shadow: 0 0 11px rgba(33,33,33,.2); 
@@ -299,50 +318,54 @@ padding-top:0px;
       transition:all .4s;
      }
     a{
-      
         text-decoration:none;
          border-radius: 4px;
          background-color: #00c6c6;
          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
        }
        button{
-         border:none;
-         outline:none;
-         text-align:center;
-         background-color: #00c6c6;
-         width:100%;
-         font-family:Nunito;
-         color:white;
-         height: 31px;
-         border-radius: 4px;
-
-         
+        border: none;
+        outline: none;
+        text-align: center;
+        background-color: #00c6c6;
+        width: 108px;
+        font-family: Nunito;
+        color: white;
+        height: 24px;
+        font-size: 11px;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-image: linear-gradient(to right, #00c5c4, #06abcf);
        }
   }
   .footer-links{
     padding-right:0px;
-    margin-top:30px;
-    padding-bottom:20px;
+    margin-top:20px;
+    height: 130px;
     a{
-      float:right;
       height: 14px;
       font-family: Nunito;
-      font-size: 10px;
-      color: #000000;
-      padding:5px;
-      line-height:3px;
-      
-    
+      font-size: 12px;
+      color: #fff;
+      padding: 5px;
+      line-height: 3px;
     }
-      a:not(:first-child){
+      /*a:not(:first-child){
         padding-left:6px;
         border-right:1px solid grey;
-      } 
+      }*/
+      .options {
+        text-align: center;
+        padding-left: 0;
+        margin-top: 5px;
+    }
   }
   .Brand{
-    padding-bottom:5px !important; 
-    padding-top:20px !important; 
-    border-top: 1px solid #95989a; 
+    padding-bottom:10px !important; 
+    /*padding-top:20px !important; 
+    border-top: 1px solid #95989a;*/ 
     
     a{
       padding-left:13px; 
@@ -355,16 +378,17 @@ padding-top:0px;
       color: #95989a;
       
 span{
-  color: #00c6c6;
-  
+  color: #00c6c6; 
 }    
+    }
+    .pull-right {
+      text-align: center;
+      float: none !important;
     }
   }
 
 }
 }
-
-
 
 @media screen and (min-width:768px) {
 
@@ -420,15 +444,6 @@ span{
   
   
   }
-  
-
-
-
-
-
-
-
-
 
   #ContactModal
   
@@ -493,7 +508,7 @@ span{
         
       }
       .modal-body{
-  padding-top:0px;
+        padding-top:0px;
       }
       .modal-header{
         border:none;
@@ -547,96 +562,98 @@ span{
             padding: 6px 12px;
             font-size: 14px;
             line-height: 1.42857143;
-          
             background-color: #f2f2f2;
             border: solid 1px #95989a;
-          
             border-radius: 4px;
-  
-          }
-  
-  
-         
-            }
-    
-    
-       
+          }  
+      }  
     }
-  
-  
-  
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .tabButtonsGroup {
+    .tabs {
+      ul {
+        border-bottom: solid 1px #9b9b9b;
+        padding-bottom: 15px;
+        li {
+          a.active {
+            border-radius: 10px;
+            border: solid 2px #e0e0e0;
+          }
+        }
+      }
+    }
+  }
+  .cd-secondary-nav {
+    a {
+      color: #fff !important;
+    }
+    a:hover {
+      color: #fff !important;
+    }
+  }
 
   .cd-primary-nav.is-visible{
     display:none;
     
   }
   .head-logo{
-    width: 37px;
+    width: 125px;
     height: 37px;
-    background-image : url("/assets/images/tab.png");
+    background-image : url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1523257078/logo.png");
   }
   .cd-header{
+    height: 100px;
     position:fixed;
     z-index:200;
-    background-color:white;
+    background-color:#252525;
     .cd-logo{
       display:block !important;
     }
   }
 .Groome-footer{
 
-  background-image:url('/assets/images/footer.svg');
+  background-image:url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1522910378/Groome/page-1-copy.png");
   background-size:cover;
   
-  .linkedin,.facebook,.twitter
-  {
-    width:30px;
-    height:25px;
+.groom-img {
+  img {
+    margin-left: 0 !important;
+  margin-right: 0 !important;
   }
-.footer-btn{
-  padding-bottom:13px;
-  button{
-    width: 180px;
-    
-    height: 31px;
-  
+  p {
+    float: left;
   }
 }
-.content{
-  p{
-    padding-top:20px;
-  }
+.content {
+  float:left;
+  text-align: left;
+  margin-top: 10px;
 }
-.Brand{
-  padding-top:20px !important;
-  border-top: 1px solid #95989a; 
-  padding-bottom:10px !important; 
-  a{
-    padding-left:14px;
+.footer-btn {
+  width: 250px;
+  margin-top: 5px;
+  button {
+    float: left;
   }
-  p{
-    font-size:16px;
-   
-  }
+
 }
-.footer-links{
-  margin-top:40px;
-  a{
-  font-size:14px;
+.footer-links {
+  margin-top: -90px;
+  padding-left: 0;
+  .options {
+    margin-top: 10px !important;
+    text-align: left;
+}
+}
+.row {
+  position: relative;
+}
+.Brand {
+  position: absolute;
+  bottom: 55px;
+  right: 100px;
+  .pull-right{
+    float: right !important;
   }
 }
 }
@@ -703,26 +720,8 @@ span{
     transform: translate(-50%, -50%);
     margin:0px;
   }
-  
-  
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #ContactModal{
   .modal-dialog{
     width:790px;
@@ -762,15 +761,30 @@ span{
   } 
   .Groome-footer{
     .row{
-      width:87%;
+      width:84%;
     }
-    height:360px;
+    height: 285px;
     .footer-btn{
+      width: 400px;
 button{
-  width: 243px;
-  height: 41px;
+  width: 158px;
+  height: 34px;
 
 }
+}
+.tabButtonsGroup {
+  .tabs {
+    ul {
+      border-bottom: solid 1px #9b9b9b;
+      padding-bottom: 15px;
+      li {
+        a.active {
+          border-radius: 10px;
+          border: solid 2px #e0e0e0;
+        }
+      }
+    }
+  }
 }
 .groom-img{
 
@@ -781,17 +795,17 @@ height:26px;
 }
     .content{
       p{
-      width: 343px;
-      height: 66px;
-      font-family: NotoSans;
-      font-size: 24px;
-      margin-top:50px;
-      padding-top:0px;
+        width: 343px;
+        height: 66px;
+        font-family: NotoSans;
+        font-size: 24px;
+        margin-top: 25px;
+        padding-top: 0px;
       }
     }
       
     .footer-links{
-      margin-top:50px;
+      /*margin-top:50px;*/
       a{
       font-size:18px;
       font-family: Nunito;
@@ -800,8 +814,13 @@ height:26px;
   }
   .Brand{
     padding-bottom:30px;
-    border-top: 1px solid #95989a; 
-    
+    right: 0;
+    /*border-top: 1px solid #95989a; */
+    .pull-right {
+      text-align: center;
+      float: none !important;
+      margin-left: 150px;
+    }
     a{
       padding-left:18px;
     }

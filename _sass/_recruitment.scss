@@ -291,21 +291,21 @@
             display: block;
             padding: 2px;
             border-radius: 2px;
-            border: solid 1px #00c6c6;
+            //border: solid 1px #00c6c6;
             line-height: 26px;
             margin-right: 20px;
             cursor: pointer;
             color:black;
             text-decoration: none;
             text-align: center;
-            &:hover{
+            /*&:hover{
                 background-color: #00c6c6 !important;
                 color:white !important;
             }
             &:hover .iconsvg{
                fill:#ffffff;
                stroke:#ffffff;
-            }
+            }*/
           }
           span{
                 font-family: NotoSans;
@@ -608,6 +608,9 @@
       .tab-info{
           margin-top: 30px !important;
       }
+      .tb1,.tb2,.tb3{
+        width: 217px !important;
+    }
     
     }  
 }

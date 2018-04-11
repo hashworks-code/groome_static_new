@@ -50,13 +50,13 @@ $(document).ready(function() {
                   "fill": "none",
                   "stroke": "#4A4A4A"
               });
-              $(".tabs").find(".active").css({
+              /*$(".tabs").find(".active").css({
                   "background-color": "#00c6c6",
                   "color": "#ffffff"
               }).find(".iconsvg").attr({
                   "fill": "#ffffff",
                   "stroke": "#ffffff"
-              });
+              });*/
           });
           if (!$('.item').hasClass('active')) {
               $("#tab1").addClass('active');
@@ -78,13 +78,13 @@ $(document).ready(function() {
               "fill": "none",
               "stroke": "#4A4A4A"
           });
-          $(".tabs").find(".active").css({
+          /*$(".tabs").find(".active").css({
               "background-color": "#00c6c6",
               "color": "#ffffff"
           }).find(".iconsvg").attr({
               "fill": "#ffffff",
               "stroke": "#ffffff"
-          });
+          });*/
 
       } else {
           $('.accordian-heading').off('click').on('click', function() {
