@@ -60,7 +60,7 @@
         font-family:Nunito !important;
     }
     .resp-tab-content.resp-tab-content-active{
-border:none !important;
+        border:none !important;
     }
     .HomePage{
      
@@ -1876,6 +1876,17 @@ img{
     .HomePage .product-container {
         .sale-info,.opt-info,.recruit-info {
             font-size: 17px;
+        }
+    } 
+    .HomePage{
+        .resp-tabs-container {
+            img {
+                width: 540px !important;
+                height: 390px !important;
+            }
+        }
+        .tab-accord-wrapper {
+            height: 660px !important;
         }
     } 
 }
