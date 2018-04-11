@@ -743,7 +743,7 @@ img{
                 float:right;
                 background-size:902px 380px;
                 background-position: center left;
-                background-image: url('https://res.cloudinary.com/shettycloud/image/upload/v1522061277/icons/LandingTab/group-8.png');
+                background-image: url('/assets/images/homepage/group@2x.png');
                height:380px;
                 background-repeat:no-repeat;
         
@@ -753,7 +753,7 @@ img{
                  float:right;
                 background-size:902px 380px ;
                 background-repeat:no-repeat;
-                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-8_3x.png');
+                background-image: url('/assets/images/homepage/group-8@2x.png');
 
                 height:380px;
             }
@@ -819,12 +819,12 @@ img{
             }
             &.sale-container, &.recruitment-container {
                 background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/oval-2_3x.png);
-                background-size: 1286px 692px;
+                background-size: cover;
                 background-repeat: no-repeat;
             }
             &.operation-container {
                 background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266310/triangle-page-1-mask_3x.png');
-                background-size: 1286px 692px;
+                background-size: cover;
                 background-repeat: no-repeat;
             }
         }
@@ -1308,13 +1308,13 @@ img{
                 width: 655px;
                 height: 357px;
                 background-size: contain;
-                background-image: url('https://res.cloudinary.com/dzqqja6bk/image/upload/c_scale,h_357,w_665/v1523266307/group.png');
+                background-image: url('/assets/images/homepage/group@3x.png');
                 background-repeat: no-repeat;
             }
             .images-recruit{
                 width: 595px;
                 height: 357px;
-                background-image:url('https://res.cloudinary.com/shettycloud/image/upload/v1522065514/group-5_tttzuy.png');
+                background-image:url('/assets/images/homepage/group-8@3x.png');
                  background-size: contain;
                 background-repeat:no-repeat;
             }
