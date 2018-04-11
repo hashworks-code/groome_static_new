@@ -244,8 +244,7 @@ body,html{
     top:5px
 }
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked{
-    background-color:rgba(255,255,255,0);
-    width:30px;
+    background-color:rgba(255,255,255,0)
 }
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked::after,.cd-primary-nav-trigger .cd-menu-icon.is-clicked::before{
     background-color:#fff;
@@ -353,19 +352,10 @@ body,html{
     outline: 0;
     text-align: center;
     background-color: #00c6c6;
-    width: 135px;
-    height: 45px;
+    width: 100%;
+    height: 31px;
     background-image: linear-gradient(to right, #00c5c4, #06abcf);
     border-radius: 4px;
-}
-.cd-primary-nav .social {
-    padding-top: 64px;
-}
-.cd-primary-nav img.facebook,.cd-primary-nav li img.twitter,.cd-primary-nav img.linkedin {
-    margin-right: 10px;
-}
-.menu-footer {
-    padding-top: 60px;
 }
 .cd-primary-nav a{
     display:inline-block;
