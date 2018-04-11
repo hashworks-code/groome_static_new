@@ -1918,11 +1918,11 @@
     margin-left: 350px; } }
 @media screen and (min-width: 1920px) {
   .HomePage .product-container .images-sale {
-    width: 1200px !important;
+    width: 1336px !important;
     height: 365px !important;
     background-image: url(/assets/images/homepage/group@3x.png); }
   .HomePage .product-container .images-recruit {
-    width: 1200px !important;
+    width: 1336px !important;
     background-image: url(/assets/images/homepage/group-8@3x.png);
     height: 380px !important; }
   .HomePage .product-container .images-operation {
@@ -3343,7 +3343,11 @@
     width: 217px !important; } }
 @media screen and (min-width: 1920px) {
   .sales-wrapper .tabbed-content .tab-image-desk {
-    background-size: 770px 416px !important; } }
+    background-size: 930px 475px !important; }
+
+  .Groome-footer {
+    background-image: url("/assets/images/page-1@3x.png");
+    background-size: 100% 100%; } }
 @media screen and (min-width: 320px) {
   .services-wrapper {
     margin-top: 51px; }
