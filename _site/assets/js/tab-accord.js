@@ -32,6 +32,7 @@ $(document).ready(function() {
   function tabControl() {
       var tabs = $('.tabbed-content').find('.tabs');
       if (tabs.is(':visible')) {
+        $('.tabs ul li a.active').parent().append('<div class="border-bottom"></div>');
           $('.accordian-heading').off('click');
           tabs.find('a').on('click', function(event) {
               event.preventDefault();
@@ -50,6 +51,8 @@ $(document).ready(function() {
                   "fill": "none",
                   "stroke": "#4A4A4A"
               });
+              $('.tabs ul li .border-bottom').remove();
+              $('.tabs ul li a.active').parent().append('<div class="border-bottom"></div>');
               /*$(".tabs").find(".active").css({
                   "background-color": "#00c6c6",
                   "color": "#ffffff"
