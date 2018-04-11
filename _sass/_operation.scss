@@ -614,7 +614,12 @@
     }  
 }
 }
-
-
-
-
+@media screen and (min-width:1440px) {
+    .operation-wrapper {
+        .tabbed-content {
+            .tab-image-desk {
+                width: 770px !important;
+            }
+        }
+    }
+}

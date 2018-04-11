@@ -1916,6 +1916,23 @@
     text-align: center;
     float: none !important;
     margin-left: 350px; } }
+@media screen and (min-width: 1440px) {
+  .HomePage .product-container .images-sale {
+    width: 1000px !important;
+    height: 365px !important;
+    background-image: url(/assets/images/homepage/group@3x.png); }
+  .HomePage .product-container .images-recruit {
+    width: 1000px !important;
+    background-image: url(/assets/images/homepage/group-8@3x.png);
+    height: 380px !important; }
+  .HomePage .product-container .images-operation {
+    background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png);
+    width: 555px !important;
+    height: 357px !important; }
+  .HomePage .product-container .top-align {
+    padding-top: 100px !important; }
+  .HomePage .product-container .max-padder {
+    padding-top: 80px !important; } }
 @media screen and (min-width: 320px) {
   .operation-wrapper {
     margin-top: 51px; }
@@ -2386,6 +2403,9 @@
     margin-top: 30px !important; }
   .operation-wrapper .tabbed-content .tb1, .operation-wrapper .tabbed-content .tb2, .operation-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
+@media screen and (min-width: 1440px) {
+  .operation-wrapper .tabbed-content .tab-image-desk {
+    width: 770px !important; } }
 @media screen and (min-width: 320px) {
   .recruitment-wrapper {
     margin-top: 51px; }
@@ -2854,6 +2874,11 @@
     margin-top: 30px !important; }
   .recruitment-wrapper .tabbed-content .tb1, .recruitment-wrapper .tabbed-content .tb2, .recruitment-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
+@media screen and (min-width: 1440px) {
+  .recruitment-wrapper .tabbed-content .img-t1-desktop,
+  .recruitment-wrapper .tabbed-content .img-t2-desktop,
+  .recruitment-wrapper .tabbed-content .img-t3-desktop {
+    background-size: 767px 500px !important; } }
 @media screen and (min-width: 320px) {
   .sales-wrapper {
     margin-top: 51px; }
@@ -3316,6 +3341,9 @@
     margin-top: 30px !important; }
   .sales-wrapper .tabbed-content .tb1, .sales-wrapper .tabbed-content .tb2, .sales-wrapper .tabbed-content .tb3 {
     width: 217px !important; } }
+@media screen and (min-width: 1440px) {
+  .sales-wrapper .tabbed-content .tab-image-desk {
+    background-size: 770px 416px !important; } }
 @media screen and (min-width: 320px) {
   .services-wrapper {
     margin-top: 51px; }

@@ -1839,11 +1839,38 @@ img{
           }
         }
 }
-
 @media screen and (min-width:1024px) and (max-width:1366px) {
     .Groome-footer .Brand .pull-right {
         text-align: center;
         float: none !important;
         margin-left: 350px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .HomePage {
+        .product-container {
+            .images-sale{
+                width: 1000px !important;
+                height: 365px !important;
+                background-image: url(/assets/images/homepage/group@3x.png);
+            }
+            .images-recruit{
+                width: 1000px !important;
+                background-image: url(/assets/images/homepage/group-8@3x.png);
+                height: 380px !important;
+            }
+            .images-operation{
+                background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png); 
+                width: 555px !important;
+                height: 357px !important
+            }
+            .top-align {
+                padding-top: 100px !important;
+            }
+            .max-padder {
+                padding-top: 80px !important;
+            }
+        }
     }
 }

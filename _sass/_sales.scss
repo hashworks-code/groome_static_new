@@ -634,7 +634,12 @@
     }  
 }
 }
-
-
-
-
+@media screen and (min-width:1440px) {
+    .sales-wrapper {
+        .tabbed-content {
+            .tab-image-desk {
+                background-size: 770px 416px !important;
+            }
+        }
+    }
+}

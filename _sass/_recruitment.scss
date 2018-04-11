@@ -613,7 +613,14 @@
     }  
 }
 }
-
-
-
-
+@media screen and (min-width:1440px) {
+    .recruitment-wrapper {
+        .tabbed-content {
+            .img-t1-desktop,
+            .img-t2-desktop,
+            .img-t3-desktop {
+                background-size: 767px 500px !important;
+            }
+        }
+    }
+}
