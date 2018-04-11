@@ -47,6 +47,31 @@ body,html{
     height:50px;
     width:100%
 }
+@media only screen and (min-width:320px){ 
+    .cd-primary-nav-trigger .cd-menu-icon.is-clicked {
+        width: 30px;
+    }
+    .cd-primary-nav li :last-child button {
+        width: 154px !important;
+        height: 40px !important;
+    }
+    .cd-primary-nav .social {
+        padding-top: 40px;
+    }
+    .cd-primary-nav .social .facebook,
+    .cd-primary-nav .social .twitter {
+        margin-left: 10px;
+    }
+    .cd-primary-nav .menu-footer {
+        padding-top: 55px;
+    }
+    .cd-primary-nav .menu-footer p {
+        color: #fff;
+    }
+    .cd-primary-nav .menu-footer p span {
+        color: #00c6c6;
+    }
+}
 @media only screen and (min-width:768px){
     .cd-header{
         height:60px;
