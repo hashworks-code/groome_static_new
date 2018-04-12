@@ -1876,14 +1876,10 @@ img{
             .max-padder {
                 padding-top: 80px !important;
             }
+            .sale-info,.opt-info,.recruit-info {
+                font-size: 17px;
+            }
         }
-    }
-    .HomePage .product-container {
-        .sale-info,.opt-info,.recruit-info {
-            font-size: 17px;
-        }
-    } 
-    .HomePage{
         .resp-tabs-container {
             img {
                 width: 540px !important;
@@ -1893,5 +1889,44 @@ img{
         .tab-accord-wrapper {
             height: 660px !important;
         }
-    } 
+        .details.row {
+            .details-para {
+                padding-left: 100px;
+                margin-left: 100px;
+                p:nth-child(2) {
+                    text-align: left;
+                    width: 440px;
+                    font-weight: 200;
+                    line-height: 1.75;
+                }
+            }
+            p:nth-child(2) {
+                margin-top: 0px;
+            }
+        }
+        .intro {
+            height: 620px;
+        }
+        .row.main-page {
+            width: 1240px;
+            height: 445px;
+        }
+        .banner-img {
+            width: 600px;
+            height: 400px;
+            margin-top: 100px;
+        }
+        .banner-content {
+            width:260px;
+            margin-left:43px;
+            margin-top:130px;
+            p {
+                width: 253px;
+            }
+        }
+    }
+    .Groome-footer {
+        background-image: url('/assets/images/page-1@3x.png');
+        background-size: 100% 100%;
+    }
 }
