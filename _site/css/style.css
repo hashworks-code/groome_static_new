@@ -1525,19 +1525,19 @@
         margin: 0 auto;
         height: 400px; }
       .HomePage .product-container .images-sale {
-        width: 655px;
+        width: 710px;
         height: 357px;
         background-size: contain;
         background-image: url("/assets/images/homepage/group@3x.png");
         background-repeat: no-repeat; }
       .HomePage .product-container .images-recruit {
-        width: 595px;
+        width: 710px;
         height: 357px;
         background-image: url("/assets/images/homepage/group-8@3x.png");
         background-size: contain;
         background-repeat: no-repeat; }
       .HomePage .product-container .images-operation {
-        width: 655px;
+        width: 525px;
         height: 357px;
         background-image: url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png");
         background-size: contain;
