@@ -1048,9 +1048,6 @@ img{
                 .details-para {
                     padding-top: 32px;
                 }
-                p:nth-child(2) {
-                    margin-top: 16px;
-                }
             }
             .Accordion-title{
                 padding-top:64px;
@@ -1292,11 +1289,8 @@ img{
         .product-container {
             padding-top:4em;
             align-items: center;
-             height:655px;
+             height:500px;
              background-color: #f3f3f3;
-            .max-padder{
-                padding-top:144px;
-            }
             .center-align {
                 width: 1000px;
                 margin: 0 auto;
@@ -1372,7 +1366,7 @@ img{
                 height: 14px !important;
             }
             .top-align {
-                padding-top: 149px;
+                padding-top: 35px;
             }
             .sale-info,.opt-info,.recruit-info {
                 font-size: 15px;
@@ -1516,6 +1510,7 @@ img{
                             font-weight: 200;
                             color: #fff;
                             line-height:1.5;
+                            width: 350px;
                             
                         }
                     }
@@ -1552,6 +1547,7 @@ img{
                             outline:none;
                             border:none;
                             background-color: #00c6c6;
+                            transition: all .4s;
                             
                           }
                         }
@@ -1562,15 +1558,17 @@ img{
                 height: 206px;
                 margin-top:0px;
                 .img-container {
-                    width: 460px;
-                    height:150px;
+                    width: 350px;
+                    height: 150px;
+                    padding-left: 35px;
                 img {
                     width:58px;
                     height:88px;
                 }
             }
             .details-para {
-                padding-top: 24px;
+                padding-left: 97px;
+                margin-left: 85px;
                 p:first-child{
                     font-size: 24px;
                 }
@@ -1855,6 +1853,7 @@ img{
 @media screen and (min-width:1920px) {
     .HomePage {
         .product-container {
+            height: 650px !important;
             .images-sale{
                 width: 1336px !important;
                 height: 365px !important;

@@ -570,7 +570,8 @@
       width: 400px; }
       .Groome-footer .footer-btn button {
         width: 158px;
-        height: 34px; }
+        height: 34px;
+        transition: all .4s; }
     .Groome-footer .tabButtonsGroup .tabs ul {
       border-bottom: solid 1px #9b9b9b; }
       .Groome-footer .tabButtonsGroup .tabs ul li a.active {
@@ -1349,8 +1350,6 @@
           height: 60px; }
       .HomePage .details.row .details-para {
         padding-top: 32px; }
-      .HomePage .details.row p:nth-child(2) {
-        margin-top: 16px; }
     .HomePage .Accordion-title {
       padding-top: 64px;
       padding-bottom: 64px; }
@@ -1519,10 +1518,8 @@
     .HomePage .product-container {
       padding-top: 4em;
       align-items: center;
-      height: 655px;
+      height: 500px;
       background-color: #f3f3f3; }
-      .HomePage .product-container .max-padder {
-        padding-top: 144px; }
       .HomePage .product-container .center-align {
         width: 1000px;
         margin: 0 auto;
@@ -1581,7 +1578,7 @@
         /* width: 10px !important; */
         height: 14px !important; }
       .HomePage .product-container .top-align {
-        padding-top: 149px; }
+        padding-top: 35px; }
       .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
         font-size: 15px; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
@@ -1683,7 +1680,8 @@
           font-size: 20px;
           font-weight: 200;
           color: #fff;
-          line-height: 1.5; }
+          line-height: 1.5;
+          width: 350px; }
     .HomePage .banner-btn .row {
       width: 210px;
       margin: 0 auto;
@@ -1708,19 +1706,22 @@
           font-weight: bold;
           outline: none;
           border: none;
-          background-color: #00c6c6; }
+          background-color: #00c6c6;
+          transition: all .4s; }
     .HomePage .details.row {
       width: 100%;
       height: 206px;
       margin-top: 0px; }
       .HomePage .details.row .img-container {
-        width: 460px;
-        height: 150px; }
+        width: 350px;
+        height: 150px;
+        padding-left: 35px; }
         .HomePage .details.row .img-container img {
           width: 58px;
           height: 88px; }
       .HomePage .details.row .details-para {
-        padding-top: 24px; }
+        padding-left: 97px;
+        margin-left: 85px; }
         .HomePage .details.row .details-para p:first-child {
           font-size: 24px; }
         .HomePage .details.row .details-para p:nth-child(2) {
@@ -1921,24 +1922,26 @@
     float: none !important;
     margin-left: 350px; } }
 @media screen and (min-width: 1920px) {
-  .HomePage .product-container .images-sale {
-    width: 1336px !important;
-    height: 365px !important;
-    background-image: url(/assets/images/homepage/group@3x.png); }
-  .HomePage .product-container .images-recruit {
-    width: 1336px !important;
-    background-image: url(/assets/images/homepage/group-8@3x.png);
-    height: 380px !important; }
-  .HomePage .product-container .images-operation {
-    background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png);
-    width: 555px !important;
-    height: 357px !important; }
-  .HomePage .product-container .top-align {
-    padding-top: 100px !important; }
-  .HomePage .product-container .max-padder {
-    padding-top: 80px !important; }
-  .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
-    font-size: 17px !important; }
+  .HomePage .product-container {
+    height: 650px !important; }
+    .HomePage .product-container .images-sale {
+      width: 1336px !important;
+      height: 365px !important;
+      background-image: url(/assets/images/homepage/group@3x.png); }
+    .HomePage .product-container .images-recruit {
+      width: 1336px !important;
+      background-image: url(/assets/images/homepage/group-8@3x.png);
+      height: 380px !important; }
+    .HomePage .product-container .images-operation {
+      background-image: url(https://res.cloudinary.com/dzqqja6bk/image/upload/v1523266309/group-7_3x.png);
+      width: 555px !important;
+      height: 357px !important; }
+    .HomePage .product-container .top-align {
+      padding-top: 100px !important; }
+    .HomePage .product-container .max-padder {
+      padding-top: 80px !important; }
+    .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
+      font-size: 17px !important; }
   .HomePage .resp-tabs-container img {
     width: 540px !important;
     height: 390px !important; }
