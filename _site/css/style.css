@@ -1284,7 +1284,7 @@
       width: 700px;
       margin: 0 auto; }
     .HomePage .banner-img {
-      width: 340px;
+      width: 380px;
       height: 232px;
       background-size: cover;
       background-image: url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1522910397/Groome/herobanner-2-01-copy-3.png");
@@ -1313,7 +1313,7 @@
           font-size: 16px;
           font-weight: 200;
           text-align: left;
-          color: #4a4a4a; }
+          color: #fff; }
     .HomePage .banner-btn .row {
       width: 210px;
       margin: 0 auto; }
@@ -1325,7 +1325,7 @@
         background-color: #00c6c6; }
         .HomePage .banner-btn .row a button {
           width: 175px;
-          height: 19px;
+          height: 41px;
           font-family: Nunito;
           font-size: 14px;
           padding: 11px 35px;
