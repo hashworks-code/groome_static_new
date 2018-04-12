@@ -672,6 +672,8 @@
       align-items: center;
       width: 87%;
       margin: 0 auto; }
+      .HomePage .product-container.sale-container {
+        margin-top: 20px; }
       .HomePage .product-container .max-padder {
         padding-top: 30px; }
       .HomePage .product-container .sales-align {
@@ -890,7 +892,7 @@
       width: 100%;
       background-color: #00c6c6;
       background-image: linear-gradient(to right, #00c5c4, #06abcf);
-      height: 178px; }
+      height: 185px; }
       .HomePage .details.row .details-para {
         object-fit: contain;
         font-family: NotoSans;
@@ -1720,15 +1722,18 @@
           width: 58px;
           height: 88px; }
       .HomePage .details.row .details-para {
-        padding-left: 97px;
-        margin-left: 85px; }
+        padding-left: 145px;
+        margin-left: 95px; }
         .HomePage .details.row .details-para p:first-child {
-          font-size: 24px; }
+          font-size: 24px;
+          text-align: left;
+          width: 500px; }
         .HomePage .details.row .details-para p:nth-child(2) {
           font-size: 15px;
           width: 446px;
           text-align: left;
-          line-height: 1.67; }
+          line-height: 1.67;
+          margin: 0; }
     .HomePage .Accordion-title {
       padding-top: 52px;
       padding-bottom: 70px; }
