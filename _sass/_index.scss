@@ -1925,10 +1925,14 @@ img{
                 .set-desk {
                     p {
                         width: 350px !important;
+                        font-size: 19px !important;
+                        font-weight: 200 !important;
                     }
                 }
             }
-            
+           p {
+               font-weight: bolder !important;
+           } 
         }
     }
     .Groome-footer {

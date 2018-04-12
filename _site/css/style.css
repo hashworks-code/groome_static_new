@@ -1960,15 +1960,20 @@
     width: 1240px !important;
     height: 445px !important; }
   .HomePage .banner-img {
-    width: 600px !important;
-    height: 400px !important;
-    margin-top: 100px !important; }
+    width: 670px !important;
+    height: 415px !important;
+    margin-top: 100px !important;
+    margin-right: 52px !important; }
   .HomePage .banner-content {
     width: 260px;
     margin-left: 43px !important;
     margin-top: 130px !important; }
     .HomePage .banner-content .info .set-desk p {
-      width: 350px !important; }
+      width: 350px !important;
+      font-size: 19px !important;
+      font-weight: 200 !important; }
+    .HomePage .banner-content p {
+      font-weight: bolder !important; }
 
   .Groome-footer {
     background-image: url("/assets/images/page-1@3x.png");
