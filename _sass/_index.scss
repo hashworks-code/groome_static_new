@@ -1937,6 +1937,13 @@ img{
     }
     .Groome-footer {
         background-image: url('/assets/images/page-1@3x.png');
-        background-size: 100% 100%;
+        background-size: 100% 390px;
+        height: 348px !important;
+        .groom-img {
+            margin-top: 60px !important;
+        }
+        .footer-links {
+            margin-left: 100px !important;
+        }
     }
 }
