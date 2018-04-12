@@ -1937,15 +1937,42 @@
     padding-top: 100px !important; }
   .HomePage .product-container .max-padder {
     padding-top: 80px !important; }
-
   .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
-    font-size: 17px; }
-
+    font-size: 17px !important; }
   .HomePage .resp-tabs-container img {
     width: 540px !important;
     height: 390px !important; }
   .HomePage .tab-accord-wrapper {
-    height: 660px !important; } }
+    height: 660px !important; }
+  .HomePage .details.row .details-para {
+    padding-left: 100px !important;
+    margin-left: 100px !important; }
+    .HomePage .details.row .details-para p:nth-child(2) {
+      text-align: left !important;
+      width: 440px !important;
+      font-weight: 200 !important;
+      line-height: 1.75 !important; }
+  .HomePage .details.row p:nth-child(2) {
+    margin-top: 0px !important; }
+  .HomePage .intro {
+    height: 620px !important; }
+  .HomePage .row.main-page {
+    width: 1240px !important;
+    height: 445px !important; }
+  .HomePage .banner-img {
+    width: 600px !important;
+    height: 400px !important;
+    margin-top: 100px !important; }
+  .HomePage .banner-content {
+    width: 260px;
+    margin-left: 43px !important;
+    margin-top: 130px !important; }
+    .HomePage .banner-content p {
+      width: 253px !important; }
+
+  .Groome-footer {
+    background-image: url("/assets/images/page-1@3x.png");
+    background-size: 100% 100%; } }
 @media screen and (min-width: 320px) {
   .operation-wrapper {
     margin-top: 51px; }
@@ -3356,11 +3383,7 @@
     width: 217px !important; } }
 @media screen and (min-width: 1920px) {
   .sales-wrapper .tabbed-content .tab-image-desk {
-    background-size: 930px 475px !important; }
-
-  .Groome-footer {
-    background-image: url("/assets/images/page-1@3x.png");
-    background-size: 100% 100%; } }
+    background-size: 930px 475px !important; } }
 @media screen and (min-width: 320px) {
   .services-wrapper {
     margin-top: 51px; }

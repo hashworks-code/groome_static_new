@@ -1877,7 +1877,7 @@ img{
                 padding-top: 80px !important;
             }
             .sale-info,.opt-info,.recruit-info {
-                font-size: 17px;
+                font-size: 17px !important;
             }
         }
         .resp-tabs-container {
@@ -1891,37 +1891,37 @@ img{
         }
         .details.row {
             .details-para {
-                padding-left: 100px;
-                margin-left: 100px;
+                padding-left: 100px !important;
+                margin-left: 100px !important;
                 p:nth-child(2) {
-                    text-align: left;
-                    width: 440px;
-                    font-weight: 200;
-                    line-height: 1.75;
+                    text-align: left !important;
+                    width: 440px !important;
+                    font-weight: 200 !important;
+                    line-height: 1.75 !important;
                 }
             }
             p:nth-child(2) {
-                margin-top: 0px;
+                margin-top: 0px !important;
             }
         }
         .intro {
-            height: 620px;
+            height: 620px !important;
         }
         .row.main-page {
-            width: 1240px;
-            height: 445px;
+            width: 1240px !important;
+            height: 445px !important;
         }
         .banner-img {
-            width: 600px;
-            height: 400px;
-            margin-top: 100px;
+            width: 600px !important;
+            height: 400px !important;
+            margin-top: 100px !important;
         }
         .banner-content {
             width:260px;
-            margin-left:43px;
-            margin-top:130px;
+            margin-left:43px !important;
+            margin-top:130px !important;
             p {
-                width: 253px;
+                width: 253px !important;
             }
         }
     }
