@@ -685,15 +685,15 @@
         height: 30px;
         margin-top: 20px;
         text-decoration: none;
-        color: #c5aa7f;
+        color: #ae894f;
         border: solid 1px #d7c4a7;
         border-radius: 4px; }
         .HomePage .product-container a:hover {
-          background-color: #cab18b; }
+          background-color: #ae894f; }
         .HomePage .product-container a button {
           width: 120px;
           height: 30px;
-          color: #cab18b;
+          color: #ae894f;
           border: none;
           outline: none;
           text-align: center;
@@ -747,7 +747,7 @@
         margin: 0 auto;
         margin-top: 20px;
         text-decoration: none;
-        color: #c5aa7f; }
+        color: #ae894f; }
       .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
         display: block !important;
         font-size: 10px; }
@@ -956,7 +956,7 @@
         font-size: 16px;
         font-weight: 600;
         padding-bottom: 10px;
-        color: #c5aa7f; }
+        color: #ae894f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
     .HomePage img {
@@ -1087,13 +1087,13 @@
           height: 30px;
           border: solid 1px #d7c4a7;
           border-radius: 4px;
-          color: #c5aa7f; }
+          color: #ae894f; }
           .HomePage .group .Know-more a:hover {
-            background-color: #cab18b; }
+            background-color: #ae894f; }
           .HomePage .group .Know-more a button {
             width: 120px;
             height: 30px;
-            color: #cab18b;
+            color: #ae894f;
             border: none;
             outline: none;
             text-align: center;
@@ -1181,7 +1181,7 @@
           margin: 0px;
           width: 169px;
           height: 41px;
-          color: #c5aa7f;
+          color: #ae894f;
           margin-top: 30px; }
           .HomePage .product-container .images-exp a button {
             width: 169px;
@@ -1412,7 +1412,7 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        color: #c5aa7f; }
+        color: #ae894f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
     .HomePage img {
@@ -1496,9 +1496,9 @@
           font-size: 16px;
           font-weight: 600;
           border: solid 1px #d7c4a7;
-          color: #c5aa7f; }
+          color: #ae894f; }
           .HomePage .group .Know-more a:hover {
-            background-color: #c5aa7f; }
+            background-color: #ae894f; }
           .HomePage .group .Know-more a button {
             width: 169px;
             height: 41px; }
@@ -1573,7 +1573,7 @@
         width: 170px;
         height: 41px;
         text-decoration: none;
-        color: #c5aa7f;
+        color: #ae894f;
         margin-top: 30px; }
       .HomePage .product-container .info-tick {
         background-image: url("https://res.cloudinary.com/dzqqja6bk/image/upload/v1523253389/tick_3x.png");
@@ -1582,6 +1582,8 @@
         height: 14px !important; }
       .HomePage .product-container .top-align {
         padding-top: 149px; }
+      .HomePage .product-container .sale-info, .HomePage .product-container .opt-info, .HomePage .product-container .recruit-info {
+        font-size: 15px; }
     .HomePage .name-padder strong, .HomePage .name-padder .Founder {
       font-size: 15px; }
     .HomePage .resp-tabs-container {
@@ -1723,7 +1725,9 @@
           font-size: 24px; }
         .HomePage .details.row .details-para p:nth-child(2) {
           font-size: 15px;
-          width: 450px; }
+          width: 446px;
+          text-align: left;
+          line-height: 1.67; }
     .HomePage .Accordion-title {
       padding-top: 52px;
       padding-bottom: 70px; }
@@ -1808,7 +1812,7 @@
         font-family: Nunito;
         font-size: 16px;
         font-weight: 600;
-        color: #c5aa7f; }
+        color: #ae894f; }
         .HomePage .Know-more a span {
           padding-left: 5px; }
     .HomePage img {
@@ -1902,11 +1906,11 @@
           margin-top: 10px;
           width: 170px;
           height: 41px;
-          color: #c5aa7f; }
+          color: #ae894f; }
           .HomePage .group .Know-more a button {
             width: 169px !important;
             height: 41px !important;
-            color: #cab18b;
+            color: #ae894f;
             border: none;
             outline: none;
             text-align: center;
@@ -2268,11 +2272,11 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #cab18b;
+    color: #ae894f;
     background-color: transparent;
-    border: 1px solid #cab18b; }
+    border: 1px solid #ae894f; }
   .operation-wrapper .banner-right1 .salesBtn:hover {
-    background-color: #cab18b;
+    background-color: #ae894f;
     color: white; }
   .operation-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
@@ -2741,11 +2745,11 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #cab18b;
+    color: #ae894f;
     background-color: transparent;
-    border: 1px solid #cab18b; }
+    border: 1px solid #ae894f; }
   .recruitment-wrapper .banner-right1 .salesBtn:hover {
-    background-color: #cab18b;
+    background-color: #ae894f;
     color: white; }
   .recruitment-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
@@ -3206,11 +3210,11 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #cab18b;
+    color: #ae894f;
     background-color: transparent;
-    border: 1px solid #cab18b; }
+    border: 1px solid #ae894f; }
   .sales-wrapper .banner-right1 .salesBtn:hover {
-    background-color: #cab18b;
+    background-color: #ae894f;
     color: white; }
   .sales-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }
@@ -3688,11 +3692,11 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #cab18b;
+    color: #ae894f;
     background-color: transparent;
-    border: 1px solid #cab18b; }
+    border: 1px solid #ae894f; }
   .services-wrapper .banner-right1 .salesBtn:hover {
-    background-color: #cab18b;
+    background-color: #ae894f;
     color: white; }
   .services-wrapper .banner-right1 .bannerHeading {
     font-size: 32px; }

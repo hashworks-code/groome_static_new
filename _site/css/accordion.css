@@ -268,8 +268,7 @@ h2.resp-accordion:first-child{
         padding-left:32px!important
     }
     .resp-tab-content>img{
-        width:408px!important;
-        height:285px!important;
-        border-radius:3%
+        width:450px!important;
+        height:326px!important;
     }
 }
