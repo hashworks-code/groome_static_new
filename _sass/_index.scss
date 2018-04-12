@@ -1920,9 +1920,14 @@ img{
             width:260px;
             margin-left:43px !important;
             margin-top:130px !important;
-            p {
-                width: 253px !important;
+            .info {
+                .set-desk {
+                    p {
+                        width: 350px !important;
+                    }
+                }
             }
+            
         }
     }
     .Groome-footer {

@@ -1967,8 +1967,8 @@
     width: 260px;
     margin-left: 43px !important;
     margin-top: 130px !important; }
-    .HomePage .banner-content p {
-      width: 253px !important; }
+    .HomePage .banner-content .info .set-desk p {
+      width: 350px !important; }
 
   .Groome-footer {
     background-image: url("/assets/images/page-1@3x.png");
